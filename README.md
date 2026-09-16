@@ -6,15 +6,15 @@ This public repository is the **distribution and content repository**. It contai
 
 ## Download and release status
 
-**Public download: [MES Store 1.2.7](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.7/mes-store-1.2.7.apk)** · Android 9 / API 28 or newer
+**Public download: [MES Store 1.2.8](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.8/mes-store-1.2.8.apk)** · Android 9 / API 28 or newer
 
 The following snapshot was verified on **September 16, 2026**. The [live app catalog](catalog.json) is the source of truth for offered versions.
 
 | Component | Version | Version code | Distribution status |
 | --- | --- | --- | --- |
-| MES Store | 1.2.7 | 13 | Published and listed in the live catalog |
+| MES Store | 1.2.8 | 14 | Published and listed in the live catalog |
 | SignPad | 1.6.1 | 11 | Published and listed in the live catalog |
-| Time Punch | 1.0.1 | 2 | Published and listed in the live catalog |
+| Time Punch | 1.0.2 | 3 | Published and listed in the live catalog |
 | Earlier MES Store preview | 1.2.5 | 11 | Superseded by 1.2.7; was never publicly released |
 
 Version codes belong to individual application packages; matching codes across different apps have no significance. Updating this README does not publish an APK or change the catalog.
@@ -31,7 +31,7 @@ Install updates over the existing application. Keeping the package ID and signin
 
 ### Time Punch for Android tablets
 
-[Download Time Punch 1.0.1](https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.0.1/time-punch-1.0.1.apk), or refresh the Apps tab in MES Store. This dedicated punch app provides six-digit employee PIN entry, camera photos, Clock In, Start Break, End Break, and Clock Out. Version 1.0.1 introduces the abstract person-and-clock icon. It requires Android 9 or newer and a camera.
+[Download Time Punch 1.0.2](https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.0.2/time-punch-1.0.2.apk), or refresh the Apps tab in MES Store. This dedicated punch app provides six-digit employee PIN entry, camera photos, Clock In, Start Break, End Break, and Clock Out. Version 1.0.2 uses a transparent abstract person-and-clock icon. MES Store 1.2.8 displays the matching icon even before installation or when an older Time Punch is installed. Update both apps for the corrected artwork in the launcher and store. It requires Android 9 or newer and a camera.
 
 On first launch, allow camera access, name the tablet station, and enter the existing MES station access code supplied by your administrator. The production MES server address is prefilled. Employees then use their existing PINs. Wait for **Punch recorded** before leaving; an interrupted punch remains encrypted on the tablet and retries with the same command ID. Keep the app open while awaiting confirmation. New PIN sessions require a live MES connection.
 
