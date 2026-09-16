@@ -26,6 +26,19 @@
       "description": "Sign bills of lading, scan shipments, and keep warehouse work moving.",
       "releaseNotes": "SignPad 1.6.1\n\nBack from the driver step restores the shipper's handwriting for review or correction. Includes the inspection and loading workflow and signed BOL printing integration.\n\nInstall over the existing SignPad app to keep pairing and authorization. MES authorization is required to access company data.",
       "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/signpad-v1.6.1/signpad-1.6.1.apk"
+    },
+    {
+      "packageName": "com.advancebusinesscare.mes.timepunch",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "minSdk": 28,
+      "certificateSha256": "46634657f184e541f3d6c4c7193d18c6f278b6665e34befdfb73418213c474f7",
+      "sha256": "8d7946dfa284e2d88ae382ebf17f2440b1f552be1ad1e6ff7eaed9b2771d50a4",
+      "size": 7901796,
+      "name": "Time Punch",
+      "description": "Employee PIN, punch photos, and clock-in, break, and clock-out actions for MES tablets.",
+      "releaseNotes": "Time Punch 1.0.0\n\nA dedicated MES timecard punch app for Android tablets.\n\nEnter an existing six-digit employee PIN, look at the camera, and choose Clock In, Start Break, End Break, or Clock Out. Available actions follow the current MES timecard. Clocking out on a break closes that break first.\n\nIncludes camera punch photos, automatic screen reset, English/Spanish/Chinese/Japanese employee action screens, encrypted station configuration, and durable recovery of interrupted punches with duplicate-safe retries.\n\nRequires Android 9 or later, a camera, connectivity to MES, and one-time setup with the MES station access code. The production server address is prefilled. Employee PINs are not saved on the device. Keep the app open if a punch is awaiting confirmation.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.0.0/time-punch-1.0.0.apk"
     }
   ]
 }
