@@ -3,16 +3,16 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 4,
-      "versionName": "1.0.3",
+      "versionCode": 5,
+      "versionName": "1.1.0",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "73e8c8b5cc538a34753f1dd7c280194926b5e0008cd4cc1fc5390bb4fc05b8bb",
-      "size": 2075101,
+      "sha256": "80648207907622e5507e6c6ed7698209c210ca787a97ac4d3c5682b2f204e039",
+      "size": 2117941,
       "name": "MES Store",
-      "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "MES Store 1.0.3\n\nThe MES shopping-bag icon now has a transparent background, both on the launcher and inside the store. Uses a standard vector launcher icon to avoid the scanner's black adaptive-icon background.\n\nBrowse MES apps, see installed versions and available updates, and install signed APKs directly from the phone. Includes search, release notes, download progress, offline catalog caching, and APK integrity and signing-certificate checks.\n\nAndroid asks for installation approval. Enable Allow from this source for MES Store the first time you install an app.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.0.3/mes-store-1.0.3.apk"
+      "description": "Discover, download, and manage your MES apps in one place.",
+      "releaseNotes": "MES Store 1.1.0\n\nFour bottom tabs: Featured, Apps, Tutorial, and Settings.\n\nFeatured introduces apps with large illustrated cards that open dedicated app pages. Apps lists the complete catalog with search and installed/update filters. Tutorial is empty for now.\n\nSettings includes automatic daily update checks, optional automatic downloads, an unmetered-connection preference, installation permission, and downloaded-file cleanup. Downloads survive a store restart and are verified again before installation.\n\nAndroid still asks before installing updates. Automatic downloads prepare updates without interrupting work in your other apps. The transparent MES Store icon is unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.1.0/mes-store-1.1.0.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
