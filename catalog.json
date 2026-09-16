@@ -2,6 +2,19 @@
   "schemaVersion": 1,
   "apps": [
     {
+      "packageName": "com.advancebusinesscare.mes.loadboard",
+      "versionCode": 3,
+      "versionName": "1.0.0",
+      "minSdk": 28,
+      "certificateSha256": "3aff69f4f754ff2850ace3b3e4577c8554f09642a7f8b9b0e58e08eb6f58c70e",
+      "sha256": "c8cc817c5b4ab48fd9a9144f4bb64d45a967d8cc88bbdbb5ee98b426d258c207",
+      "size": 7394738,
+      "name": "Dispatcher",
+      "description": "Schedule outbound pickups and inbound arrivals, track load progress, and view daily timelines.",
+      "releaseNotes": "Dispatcher 1.0.0\n\nSchedule outbound pickups and inbound arrivals from your Android phone.\n\n- Today shows outgoing loads with horizontal and vertical timelines.\n- Inbounds and Outbounds open with the Today filter; search by load, PRO, carrier, or PO.\n- Assign or reschedule pickup times with a scrolling date picker.\n- Outgoing cards show the PRO number, carrier badge, shipment progress, and inspection shield.\n- Smooth, centered pull-to-refresh preserves your search and timeline position.\n- Sign in with your MES account; your username is remembered. Optionally unlock a saved session with phone security.\n- Configure inbound and outbound status notices independently.\n\nAndroid 9 or newer. MES account authorization is required. Saved sessions can expire and require your password again. Status notices work while Dispatcher is connected; closed-app push notifications are not included.\n\nThis is the first production release. It installs separately from the earlier debug review app.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.0.0/dispatcher-1.0.0.apk"
+    },
+    {
       "packageName": "com.advancebusinesscare.mes.appstore",
       "versionCode": 14,
       "versionName": "1.2.8",
