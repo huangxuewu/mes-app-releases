@@ -2,6 +2,19 @@
   "schemaVersion": 1,
   "apps": [
     {
+      "packageName": "com.advancebusinesscare.mes.appstore",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "minSdk": 28,
+      "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
+      "sha256": "de7a8d79f082b9048c31b26c374b83fac6692403292d2a106e63fc9e264d18a7",
+      "size": 2073753,
+      "name": "MES Store",
+      "description": "Your MES apps and updates, together in one place.",
+      "releaseNotes": "MES Store 1.0.0\n\nBrowse MES apps, see installed versions and available updates, and install signed APKs directly from the phone. Includes search, release notes, download progress, offline catalog caching, and APK integrity and signing-certificate checks.\n\nAndroid asks for installation approval. Enable Allow from this source for MES Store the first time you install an app.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.0.0/mes-store-1.0.0.apk"
+    },
+    {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
       "versionCode": 11,
       "versionName": "1.6.1",
