@@ -3,16 +3,16 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 7,
-      "versionName": "1.2.1",
+      "versionCode": 8,
+      "versionName": "1.2.2",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "85389e1b66f36716b6d1ed974c2522989f0e228374c6173a0656019802d04b49",
-      "size": 2872113,
+      "sha256": "7fce66d9f35e0b8fc7be2dde6b293114770b19861a10be04f19abbc3c11d1c54",
+      "size": 2870781,
       "name": "MES Store",
       "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "MES Store 1.2.1\n\nPull down at the top of Featured, Apps, or Tutorial to refresh the list. The Refresh buttons have been removed, with a progress spinner while refreshing.\n\nApp details and tutorial articles keep their normal scrolling behavior.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.1/mes-store-1.2.1.apk"
+      "releaseNotes": "MES Store 1.2.2\n\nThe tutorial PDF reader now uses finger gestures for zooming. Removed the minus, plus, and Fit page toolbar to give the guide more space.\n\nPinch to zoom in or out, drag to move, and double-tap to zoom or reset. Page navigation is unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.2/mes-store-1.2.2.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
