@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.timepunch",
-      "versionCode": 4,
-      "versionName": "1.1.0",
+      "versionCode": 5,
+      "versionName": "1.1.1",
       "minSdk": 28,
       "certificateSha256": "46634657f184e541f3d6c4c7193d18c6f278b6665e34befdfb73418213c474f7",
-      "sha256": "8ba590d5d1c019cf821aedc003af32b7edf61eb605b82dc8c26cab4c39f78a1f",
-      "size": 7906564,
+      "sha256": "3ababd6952609d81d626af7572887d7ee42479e9c46cfbae9e038b0fe1486c43",
+      "size": 7906588,
       "name": "Time Punch",
       "description": "Employee PIN, punch photos, and clock-in, break, and clock-out actions for MES tablets.",
-      "releaseNotes": "Time Punch 1.1.0\n\nUpdated the punch screen to match the MES timecard module: a circular live front-camera preview at the top, round PIN keypad underneath, and company name below the keypad. The centered layout uses the MES dark theme and supports portrait and landscape tablets.\n\nThe company name comes from MES settings and is cached for offline display. A front-facing camera is required. The transparent person-and-clock app icon is retained.\n\nInstall over the existing Time Punch app to keep your station configuration.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.1.0/time-punch-1.1.0.apk"
+      "releaseNotes": "Time Punch 1.1.1\n\nUpdated the punch screen to match the MES timecard module: a circular live front-camera preview at the top, round PIN keypad underneath, and company name below the keypad. The centered layout uses the MES dark theme and is locked to portrait mode. Rotating the tablet does not switch the app to landscape.\n\nThe company name comes from MES settings and is cached for offline display. A front-facing camera is required. The transparent person-and-clock app icon is retained.\n\nInstall over the existing Time Punch app to keep your station configuration.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.1.1/time-punch-1.1.1.apk"
     }
   ]
 }
