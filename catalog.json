@@ -3,16 +3,16 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 10,
-      "versionName": "1.2.4",
+      "versionCode": 12,
+      "versionName": "1.2.6",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "43cbfc9f0503edb8d9bb5c16310c5644b00d9214a49fbe0602488938d33de9af",
-      "size": 2870933,
+      "sha256": "3132fabe4c68a90c4e6524643ca24b4a81d8919d8840f3a13ea6362f7ffa14ee",
+      "size": 2889501,
       "name": "MES Store",
       "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "MES Store 1.2.4\n\nRemove the uneven native shadow from light-blue secondary buttons. Buttons keep their rounded shape and touch ripple without raised edges when pressed.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.4/mes-store-1.2.4.apk"
+      "releaseNotes": "MES Store 1.2.6\n\nOffline status now appears in the header as MES STORE - offline with a grayscale store icon. The normal label and icon return automatically when internet connectivity returns. Removed the saved-catalog banner.\n\nTutorial illustrations appear directly within article sections. Tap an illustration to open it full screen, pinch to zoom, drag to move, or tap to hide controls. The header shows estimated reading time remaining, and returning preserves your reading position.\n\nImproved text contrast on blue and disabled buttons, and moved page slogans closer to their titles.\n\nThis release supersedes the unpublished 1.2.5 phone preview and retains Android-confirmed app installation.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.6/mes-store-1.2.6.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
