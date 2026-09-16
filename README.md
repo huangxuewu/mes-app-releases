@@ -14,7 +14,7 @@ The following snapshot was verified on **September 16, 2026**. The [live app cat
 | --- | --- | --- | --- |
 | MES Store | 1.2.7 | 13 | Published and listed in the live catalog |
 | SignPad | 1.6.1 | 11 | Published and listed in the live catalog |
-| Time Punch | 1.0.0 | 1 | Published and listed in the live catalog |
+| Time Punch | 1.0.1 | 2 | Published and listed in the live catalog |
 | Earlier MES Store preview | 1.2.5 | 11 | Superseded by 1.2.7; was never publicly released |
 
 Version codes belong to individual application packages; matching codes across different apps have no significance. Updating this README does not publish an APK or change the catalog.
@@ -31,7 +31,7 @@ Install updates over the existing application. Keeping the package ID and signin
 
 ### Time Punch for Android tablets
 
-[Download Time Punch 1.0.0](https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.0.0/time-punch-1.0.0.apk), or refresh the Apps tab in MES Store. This dedicated punch app provides six-digit employee PIN entry, camera photos, Clock In, Start Break, End Break, and Clock Out. It requires Android 9 or newer and a camera.
+[Download Time Punch 1.0.1](https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.0.1/time-punch-1.0.1.apk), or refresh the Apps tab in MES Store. This dedicated punch app provides six-digit employee PIN entry, camera photos, Clock In, Start Break, End Break, and Clock Out. Version 1.0.1 introduces the abstract person-and-clock icon. It requires Android 9 or newer and a camera.
 
 On first launch, allow camera access, name the tablet station, and enter the existing MES station access code supplied by your administrator. The production MES server address is prefilled. Employees then use their existing PINs. Wait for **Punch recorded** before leaving; an interrupted punch remains encrypted on the tablet and retries with the same command ID. Keep the app open while awaiting confirmation. New PIN sessions require a live MES connection.
 
