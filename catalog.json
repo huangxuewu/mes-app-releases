@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "packageName": "com.advancebusinesscare.mes.signaturepad",
+      "versionCode": 11,
+      "versionName": "1.6.1",
+      "minSdk": 28,
+      "certificateSha256": "b36d13641a6ac3f404a3ccc5f7b65753415e3b8263a8e509df843a418082e47c",
+      "sha256": "b2caaeb3e044c5ce5c32da631f574e1653ed1b74dcec6c4c13e617283fcb6567",
+      "size": 2219014,
+      "name": "SignPad",
+      "description": "Sign bills of lading, scan shipments, and keep warehouse work moving.",
+      "releaseNotes": "SignPad 1.6.1\n\nBack from the driver step restores the shipper's handwriting for review or correction. Includes the inspection and loading workflow and signed BOL printing integration.\n\nInstall over the existing SignPad app to keep pairing and authorization. MES authorization is required to access company data.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/signpad-v1.6.1/signpad-1.6.1.apk"
+    }
+  ]
+}
