@@ -6,15 +6,15 @@ This public repository is the **distribution and content repository**. It contai
 
 ## Download and release status
 
-**Public download: [MES Store 1.2.4](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.4/mes-store-1.2.4.apk)** · Android 9 / API 28 or newer
+**Public download: [MES Store 1.2.6](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.6/mes-store-1.2.6.apk)** · Android 9 / API 28 or newer
 
 The following snapshot was verified on **September 16, 2026**. The [live app catalog](catalog.json) is the source of truth for offered versions.
 
 | Component | Version | Version code | Distribution status |
 | --- | --- | --- | --- |
-| MES Store | 1.2.4 | 10 | Published and listed in the live catalog |
+| MES Store | 1.2.6 | 12 | Published and listed in the live catalog |
 | SignPad | 1.6.1 | 11 | Published and listed in the live catalog |
-| MES Store preview | 1.2.5 | 11 | Installed on a test phone; **not published in this repository** |
+| Earlier MES Store preview | 1.2.5 | 11 | Superseded by 1.2.6; was never publicly released |
 
 Version codes belong to individual application packages; matching codes across different apps have no significance. Updating this README does not publish an APK or change the catalog.
 
@@ -96,7 +96,7 @@ Adding a compatible app entry or tutorial does not require rebuilding MES Store.
 | `UpdateSettings` / `UpdateJobService` | Persistent preferences and scheduled background update checks |
 | `TutorialCatalog` / `TutorialRepository` | Article validation, catalog caching, and verified PDF downloads |
 | `TutorialReaderActivity` / `PdfPageView` | Native PDF page rendering, navigation, pinch zoom, and panning |
-| `TutorialIllustrations` | **1.2.5 preview:** renders article illustrations near the viewport and releases offscreen bitmaps |
+| `TutorialIllustrations` | Renders article illustrations near the viewport and releases offscreen bitmaps |
 
 Network work and PDF rendering run on worker threads; UI changes are posted to the main thread. PDF pages are rendered with Android `PdfRenderer`; no browser-based PDF viewer or separately installed PDF app is required.
 
@@ -110,6 +110,8 @@ Network work and PDF rendering run on worker threads; UI changes are posted to t
 | **Settings** | Automatic check/download preferences, manual update check, installation permission, and APK download cleanup. |
 
 Pull down at the top of Featured, Apps, or Tutorial to refresh the corresponding catalog. A spinner follows the refresh request. Normal article and app-detail scrolling does not trigger refresh. The list also exposes a **Refresh list** accessibility action. Settings retains **Check for updates now**.
+
+When Android reports that the default network has no validated internet connection, the header reads **MES STORE - offline** and the top-right store icon becomes grayscale. The normal label and icon return automatically when connectivity recovers, even if automatic update checks are disabled. The old saved-catalog banner is removed; cached content remains usable. This status reflects device internet connectivity, not whether GitHub has returned a successful catalog response.
 
 The app detail action depends on Android compatibility and installed version:
 
@@ -125,24 +127,24 @@ A device running a newer preview is not offered a downgrade to the older public 
 
 ## App catalog format
 
-`catalog.json` is UTF-8 JSON with `schemaVersion: 1` and an `apps` array. Each `packageName` must occur only once. Example using the published MES Store 1.2.4 entry:
+`catalog.json` is UTF-8 JSON with `schemaVersion: 1` and an `apps` array. Each `packageName` must occur only once. Example using the published MES Store 1.2.6 entry:
 
 ```json
 {
   "schemaVersion": 1,
   "apps": [
     {
-      "name": "MES Store",
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "description": "Your MES apps and updates, together in one place.",
-      "versionCode": 10,
-      "versionName": "1.2.4",
+      "versionCode": 12,
+      "versionName": "1.2.6",
       "minSdk": 28,
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.4/mes-store-1.2.4.apk",
-      "sha256": "43cbfc9f0503edb8d9bb5c16310c5644b00d9214a49fbe0602488938d33de9af",
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "size": 2870933,
-      "releaseNotes": "Remove the uneven native shadow from light-blue secondary buttons."
+      "sha256": "3132fabe4c68a90c4e6524643ca24b4a81d8919d8840f3a13ea6362f7ffa14ee",
+      "size": 2889501,
+      "name": "MES Store",
+      "description": "Your MES apps and updates, together in one place.",
+      "releaseNotes": "Offline header status, inline tutorial illustrations, full-screen viewing, and UI refinements.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.6/mes-store-1.2.6.apk"
     }
   ]
 }
@@ -212,9 +214,9 @@ The first article is **How to use SignPad**, covering picking, labeling, inspect
 
 [Download the original 11-page illustrated guide](https://github.com/huangxuewu/mes-app-releases/releases/download/tutorial-signpad-daily-workflow-v1/signpad-daily-workflow.pdf). The examples use training data; scan current paperwork and verify the load, DC, and PO in actual work.
 
-### Published versus preview behavior
+### Tutorial behavior by release
 
-| Capability | Published 1.2.4 | Phone preview 1.2.5 |
+| Capability | Earlier 1.2.4 | Current 1.2.6 |
 | --- | --- | --- |
 | Native step-by-step article | Yes | Yes |
 | Illustration access | Open illustrated guide / per-section page buttons | Illustrations displayed within each article section; tap an image to enlarge |
@@ -224,9 +226,9 @@ The first article is **How to use SignPad**, covering picking, labeling, inspect
 | PDF fetching | On opening the illustrated guide | Automatically on opening the article if the verified PDF is not saved |
 | Offline illustrations | After the first successful PDF download | After the first successful PDF download |
 
-The preview estimates reading time at 200 words per minute plus 12 seconds per illustration, then reduces the estimate according to article scroll progress. It is a reading estimate, not a countdown or a measurement of warehouse task duration. Returning from the enlarged image preserves the article's reading position.
+The reader estimates reading time at 200 words per minute plus 12 seconds per illustration, then reduces the estimate according to article scroll progress. It is a reading estimate, not a countdown or a measurement of warehouse task duration. Returning from the enlarged image preserves the article's reading position.
 
-In the preview, only illustrations near the viewport are rasterized; offscreen bitmaps are released. PDF rendering runs on a worker thread and page handles are closed after use. The full-screen reader renders the selected page at a higher resolution and supports previous/next navigation and a page selector.
+In 1.2.6, only illustrations near the viewport are rasterized; offscreen bitmaps are released. PDF rendering runs on a worker thread and page handles are closed after use. The full-screen reader renders the selected page at a higher resolution and supports previous/next navigation and a page selector.
 
 ### Tutorial catalog format
 
@@ -357,7 +359,7 @@ Keep the package ID stable, increment `versionCode` for a new distributed APK, a
 
 An explicitly approved phone preview can be installed with `adb install -r` using the existing release signing key. This preserves the store's private data and does not modify GitHub. A preview does not authorize a public release; builds, phone installation, and publication are performed only when explicitly requested by the owner.
 
-The current 1.2.5 phone preview contains inline article illustrations, full-screen viewing, remaining reading time, improved button contrast, and tighter title/slogan spacing. It is not a downloadable public release, and no download link is provided for it here.
+Version 1.2.6 publishes the features tested in the earlier 1.2.5 phone preview and adds live offline branding. Its higher version code allows preview devices to receive the public update through MES Store. Version 1.2.5 itself was never publicly released.
 
 ### Publish an APK
 
@@ -411,7 +413,7 @@ The maintained public README is mirrored in the private project's `distribution/
 
 ## Validation and troubleshooting
 
-The current preview build passed eight JVM unit tests, six Android integration tests, and Android lint. The tutorial smoke check exercised inline illustrations, full-screen page navigation, and offline reopening after an emulator process restart. Earlier rollout checks covered APK installation, a store self-update, scheduled downloads without silent installation, restart recovery, and pull-to-refresh.
+The 1.2.6 release build passed eight JVM unit tests, six Android integration tests, and Android lint. Live offline/reconnection branding and offline startup were checked on the emulator. The tutorial smoke check exercised inline illustrations, full-screen page navigation, and offline reopening after an emulator process restart. Earlier rollout checks covered APK installation, a store self-update, scheduled downloads without silent installation, restart recovery, and pull-to-refresh.
 
 | Check in the private project | Coverage |
 | --- | --- |
@@ -422,12 +424,13 @@ The current preview build passed eight JVM unit tests, six Android integration t
 | `tools/smoke_updates.py` | Scheduled update download, no silent install, and recovery after restart |
 | `tools/smoke_refresh.py` | Actual pull gestures for app/tutorial catalogs and card navigation |
 | `tools/smoke_tutorial.py` | Current article/image UI, public PDF download, page navigation, and offline reading |
+| `tools/smoke_offline.py` | Live offline branding, offline startup, reconnection, and absence of the old saved-catalog banner |
 
 Android verification uses a test emulator and unchanged APK/PDF fixtures. APK verifier tests need the target app absent or an older compatible version installed. Do not run destructive emulator setup against a production phone. New Android versions and additional device models still require their own validation.
 
 | Symptom | Explanation / action |
 | --- | --- |
-| Offline / saved catalog message | Check connectivity and access to the allowed GitHub hosts, then pull to refresh. Saved entries remain available. |
+| MES STORE - offline and a grayscale icon | Check connectivity and access to the allowed GitHub hosts, then pull to refresh. Saved entries remain available. |
 | New release does not appear | Verify that the release asset and live catalog were both published. Pull to refresh; compare `versionCode`, not only the displayed version name. |
 | Newer than catalog | A preview or manually installed version is ahead of the public catalog. The store deliberately avoids downgrading it. |
 | Integrity check failed | File bytes or metadata do not match. Retry; maintainers should verify the published asset and regenerate metadata from the signed APK. |
