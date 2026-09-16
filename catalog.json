@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.timepunch",
-      "versionCode": 2,
-      "versionName": "1.0.1",
+      "versionCode": 3,
+      "versionName": "1.0.2",
       "minSdk": 28,
       "certificateSha256": "46634657f184e541f3d6c4c7193d18c6f278b6665e34befdfb73418213c474f7",
-      "sha256": "9b4e655fb14854f86d2006ab7d7865606b283ac568f8e3c824bb3a6fe01fa40d",
-      "size": 7901916,
+      "sha256": "c9553d65d5ca7fb3593548fc3b57e40dd70fff549e9ecd36f13dc3a07fad9938",
+      "size": 7901824,
       "name": "Time Punch",
       "description": "Employee PIN, punch photos, and clock-in, break, and clock-out actions for MES tablets.",
-      "releaseNotes": "Time Punch 1.0.1\n\nUpdated the app icon to an abstract person with a clock, using the existing navy, white, and mint colors.\n\nInstall over the existing Time Punch app to keep your station configuration. The timecard punch workflow is unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.0.1/time-punch-1.0.1.apk"
+      "releaseNotes": "Time Punch 1.0.2\n\nCorrected the abstract person-and-clock icon to use a fully transparent background. The person and clock are teal; the surrounding area and the clock interior contain no background fill.\n\nUpdate MES Store to 1.2.8 for the same icon in the store, including before Time Punch is installed or updated.\n\nInstall over the existing Time Punch app to keep your station configuration. The timecard punch workflow is unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.0.2/time-punch-1.0.2.apk"
     }
   ]
 }
