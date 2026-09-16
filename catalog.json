@@ -3,16 +3,16 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 8,
-      "versionName": "1.2.2",
+      "versionCode": 9,
+      "versionName": "1.2.3",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "7fce66d9f35e0b8fc7be2dde6b293114770b19861a10be04f19abbc3c11d1c54",
+      "sha256": "3fc4a1b0c9fe39c2a0c85dde7c984f335ab9b8c5e85d65b9f075c680bd47a4ba",
       "size": 2870781,
       "name": "MES Store",
       "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "MES Store 1.2.2\n\nThe tutorial PDF reader now uses finger gestures for zooming. Removed the minus, plus, and Fit page toolbar to give the guide more space.\n\nPinch to zoom in or out, drag to move, and double-tap to zoom or reset. Page navigation is unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.2/mes-store-1.2.2.apk"
+      "releaseNotes": "MES Store 1.2.3\n\nAlign the APP DETAILS and SIGNPAD GUIDE header labels vertically with the back button.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.3/mes-store-1.2.3.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
