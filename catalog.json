@@ -3,16 +3,16 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 13,
-      "versionName": "1.2.7",
+      "versionCode": 14,
+      "versionName": "1.2.8",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "f428e601db327db792732fb817f95ce63b2ccf1f810297425289fb05e3ba1725",
-      "size": 2889661,
+      "sha256": "088bf4b6d484494e075c72b1f908ff4f2baa4551596e6ff4d66f02cdf6d2ef20",
+      "size": 2890917,
       "name": "MES Store",
       "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "MES Store 1.2.7\n\nFixed an Android 9 compatibility issue that could incorrectly report \"The APK has an unexpected signing certificate\" for a valid download. MES Store now requests the certificate information Android 9 requires while preserving all certificate, checksum, package, and version checks.\n\nIf an older MES Store cannot install this update because of that message, download this official APK in a browser and install it over the existing MES Store. Do not uninstall the app. The package ID and release signing key are unchanged.\n\nIncludes the offline header status, inline tutorial illustrations, full-screen image viewing, remaining reading time, and interface improvements from 1.2.6. App installation still requires Android confirmation.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.7/mes-store-1.2.7.apk"
+      "releaseNotes": "MES Store 1.2.8\n\nTime Punch now displays its transparent abstract person-and-clock icon throughout MES Store, even before installation or when an older Time Punch version is installed. The store no longer shows the old installed icon or a letter placeholder for Time Punch.\n\nUpdate Time Punch to 1.0.2 to use the transparent icon on the Android launcher as well.\n\nInstall over the existing MES Store to preserve settings and downloads. Includes the Android 9 certificate verification fix from 1.2.7. Package IDs and signing keys are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.8/mes-store-1.2.8.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
