@@ -3,16 +3,16 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 5,
-      "versionName": "1.1.0",
+      "versionCode": 6,
+      "versionName": "1.2.0",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "80648207907622e5507e6c6ed7698209c210ca787a97ac4d3c5682b2f204e039",
-      "size": 2117941,
+      "sha256": "3ea3e31fa00d87ad521dd804263483bba6a96d26b11d7f497be77c5188f76dd6",
+      "size": 2163532,
       "name": "MES Store",
-      "description": "Discover, download, and manage your MES apps in one place.",
-      "releaseNotes": "MES Store 1.1.0\n\nFour bottom tabs: Featured, Apps, Tutorial, and Settings.\n\nFeatured introduces apps with large illustrated cards that open dedicated app pages. Apps lists the complete catalog with search and installed/update filters. Tutorial is empty for now.\n\nSettings includes automatic daily update checks, optional automatic downloads, an unmetered-connection preference, installation permission, and downloaded-file cleanup. Downloads survive a store restart and are verified again before installation.\n\nAndroid still asks before installing updates. Automatic downloads prepare updates without interrupting work in your other apps. The transparent MES Store icon is unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.1.0/mes-store-1.1.0.apk"
+      "description": "Your MES apps and updates, together in one place.",
+      "releaseNotes": "MES Store 1.2.0\n\nTutorial now includes How to use SignPad: the complete daily workflow from picking and labeling through inspection, loading, signatures, and printing the bill of lading.\n\nRead the step-by-step article or open the original 11-page illustrated guide inside MES Store. Jump directly to a step, pinch to zoom, and move between pages. The verified PDF is saved for offline reading after its first download.\n\nTutorial articles refresh from the public GitHub catalog, so additional guides can be published without rebuilding MES Store.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.0/mes-store-1.2.0.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
