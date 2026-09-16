@@ -4,7 +4,7 @@ Android apps for the MES workplace. This repository hosts public APK downloads a
 
 ## Install MES Store
 
-Download [MES Store 1.0.2](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.0.2/mes-store-1.0.2.apk) on your Android phone and open the APK. Android 9 or newer is required.
+Download [MES Store 1.0.3](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.0.3/mes-store-1.0.3.apk) on your Android phone and open the APK. Android 9 or newer is required.
 
 Open **MES Store** to browse apps and updates. The first time you install an app through the store, Android will ask you to enable **Allow from this source** for MES Store. Downloads are public; MES authorization is still required to access company services and data.
 
