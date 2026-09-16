@@ -3,16 +3,16 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 9,
-      "versionName": "1.2.3",
+      "versionCode": 10,
+      "versionName": "1.2.4",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "3fc4a1b0c9fe39c2a0c85dde7c984f335ab9b8c5e85d65b9f075c680bd47a4ba",
-      "size": 2870781,
+      "sha256": "43cbfc9f0503edb8d9bb5c16310c5644b00d9214a49fbe0602488938d33de9af",
+      "size": 2870933,
       "name": "MES Store",
       "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "MES Store 1.2.3\n\nAlign the APP DETAILS and SIGNPAD GUIDE header labels vertically with the back button.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.3/mes-store-1.2.3.apk"
+      "releaseNotes": "MES Store 1.2.4\n\nRemove the uneven native shadow from light-blue secondary buttons. Buttons keep their rounded shape and touch ripple without raised edges when pressed.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.4/mes-store-1.2.4.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
