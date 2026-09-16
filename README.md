@@ -4,9 +4,15 @@ Android apps for the MES workplace. This repository hosts public APK downloads a
 
 ## Install MES Store
 
-Download [MES Store 1.1.0](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.1.0/mes-store-1.1.0.apk) on your Android phone and open the APK. Android 9 or newer is required.
+Download [MES Store 1.2.0](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.0/mes-store-1.2.0.apk) on your Android phone and open the APK. Android 9 or newer is required.
 
-Use **Featured** to discover apps and **Apps** to browse the full catalog. Tap an app to open its download page. **Tutorial** is empty for now. **Settings** controls automatic update checks, optional automatic downloads, and connection preferences. The first time you install an app through the store, Android will ask you to enable **Allow from this source** for MES Store. Downloads are public; MES authorization is still required to access company services and data.
+Use **Featured** to discover apps and **Apps** to browse the full catalog. Tap an app to open its download page. **Tutorial** contains step-by-step guides with illustrated PDFs and offline reading. **Settings** controls automatic update checks, optional automatic downloads, and connection preferences. The first time you install an app through the store, Android will ask you to enable **Allow from this source** for MES Store. Downloads are public; MES authorization is still required to access company services and data.
+
+## Tutorials
+
+**How to use SignPad** covers picking, labeling, inspection, loading, shipper and driver signatures, and printing the signed BOL. Open Tutorial in MES Store, or download the [11-page illustrated guide](https://github.com/huangxuewu/mes-app-releases/releases/download/tutorial-signpad-daily-workflow-v1/signpad-daily-workflow.pdf). The examples use training data; always scan your current paperwork.
+
+`tutorials.json` contains the article content, page links, and PDF integrity metadata. The store saves each verified PDF for offline reading after its first download.
 
 ## Updates
 
