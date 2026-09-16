@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "articles": [
+    {
+      "id": "signpad-daily-workflow",
+      "title": "How to use SignPad",
+      "subtitle": "Your daily warehouse workflow",
+      "description": "Follow a load from picking and labeling to inspection, loading, signatures, and the printed bill of lading.",
+      "updated": "2026-09-16",
+      "introduction": "Start with a SignPad that is already paired and configured with MES. The illustrated guide uses training data: always scan your current paperwork and match the load, DC, and PO before confirming work.",
+      "pdfUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/tutorial-signpad-daily-workflow-v1/signpad-daily-workflow.pdf",
+      "sha256": "4a957903302fce6c1e2ea545aca5f7a32eb385dcb1256c2df42d09a9ad214716",
+      "size": 945396,
+      "pageCount": 11,
+      "sections": [
+        {
+          "title": "Use the picking summary",
+          "page": 1,
+          "steps": [
+            "Match the red LOAD number to the load you are working on.",
+            "For picking, scan the bottom-left barcode under Prepared By. It opens Confirm Picking for the load.",
+            "After labeling every DC, scan the bottom-right barcode under Checked By to open Confirm Inspection."
+          ],
+          "note": "Picking and inspection use the summary. Labeling and loading use the separate DC slip."
+        },
+        {
+          "title": "One DC barcode, used twice",
+          "page": 2,
+          "steps": [
+            "Check the PO, LOAD, and DC printed at the top of the slip against the shipment in front of you.",
+            "The first scan of the barcode at the bottom of the DC slip opens labeling. Complete the labels and tap Confirm labeled.",
+            "After every DC is inspected and the inspector signs, scan the same barcode again. It now opens Confirm Loading."
+          ],
+          "note": "Keep the same DC slip. There is no separate loading barcode to print or find."
+        },
+        {
+          "title": "Pick the load",
+          "page": 3,
+          "steps": [
+            "Scan the barcode under Prepared By on the picking summary. Check the load number, DC, PO, and box quantity for each shipment.",
+            "Select each shipment you have finished picking. Use Check All only when every listed shipment is ready.",
+            "Tap Confirm. The number in brackets is the number of selected shipments."
+          ],
+          "note": "A checked blue row is selected, but is saved only after you confirm. Next, scan a DC-slip barcode to label that shipment."
+        },
+        {
+          "title": "Label each shipment",
+          "page": 4,
+          "steps": [
+            "Scan the barcode at the bottom of the DC slip. Match both the DC and PO; two shipments can share a DC number.",
+            "Match the DPCI, item description, and box count to the shipment, then finish the physical labeling.",
+            "Tap Confirm labeled. Repeat with the next DC slip until every shipment on the load is labeled."
+          ],
+          "note": "This confirms only the shipment on the scanned slip, not every shipment on the load."
+        },
+        {
+          "title": "Inspect the load",
+          "page": 5,
+          "steps": [
+            "After every DC is labeled, scan the barcode under Checked By on the picking summary. Check the load number.",
+            "Inspect each shipment, then select its row. Check the box count on the right. Use Check All only after inspecting every shipment.",
+            "Tap Confirm. When the last DC is confirmed, the inspector signature page opens automatically."
+          ],
+          "note": "A yellow row with a ban icon means labeling is incomplete. Complete the missing labeling, then tap Reload details."
+        },
+        {
+          "title": "Sign to release the load",
+          "page": 6,
+          "steps": [
+            "After all DCs are inspected, review the load number and PO/DC list on the landscape signature screen.",
+            "Draw the inspector's signature in the white area. Tap CLEAR if you need to start again.",
+            "Tap SIGN to save the inspector signature and release the load for loading."
+          ],
+          "note": "Next, scan the same DC-slip barcode again to confirm loading."
+        },
+        {
+          "title": "Load each shipment",
+          "page": 7,
+          "steps": [
+            "After inspection and signing, scan the same DC-slip barcode. Verify that Confirm Loading shows the correct load number, DC, and PO.",
+            "Match the DPCI, descriptions, and box counts, then complete the physical loading for that shipment.",
+            "Tap Confirm Loading. Repeat for the remaining shipments."
+          ],
+          "note": "A count such as (1/2) means one shipment was already loaded out of two when the page opened. It is not the position of the current DC."
+        },
+        {
+          "title": "After loading: scan the summary",
+          "page": 8,
+          "steps": [
+            "Finish and confirm loading for every DC slip, then use the ALL Outbound Loads Summary for the correct date.",
+            "Find the matching Load Number and scan the barcode directly beneath that load's load / PRO information.",
+            "Complete the shipper signature first, then the driver signature. Both must be saved before printing the BOL."
+          ],
+          "note": "Use the barcode under the correct load on the outbound summary to begin BOL signing."
+        },
+        {
+          "title": "Shipper signs first",
+          "page": 9,
+          "steps": [
+            "On the shipper signature screen, tap SIGN to open the drawing area.",
+            "Have the shipper sign in the white area. Tap CLEAR to try again.",
+            "Tap CONFIRM. The phone moves to the driver signature."
+          ],
+          "note": "Hand the phone to the driver. Both parties must sign before printing."
+        },
+        {
+          "title": "Driver signs next",
+          "page": 10,
+          "steps": [
+            "On the driver signature screen, tap SIGN to open the drawing area.",
+            "Have the driver sign in the white area. Tap CLEAR to try again.",
+            "Tap CONFIRM and wait for both signatures to save."
+          ],
+          "note": "When both signatures are saved, the phone offers to print the BOL."
+        },
+        {
+          "title": "Print the signed BOL",
+          "page": 11,
+          "steps": [
+            "Wait until the phone shows Signature saved. Print the BOL?",
+            "Tap PRINT to send the signed BOL to the configured printer.",
+            "Collect the printed document and check that it is for the correct load."
+          ],
+          "note": "Loading and both signatures are complete. The signed BOL is ready for the shipment."
+        }
+      ]
+    }
+  ]
+}
