@@ -6,15 +6,15 @@ This public repository is the **distribution and content repository**. It contai
 
 ## Download and release status
 
-**Public download: [MES Store 1.2.6](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.6/mes-store-1.2.6.apk)** · Android 9 / API 28 or newer
+**Public download: [MES Store 1.2.7](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.7/mes-store-1.2.7.apk)** · Android 9 / API 28 or newer
 
 The following snapshot was verified on **September 16, 2026**. The [live app catalog](catalog.json) is the source of truth for offered versions.
 
 | Component | Version | Version code | Distribution status |
 | --- | --- | --- | --- |
-| MES Store | 1.2.6 | 12 | Published and listed in the live catalog |
+| MES Store | 1.2.7 | 13 | Published and listed in the live catalog |
 | SignPad | 1.6.1 | 11 | Published and listed in the live catalog |
-| Earlier MES Store preview | 1.2.5 | 11 | Superseded by 1.2.6; was never publicly released |
+| Earlier MES Store preview | 1.2.5 | 11 | Superseded by 1.2.7; was never publicly released |
 
 Version codes belong to individual application packages; matching codes across different apps have no significance. Updating this README does not publish an APK or change the catalog.
 
@@ -127,7 +127,7 @@ A device running a newer preview is not offered a downgrade to the older public 
 
 ## App catalog format
 
-`catalog.json` is UTF-8 JSON with `schemaVersion: 1` and an `apps` array. Each `packageName` must occur only once. Example using the published MES Store 1.2.6 entry:
+`catalog.json` is UTF-8 JSON with `schemaVersion: 1` and an `apps` array. Each `packageName` must occur only once. Example using the published MES Store 1.2.7 entry:
 
 ```json
 {
@@ -135,16 +135,16 @@ A device running a newer preview is not offered a downgrade to the older public 
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 12,
-      "versionName": "1.2.6",
+      "versionCode": 13,
+      "versionName": "1.2.7",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "3132fabe4c68a90c4e6524643ca24b4a81d8919d8840f3a13ea6362f7ffa14ee",
-      "size": 2889501,
+      "sha256": "f428e601db327db792732fb817f95ce63b2ccf1f810297425289fb05e3ba1725",
+      "size": 2889661,
       "name": "MES Store",
       "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "Offline header status, inline tutorial illustrations, full-screen viewing, and UI refinements.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.6/mes-store-1.2.6.apk"
+      "releaseNotes": "MES Store 1.2.7\n\nFixed an Android 9 compatibility issue that could incorrectly report \"The APK has an unexpected signing certificate\" for a valid download. MES Store now requests the certificate information Android 9 requires while preserving all certificate, checksum, package, and version checks.\n\nIf an older MES Store cannot install this update because of that message, download this official APK in a browser and install it over the existing MES Store. Do not uninstall the app. The package ID and release signing key are unchanged.\n\nIncludes the offline header status, inline tutorial illustrations, full-screen image viewing, remaining reading time, and interface improvements from 1.2.6. App installation still requires Android confirmation.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.7/mes-store-1.2.7.apk"
     }
   ]
 }
@@ -182,6 +182,8 @@ The normal sequence is:
 9. After the user chooses Install now, reverify the cached APK and hand it to Android's package installer using a temporary read grant.
 10. Android performs final installation validation and requests confirmation.
 
+MES Store 1.2.7 requests both `GET_SIGNING_CERTIFICATES` and `GET_SIGNATURES` when parsing a downloaded APK. Android 9 only collects archive certificates when the legacy flag is also present. Verification still reads the current signer from `signingInfo.apkContentsSigners`; the extra flag does not bypass any checks. Missing certificate information has a separate error from a real signer mismatch.
+
 The provider is non-exported and accepts only a single filename matching a SHA-256 digest plus `.apk`. It rejects traversal-style paths and write access. Its authority is `com.advancebusinesscare.mes.appstore.apks`.
 
 Interrupted downloads restart when retried; byte-range resume is not implemented. Failed verification removes the candidate file and its ready marker. A successfully cached APK normally survives a store process restart, but Android may evict cache files to reclaim storage.
@@ -216,7 +218,7 @@ The first article is **How to use SignPad**, covering picking, labeling, inspect
 
 ### Tutorial behavior by release
 
-| Capability | Earlier 1.2.4 | Current 1.2.6 |
+| Capability | Earlier 1.2.4 | Current 1.2.7 |
 | --- | --- | --- |
 | Native step-by-step article | Yes | Yes |
 | Illustration access | Open illustrated guide / per-section page buttons | Illustrations displayed within each article section; tap an image to enlarge |
@@ -228,7 +230,7 @@ The first article is **How to use SignPad**, covering picking, labeling, inspect
 
 The reader estimates reading time at 200 words per minute plus 12 seconds per illustration, then reduces the estimate according to article scroll progress. It is a reading estimate, not a countdown or a measurement of warehouse task duration. Returning from the enlarged image preserves the article's reading position.
 
-In 1.2.6, only illustrations near the viewport are rasterized; offscreen bitmaps are released. PDF rendering runs on a worker thread and page handles are closed after use. The full-screen reader renders the selected page at a higher resolution and supports previous/next navigation and a page selector.
+Since 1.2.6, only illustrations near the viewport are rasterized; offscreen bitmaps are released. PDF rendering runs on a worker thread and page handles are closed after use. The full-screen reader renders the selected page at a higher resolution and supports previous/next navigation and a page selector.
 
 ### Tutorial catalog format
 
@@ -359,7 +361,7 @@ Keep the package ID stable, increment `versionCode` for a new distributed APK, a
 
 An explicitly approved phone preview can be installed with `adb install -r` using the existing release signing key. This preserves the store's private data and does not modify GitHub. A preview does not authorize a public release; builds, phone installation, and publication are performed only when explicitly requested by the owner.
 
-Version 1.2.6 publishes the features tested in the earlier 1.2.5 phone preview and adds live offline branding. Its higher version code allows preview devices to receive the public update through MES Store. Version 1.2.5 itself was never publicly released.
+Version 1.2.6 publishes the features tested in the earlier 1.2.5 phone preview and adds live offline branding. Its higher version code made the public update eligible for preview devices, but Android 9 archive-certificate parsing could block installation in older stores. Version 1.2.5 itself was never publicly released. Version 1.2.7 fixes the Android 9 parsing issue using the same package ID and signing key. Devices whose older store rejects the update need a one-time in-place installation of the official APK through the Android installer (or an explicitly approved `adb install -r`); no uninstall is needed.
 
 ### Publish an APK
 
@@ -413,7 +415,7 @@ The maintained public README is mirrored in the private project's `distribution/
 
 ## Validation and troubleshooting
 
-The 1.2.6 release build passed eight JVM unit tests, six Android integration tests, and Android lint. Live offline/reconnection branding and offline startup were checked on the emulator. The tutorial smoke check exercised inline illustrations, full-screen page navigation, and offline reopening after an emulator process restart. Earlier rollout checks covered APK installation, a store self-update, scheduled downloads without silent installation, restart recovery, and pull-to-refresh.
+The 1.2.7 release build passed eight JVM unit tests, six Android integration tests, three publisher tests, and Android lint. A read-only framework probe on the Android 9 phone reproduced missing certificates with the old flag and verified the expected current signer with both flags, including a match against the installed app. The signed 1.2.7 APK was installed in place and its version code 13 was confirmed. The following UI checks were completed for 1.2.6: Live offline/reconnection branding and offline startup were checked on the emulator. The tutorial smoke check exercised inline illustrations, full-screen page navigation, and offline reopening after an emulator process restart. Earlier rollout checks covered APK installation, a store self-update, scheduled downloads without silent installation, restart recovery, and pull-to-refresh.
 
 | Check in the private project | Coverage |
 | --- | --- |
@@ -434,6 +436,7 @@ Android verification uses a test emulator and unchanged APK/PDF fixtures. APK ve
 | New release does not appear | Verify that the release asset and live catalog were both published. Pull to refresh; compare `versionCode`, not only the displayed version name. |
 | Newer than catalog | A preview or manually installed version is ahead of the public catalog. The store deliberately avoids downgrading it. |
 | Integrity check failed | File bytes or metadata do not match. Retry; maintainers should verify the published asset and regenerate metadata from the signed APK. |
+| Unexpected signing certificate on an older Android 9 store | MES Store through 1.2.6 can fail to collect archive certificates. Download the official 1.2.7 APK from this repository and install it over the existing store through Android; do not uninstall. If the error persists, contact the administrator. |
 | Different signing key | The installed app and candidate have incompatible signing identities. Stop and contact the administrator; do not uninstall to force an update. |
 | Install permission requested | Enable Allow from this source for MES Store, return to the detail page, and select Install now again. |
 | Cached APK disappeared | Android can reclaim cache storage. Download the verified APK again. |
