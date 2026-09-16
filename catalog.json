@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.timepunch",
-      "versionCode": 5,
-      "versionName": "1.1.1",
+      "versionCode": 6,
+      "versionName": "1.1.2",
       "minSdk": 28,
       "certificateSha256": "46634657f184e541f3d6c4c7193d18c6f278b6665e34befdfb73418213c474f7",
-      "sha256": "3ababd6952609d81d626af7572887d7ee42479e9c46cfbae9e038b0fe1486c43",
-      "size": 7906588,
+      "sha256": "e3b053e88a6da2d2f0c1135ece8b98d9f700ce4701e7831f62de3b05ca5b1eb8",
+      "size": 7906592,
       "name": "Time Punch",
       "description": "Employee PIN, punch photos, and clock-in, break, and clock-out actions for MES tablets.",
-      "releaseNotes": "Time Punch 1.1.1\n\nUpdated the punch screen to match the MES timecard module: a circular live front-camera preview at the top, round PIN keypad underneath, and company name below the keypad. The centered layout uses the MES dark theme and is locked to portrait mode. Rotating the tablet does not switch the app to landscape.\n\nThe company name comes from MES settings and is cached for offline display. A front-facing camera is required. The transparent person-and-clock app icon is retained.\n\nInstall over the existing Time Punch app to keep your station configuration.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.1.1/time-punch-1.1.1.apk"
+      "releaseNotes": "Time Punch 1.1.2\n\nThe company name below the keypad now uses a light font weight with gray text. The portrait layout, circular front-camera preview, and punch workflow are unchanged.\n\nInstall over the existing Time Punch app to keep your station configuration.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.1.2/time-punch-1.1.2.apk"
     }
   ]
 }
