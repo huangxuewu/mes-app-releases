@@ -3,16 +3,16 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.loadboard",
-      "versionCode": 3,
-      "versionName": "1.0.0",
+      "versionCode": 4,
+      "versionName": "1.1.0",
       "minSdk": 28,
       "certificateSha256": "3aff69f4f754ff2850ace3b3e4577c8554f09642a7f8b9b0e58e08eb6f58c70e",
-      "sha256": "c8cc817c5b4ab48fd9a9144f4bb64d45a967d8cc88bbdbb5ee98b426d258c207",
-      "size": 7394738,
+      "sha256": "02be56c0cd4e874ed4d257dbb1d6c1a4bcef81545ed82937c15310a409090739",
+      "size": 56596923,
       "name": "Dispatcher",
       "description": "Schedule outbound pickups and inbound arrivals, track load progress, and view daily timelines.",
-      "releaseNotes": "Dispatcher 1.0.0\n\nSchedule outbound pickups and inbound arrivals from your Android phone.\n\n- Today shows outgoing loads with horizontal and vertical timelines.\n- Inbounds and Outbounds open with the Today filter; search by load, PRO, carrier, or PO.\n- Assign or reschedule pickup times with a scrolling date picker.\n- Outgoing cards show the PRO number, carrier badge, shipment progress, and inspection shield.\n- Smooth, centered pull-to-refresh preserves your search and timeline position.\n- Sign in with your MES account; your username is remembered. Optionally unlock a saved session with phone security.\n- Configure inbound and outbound status notices independently.\n\nAndroid 9 or newer. MES account authorization is required. Saved sessions can expire and require your password again. Status notices work while Dispatcher is connected; closed-app push notifications are not included.\n\nThis is the first production release. It installs separately from the earlier debug review app.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.0.0/dispatcher-1.0.0.apk"
+      "releaseNotes": "Dispatcher 1.1.0\n\nPair your phone with desktop MES and manage more of the shipping workflow from Dispatcher.\n\n- Scan the MES pairing QR code from Config and see your paired station.\n- Use Start Loading to select an available dock, review the trailer number and optional seal, and update the load to Loading.\n- Print Picking Lists, Shipping Labels, and Bills of Lading through Android's native print dialog.\n- Picking selections include the summary and each DC's complete breakdown, including overflow pages. Completed DC options are disabled.\n- PDF downloads show percentage progress, support Cancel and Retry, and use WebRTC when available with automatic socket fallback.\n- Shipping labels are marked Printed only after Android reports successful print-job completion.\n- Choose Inbounds, Outbounds, or both for Today. The vertical timeline positions NOW proportionally between appointment times.\n- Hourly scheduling buttons show box-volume bars, with a configurable maximum of 700 boxes per hour by default.\n- Pull down to reveal search, pull farther to refresh, and pan up to hide search again.\n- Refined inbound cards, inspection indicators, selection dialogs, and bottom navigation animations.\n\nAndroid 9 or newer. Pairing, Start Loading, and printing require the updated MES server; PDF preparation requires the updated paired desktop MES. WebRTC also requires the latest desktop transfer implementation. Android printer availability depends on installed print services.\n\nInstall over the production Dispatcher app to retain its settings. The earlier review app is a separate installation. MES authorization is required; saved sessions may expire. Status notices require an active connection.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.0/dispatcher-1.1.0.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
