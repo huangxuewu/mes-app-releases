@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
-      "versionCode": 12,
-      "versionName": "1.6.2",
+      "versionCode": 13,
+      "versionName": "1.6.3",
       "minSdk": 28,
       "certificateSha256": "b36d13641a6ac3f404a3ccc5f7b65753415e3b8263a8e509df843a418082e47c",
-      "sha256": "f9ca940e2c97803d689391f6035f997465928fb82e800869be26c60cc0f75a78",
-      "size": 2226224,
+      "sha256": "921894e35886baa6b2743510b460400080f7e8beb494143eebd27f3fe57834e3",
+      "size": 2226904,
       "name": "SignPad",
       "description": "Sign bills of lading, scan shipments, and keep warehouse work moving.",
-      "releaseNotes": "SignPad 1.6.2\n\nShipment confirmations use compact rows, clearer carrier badges, selection states, and action buttons. Loading confirmations show completed shipment progress from the updated MES server.\n\nInstall over the existing SignPad app to retain pairing and authorization. The package ID and signing certificate are unchanged. MES authorization is required to access company data.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/signpad-v1.6.2/signpad-1.6.2.apk"
+      "releaseNotes": "SignPad 1.6.3\n\nConnects to the new MES server at https://mes.dhmsc.com.\nExisting MES server settings move automatically. Custom server addresses are preserved.\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/signpad-v1.6.3/signpad-1.6.3.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.timepunch",
