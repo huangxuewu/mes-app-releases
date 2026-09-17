@@ -16,16 +16,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 14,
-      "versionName": "1.2.8",
+      "versionCode": 16,
+      "versionName": "1.2.10",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "088bf4b6d484494e075c72b1f908ff4f2baa4551596e6ff4d66f02cdf6d2ef20",
-      "size": 2890917,
+      "sha256": "f9f548f43815a95dbde1b487f223ce533642be6653d166c52d990dac2ca7b40a",
+      "size": 3609337,
       "name": "MES Store",
       "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "MES Store 1.2.8\n\nTime Punch now displays its transparent abstract person-and-clock icon throughout MES Store, even before installation or when an older Time Punch version is installed. The store no longer shows the old installed icon or a letter placeholder for Time Punch.\n\nUpdate Time Punch to 1.0.2 to use the transparent icon on the Android launcher as well.\n\nInstall over the existing MES Store to preserve settings and downloads. Includes the Android 9 certificate verification fix from 1.2.7. Package IDs and signing keys are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.8/mes-store-1.2.8.apk"
+      "releaseNotes": "MES Store 1.2.10\n\nDistinct Featured cards for your workplace apps:\n- Dispatcher has a charcoal-and-amber pickup timeline and truck illustration.\n- Time Punch has a sage-and-green clock and employee punch illustration.\n- SignPad keeps its signature artwork with updated messaging.\n- MES Store is excluded from Featured and remains available under Apps.\n\n- Dispatcher displays its actual launcher icon throughout the store, including before installation.\n- The bottom navigation is more compact, leaving more room for app content.\n- Download and installation buttons fill as progress bars and show measured percentages.\n- Installation still requires Android confirmation, with cancellation, retry, and interrupted-session recovery.\n\nInstall over the existing MES Store to preserve settings and downloads. Android 9 or newer. The package ID and release signing key are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.10/mes-store-1.2.10.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
