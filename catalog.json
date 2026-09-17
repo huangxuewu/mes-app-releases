@@ -42,16 +42,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.timepunch",
-      "versionCode": 6,
-      "versionName": "1.1.2",
+      "versionCode": 7,
+      "versionName": "1.2.0",
       "minSdk": 28,
       "certificateSha256": "46634657f184e541f3d6c4c7193d18c6f278b6665e34befdfb73418213c474f7",
-      "sha256": "e3b053e88a6da2d2f0c1135ece8b98d9f700ce4701e7831f62de3b05ca5b1eb8",
-      "size": 7906592,
+      "sha256": "4a205ab5384a401b68abcc470384b4a5f07f06e8798aeec8e6b5e08df2255c3d",
+      "size": 7910712,
       "name": "Time Punch",
       "description": "Employee PIN, punch photos, and clock-in, break, and clock-out actions for MES tablets.",
-      "releaseNotes": "Time Punch 1.1.2\n\nThe company name below the keypad now uses a light font weight with gray text. The portrait layout, circular front-camera preview, and punch workflow are unchanged.\n\nInstall over the existing Time Punch app to keep your station configuration.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.1.2/time-punch-1.1.2.apk"
+      "releaseNotes": "Time Punch 1.2.0\n\n- Larger punch actions arranged in one vertical list.\n- Employee-language dates and updated English, Spanish, Chinese, and Japanese labels.\n- Subtle animated light behind the PIN screen, paused when the app is inactive or system animations are disabled.\n- Refined transparent person-and-clock launcher icon.\n\nInstall over the existing Time Punch app to retain station configuration and pending punches. Android 9 or newer with a front-facing camera. The signing key and package ID are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.2.0/time-punch-1.2.0.apk"
     }
   ]
 }
