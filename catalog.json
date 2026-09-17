@@ -16,16 +16,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 16,
-      "versionName": "1.2.10",
+      "versionCode": 17,
+      "versionName": "1.2.11",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "f9f548f43815a95dbde1b487f223ce533642be6653d166c52d990dac2ca7b40a",
-      "size": 3609337,
+      "sha256": "5f30d042f50ab3a1c9bfd3b6ceda718eb4458922a55f6f4584aec8ac116a5716",
+      "size": 3609193,
       "name": "MES Store",
       "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "MES Store 1.2.10\n\nDistinct Featured cards for your workplace apps:\n- Dispatcher has a charcoal-and-amber pickup timeline and truck illustration.\n- Time Punch has a sage-and-green clock and employee punch illustration.\n- SignPad keeps its signature artwork with updated messaging.\n- MES Store is excluded from Featured and remains available under Apps.\n\n- Dispatcher displays its actual launcher icon throughout the store, including before installation.\n- The bottom navigation is more compact, leaving more room for app content.\n- Download and installation buttons fill as progress bars and show measured percentages.\n- Installation still requires Android confirmation, with cancellation, retry, and interrupted-session recovery.\n\nInstall over the existing MES Store to preserve settings and downloads. Android 9 or newer. The package ID and release signing key are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.10/mes-store-1.2.10.apk"
+      "releaseNotes": "MES Store 1.2.11\n\nApp and tutorial catalogs now load from the company's MES server at https://mes.dhmsc.com.\nAPK and tutorial downloads retain their existing verified distribution links. Cached catalogs and downloaded tutorials remain available offline.\nInstall over MES Store to preserve settings. The package ID and signing certificate are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.11/mes-store-1.2.11.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
