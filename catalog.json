@@ -42,16 +42,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.timepunch",
-      "versionCode": 7,
-      "versionName": "1.2.0",
+      "versionCode": 8,
+      "versionName": "1.2.1",
       "minSdk": 28,
       "certificateSha256": "46634657f184e541f3d6c4c7193d18c6f278b6665e34befdfb73418213c474f7",
-      "sha256": "4a205ab5384a401b68abcc470384b4a5f07f06e8798aeec8e6b5e08df2255c3d",
+      "sha256": "f873bef12532916512ede485f569e65876f878eec45dd1ec979b29f1008f0c0b",
       "size": 7910712,
       "name": "Time Punch",
       "description": "Employee PIN, punch photos, and clock-in, break, and clock-out actions for MES tablets.",
-      "releaseNotes": "Time Punch 1.2.0\n\n- Larger punch actions arranged in one vertical list.\n- Employee-language dates and updated English, Spanish, Chinese, and Japanese labels.\n- Subtle animated light behind the PIN screen, paused when the app is inactive or system animations are disabled.\n- Refined transparent person-and-clock launcher icon.\n\nInstall over the existing Time Punch app to retain station configuration and pending punches. Android 9 or newer with a front-facing camera. The signing key and package ID are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.2.0/time-punch-1.2.0.apk"
+      "releaseNotes": "Time Punch 1.2.1\n\nConnects to the new MES server at https://mes.dhmsc.com.\nExisting MES server settings move automatically. Custom server addresses are preserved.\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.2.1/time-punch-1.2.1.apk"
     }
   ]
 }
