@@ -3,16 +3,16 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.loadboard",
-      "versionCode": 4,
-      "versionName": "1.1.0",
+      "versionCode": 5,
+      "versionName": "1.1.1",
       "minSdk": 28,
       "certificateSha256": "3aff69f4f754ff2850ace3b3e4577c8554f09642a7f8b9b0e58e08eb6f58c70e",
-      "sha256": "02be56c0cd4e874ed4d257dbb1d6c1a4bcef81545ed82937c15310a409090739",
-      "size": 56596923,
+      "sha256": "093641f9f343957c4c7a6c4be48fbfd1473bf48f1e8fcb2edbc2ee1be38e280d",
+      "size": 56596919,
       "name": "Dispatcher",
       "description": "Schedule outbound pickups and inbound arrivals, track load progress, and view daily timelines.",
-      "releaseNotes": "Dispatcher 1.1.0\n\nPair your phone with desktop MES and manage more of the shipping workflow from Dispatcher.\n\n- Scan the MES pairing QR code from Config and see your paired station.\n- Use Start Loading to select an available dock, review the trailer number and optional seal, and update the load to Loading.\n- Print Picking Lists, Shipping Labels, and Bills of Lading through Android's native print dialog.\n- Picking selections include the summary and each DC's complete breakdown, including overflow pages. Completed DC options are disabled.\n- PDF downloads show percentage progress, support Cancel and Retry, and use WebRTC when available with automatic socket fallback.\n- Shipping labels are marked Printed only after Android reports successful print-job completion.\n- Choose Inbounds, Outbounds, or both for Today. The vertical timeline positions NOW proportionally between appointment times.\n- Hourly scheduling buttons show box-volume bars, with a configurable maximum of 700 boxes per hour by default.\n- Pull down to reveal search, pull farther to refresh, and pan up to hide search again.\n- Refined inbound cards, inspection indicators, selection dialogs, and bottom navigation animations.\n\nAndroid 9 or newer. Pairing, Start Loading, and printing require the updated MES server; PDF preparation requires the updated paired desktop MES. WebRTC also requires the latest desktop transfer implementation. Android printer availability depends on installed print services.\n\nInstall over the production Dispatcher app to retain its settings. The earlier review app is a separate installation. MES authorization is required; saved sessions may expire. Status notices require an active connection.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.0/dispatcher-1.1.0.apk"
+      "releaseNotes": "Dispatcher 1.1.1\n\nConnects to the new MES server at https://mes.dhmsc.com.\nExisting MES server settings move automatically. Custom server addresses are preserved.\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.1/dispatcher-1.1.1.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
