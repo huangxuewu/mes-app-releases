@@ -13,9 +13,9 @@ The following snapshot was verified on **September 17, 2026**. The [live app cat
 | Component | Version | Version code | Distribution status |
 | --- | --- | --- | --- |
 | MES Store | 1.2.10 | 16 | Published and listed in the live catalog |
-| Dispatcher | 1.0.0 | 3 | Published and listed in the live catalog |
-| SignPad | 1.6.1 | 11 | Published and listed in the live catalog |
-| Time Punch | 1.1.2 | 6 | Published and listed in the live catalog |
+| Dispatcher | 1.1.0 | 4 | Published and listed in the live catalog |
+| SignPad | 1.6.2 | 12 | Published and listed in the live catalog |
+| Time Punch | 1.2.0 | 7 | Published and listed in the live catalog |
 | Earlier MES Store preview | 1.2.5 | 11 | Superseded by 1.2.7; was never publicly released |
 
 Version codes belong to individual application packages; matching codes across different apps have no significance. Updating this README does not publish an APK or change the catalog.
@@ -32,9 +32,15 @@ MES Store 1.2.10 gives Dispatcher and Time Punch distinct Featured artwork, uses
 
 Install updates over the existing application. Keeping the package ID and signing identity compatible allows Android to retain app data. Do not uninstall SignPad to bypass a signing-key mismatch; contact the administrator.
 
+### Dispatcher and SignPad updates
+
+[Dispatcher 1.1.0](https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.0/dispatcher-1.1.0.apk) adds desktop MES pairing, dock loading, native Android PDF printing, WebRTC transfers with socket fallback, and refined scheduling and search. These features require the updated MES backend and paired desktop MES. Printer availability depends on installed Android print services.
+
+[SignPad 1.6.2](https://github.com/huangxuewu/mes-app-releases/releases/download/signpad-v1.6.2/signpad-1.6.2.apk) adds compact shipment confirmations, clearer carrier badges and selection states, and completed loading progress from MES.
+
 ### Time Punch for Android tablets
 
-[Download Time Punch 1.1.2](https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.1.2/time-punch-1.1.2.apk), or refresh the Apps tab in MES Store. This dedicated punch app provides six-digit employee PIN entry, camera photos, Clock In, Start Break, End Break, and Clock Out. Version 1.1.2 matches the MES timecard screen with a circular live front-camera preview, round keypad below it, and the company name in light gray type at the bottom. The dark tablet interface is locked to portrait mode. The transparent person-and-clock icon is retained; MES Store 1.2.8 displays matching artwork. Time Punch requires Android 9 or newer and a front-facing camera.
+[Download Time Punch 1.2.0](https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.2.0/time-punch-1.2.0.apk), or refresh the Apps tab in MES Store. This dedicated punch app provides six-digit employee PIN entry, camera photos, Start Work, Start Break, End Break, and End Work. Version 1.2.0 uses larger vertically arranged actions, localized dates and labels, a subtle animated login background, and the updated transparent person-and-clock icon shown in MES Store 1.2.10. The circular front-camera preview, round keypad, light gray company footer, and portrait layout remain. Time Punch requires Android 9 or newer and a front-facing camera.
 
 On first launch, allow camera access, name the tablet station, and enter the existing MES station access code supplied by your administrator. The production MES server address is prefilled. Employees then use their existing PINs. Wait for **Punch recorded** before leaving; an interrupted punch remains encrypted on the tablet and retries with the same command ID. Keep the app open while awaiting confirmation. New PIN sessions require a live MES connection.
 
