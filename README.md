@@ -6,18 +6,21 @@ This public repository is the **distribution and content repository**. It contai
 
 ## Download and release status
 
-**Public download: [MES Store 1.2.8](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.8/mes-store-1.2.8.apk)** · Android 9 / API 28 or newer
+**Public download: [MES Store 1.2.10](https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.10/mes-store-1.2.10.apk)** · Android 9 / API 28 or newer
 
-The following snapshot was verified on **September 16, 2026**. The [live app catalog](catalog.json) is the source of truth for offered versions.
+The following snapshot was verified on **September 17, 2026**. The [live app catalog](catalog.json) is the source of truth for offered versions.
 
 | Component | Version | Version code | Distribution status |
 | --- | --- | --- | --- |
-| MES Store | 1.2.8 | 14 | Published and listed in the live catalog |
+| MES Store | 1.2.10 | 16 | Published and listed in the live catalog |
+| Dispatcher | 1.0.0 | 3 | Published and listed in the live catalog |
 | SignPad | 1.6.1 | 11 | Published and listed in the live catalog |
 | Time Punch | 1.1.2 | 6 | Published and listed in the live catalog |
 | Earlier MES Store preview | 1.2.5 | 11 | Superseded by 1.2.7; was never publicly released |
 
 Version codes belong to individual application packages; matching codes across different apps have no significance. Updating this README does not publish an APK or change the catalog.
+
+MES Store 1.2.10 gives Dispatcher and Time Punch distinct Featured artwork, uses Dispatcher's actual launcher icon, and reduces the bottom navigation height. Featured focuses on workplace apps; MES Store remains under Apps. Download and installation buttons display measured percentage progress. Android confirmation, cancellation, retry, and recovery after a store process restart are supported.
 
 ### First installation
 
@@ -186,7 +189,7 @@ The normal sequence is:
 6. Require one current signer and match its certificate fingerprint to `certificateSha256`.
 7. If the app is installed, require a strictly newer version and signing-certificate compatibility with that installation.
 8. Rename the verified file to `<sha256>.apk` and remember that it is ready.
-9. After the user chooses Install now, reverify the cached APK and hand it to Android's package installer using a temporary read grant.
+9. After the user chooses Install now, reverify the cached APK and stage it in an Android install session while showing percentage progress in the action button.
 10. Android performs final installation validation and requests confirmation.
 
 MES Store 1.2.7 requests both `GET_SIGNING_CERTIFICATES` and `GET_SIGNATURES` when parsing a downloaded APK. Android 9 only collects archive certificates when the legacy flag is also present. Verification still reads the current signer from `signingInfo.apkContentsSigners`; the extra flag does not bypass any checks. Missing certificate information has a separate error from a real signer mismatch.
