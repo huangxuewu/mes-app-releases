@@ -3,16 +3,16 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.loadboard",
-      "versionCode": 6,
-      "versionName": "1.1.2",
+      "versionCode": 7,
+      "versionName": "1.1.3",
       "minSdk": 28,
       "certificateSha256": "3aff69f4f754ff2850ace3b3e4577c8554f09642a7f8b9b0e58e08eb6f58c70e",
-      "sha256": "e460245ca307c5e059ac0a6d2a221c575af90c15ed1a1878954c0e5d3e2b6a3c",
-      "size": 56597607,
+      "sha256": "41beab717c32ce3d8ee4d2cbab406ec2d55de48de186e44188f71b98afcf2ac0",
+      "size": 56601703,
       "name": "Dispatcher",
       "description": "Schedule outbound pickups and inbound arrivals, track load progress, and view daily timelines.",
-      "releaseNotes": "Dispatcher 1.1.2\n\nShows an amber disconnect icon beside each page title when the device has no internet access. The icon clears automatically when internet access returns, without rebuilding the page.\n\nMoves the vertical timeline's load status to the top right of each card, using the same light badge styling as the other load cards.\n\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.2/dispatcher-1.1.2.apk"
+      "releaseNotes": "Dispatcher 1.1.3\n\nSwipe left or right on Inbounds and Outbounds to select the next or previous filter. A swipe must cover at least a quarter of the page width, with a 96 dp minimum, before switching on release. Short swipes, vertical scrolling, and search-field gestures do not switch filters. The Today page retains its existing timeline gestures.\n\nLoading dots on Print and Start Loading buttons now draw as one compact indicator, preventing device fonts or display sizes from wrapping the dots onto another line.\n\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.3/dispatcher-1.1.3.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
