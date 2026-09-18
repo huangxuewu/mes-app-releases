@@ -16,16 +16,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
-      "versionCode": 7,
-      "versionName": "1.0.3",
+      "versionCode": 8,
+      "versionName": "1.0.4",
       "minSdk": 28,
       "certificateSha256": "bbf9b1cff6be6162ab924e58420940224669958cf876c54c9136340f982bf7fe",
-      "sha256": "709b80c1154bfafadd00a148f0129bea4d14dd5833c380adb0ae19c5463603d5",
+      "sha256": "ab0ccb779a5aedd7738655f4f35665a87241dccded07d707594eddabdfe6026f",
       "size": 42376289,
       "name": "MES Radio",
       "description": "Push-to-talk for your MES team. Talk on radio channels and replay received voice.",
-      "releaseNotes": "MES Radio 1.0.3\n\nBroadcast messages now stand out in voice history with yellow cards, dark waveforms, and Broadcast after the sender's name.\nCentered avatars carry a smaller speaker badge with two sound-wave lines. Broadcast and ordinary messages keep the same row height.\nBroadcast labels are saved with recordings and remain available after reopening the app. Playback, seeking and resume remain available.\nKeeps the connection recovery improvements and Quiet, Medium and Loud listening levels from previous patches.\n\nAndroid 9 or newer. Updates MES Radio in place and preserves sign-in, settings and voice history. Do not uninstall before updating.\n\nTwo-phone feedback and real-world unstable-network testing remain pending.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.3/mes-radio-1.0.3.apk"
+      "releaseNotes": "MES Radio 1.0.4\n\nSelect Broadcast to speak to every joined channel. Broadcast has highest priority and interrupts ordinary channel speech.\nListeners remain on their selected channel and receive Broadcast automatically. Ordinary Talk is unavailable during Broadcast; interrupted speakers must release and press again afterward.\nBroadcast announcements retain the yellow history cards and speaker badges in the receiving channel's history.\nExisting assigned Broadcast speaker permissions still apply.\nKeeps the connection recovery improvements and Quiet, Medium and Loud listening levels from previous patches.\n\nAndroid 9 or newer. Updates MES Radio in place and preserves sign-in, settings and voice history. Do not uninstall before updating.\n\nTwo-phone feedback and real-world unstable-network testing remain pending.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.4/mes-radio-1.0.4.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
