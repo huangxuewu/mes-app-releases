@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 21,
-      "versionName": "1.2.15",
+      "versionCode": 22,
+      "versionName": "1.2.16",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "5b3636e95c23c5792ea9cdfbb22a1f0dc9f7c1623840888ba9cac18d44cff317",
-      "size": 3622981,
+      "sha256": "15939b4b47ea96f09f7ee8f8d821c3aa84b945d0208f63338d3c9382c4aacb9c",
+      "size": 3624325,
       "name": "MES Store",
       "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "MES Store 1.2.15\n\nMES Radio 1.0.0 is now the release version. Removed beta labels from its Featured card and app details.\n\nFeatured illustrations now catch a gentle shine after two seconds in view.\nThe light sweeps across the artwork once, then rests until you scroll away and return.\nLeaving Featured, hiding the artwork or backgrounding the app cancels pending and active effects.\nThe effect respects Android's disabled-animation setting and keeps card text and backgrounds unchanged.\n\nIncludes MES Radio 1.0.0 and its dedicated graphite-and-yellow Featured card.\nInstall over MES Store to preserve settings and downloads. Android 9 or newer; the package ID and release signing key are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.15/mes-store-1.2.15.apk"
+      "releaseNotes": "MES Store 1.2.16\n\nMES Store now checks for updates when you return to it, every five minutes while it stays open, and when the connection comes back while the store is open. A one-minute cooldown prevents repeated checks during quick app switches.\n\nBackground update checks now run approximately hourly instead of daily, subject to Android battery and network scheduling. Existing daily schedules are upgraded automatically.\n\nCatalog checks can use any internet connection. The unmetered-only setting continues to apply to automatic APK downloads. Automatic checks still respect your setting, and Android still asks before installing updates.\n\nInstall over MES Store to preserve settings and downloads. Android 9 or newer; the package ID and release signing key are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.16/mes-store-1.2.16.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
