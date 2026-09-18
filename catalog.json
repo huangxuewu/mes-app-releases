@@ -3,16 +3,16 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.loadboard",
-      "versionCode": 5,
-      "versionName": "1.1.1",
+      "versionCode": 6,
+      "versionName": "1.1.2",
       "minSdk": 28,
       "certificateSha256": "3aff69f4f754ff2850ace3b3e4577c8554f09642a7f8b9b0e58e08eb6f58c70e",
-      "sha256": "093641f9f343957c4c7a6c4be48fbfd1473bf48f1e8fcb2edbc2ee1be38e280d",
-      "size": 56596919,
+      "sha256": "e460245ca307c5e059ac0a6d2a221c575af90c15ed1a1878954c0e5d3e2b6a3c",
+      "size": 56597607,
       "name": "Dispatcher",
       "description": "Schedule outbound pickups and inbound arrivals, track load progress, and view daily timelines.",
-      "releaseNotes": "Dispatcher 1.1.1\n\nConnects to the new MES server at https://mes.dhmsc.com.\nExisting MES server settings move automatically. Custom server addresses are preserved.\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.1/dispatcher-1.1.1.apk"
+      "releaseNotes": "Dispatcher 1.1.2\n\nShows an amber disconnect icon beside each page title when the device has no internet access. The icon clears automatically when internet access returns, without rebuilding the page.\n\nMoves the vertical timeline's load status to the top right of each card, using the same light badge styling as the other load cards.\n\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.2/dispatcher-1.1.2.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
