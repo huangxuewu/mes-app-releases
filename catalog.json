@@ -16,16 +16,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
-      "versionCode": 6,
-      "versionName": "1.0.2",
+      "versionCode": 7,
+      "versionName": "1.0.3",
       "minSdk": 28,
       "certificateSha256": "bbf9b1cff6be6162ab924e58420940224669958cf876c54c9136340f982bf7fe",
-      "sha256": "fbeaa082dbaa4eb0b681c7f021108aa3e25567bc68be10b328586f40470fbe7b",
-      "size": 42359905,
+      "sha256": "709b80c1154bfafadd00a148f0129bea4d14dd5833c380adb0ae19c5463603d5",
+      "size": 42376289,
       "name": "MES Radio",
       "description": "Push-to-talk for your MES team. Talk on radio channels and replay received voice.",
-      "releaseNotes": "MES Radio 1.0.2\n\nRemoves the Mute option so the radio stays available for communication. Choose Quiet, Medium or Loud.\nIf you selected Mute in version 1.0.1, updating restores Medium volume automatically.\nKeeps the connection recovery, audio-session cleanup and credential-renewal improvements from 1.0.1.\n\nAndroid 9 or newer. Updates MES Radio in place and preserves sign-in, settings and voice history. Do not uninstall before updating.\n\nTwo-phone feedback and real-world unstable-network testing remain pending.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.2/mes-radio-1.0.2.apk"
+      "releaseNotes": "MES Radio 1.0.3\n\nBroadcast messages now stand out in voice history with yellow cards, dark waveforms, and Broadcast after the sender's name.\nCentered avatars carry a smaller speaker badge with two sound-wave lines. Broadcast and ordinary messages keep the same row height.\nBroadcast labels are saved with recordings and remain available after reopening the app. Playback, seeking and resume remain available.\nKeeps the connection recovery improvements and Quiet, Medium and Loud listening levels from previous patches.\n\nAndroid 9 or newer. Updates MES Radio in place and preserves sign-in, settings and voice history. Do not uninstall before updating.\n\nTwo-phone feedback and real-world unstable-network testing remain pending.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.3/mes-radio-1.0.3.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
