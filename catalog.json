@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 17,
-      "versionName": "1.2.11",
+      "versionCode": 19,
+      "versionName": "1.2.13",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "5f30d042f50ab3a1c9bfd3b6ceda718eb4458922a55f6f4584aec8ac116a5716",
-      "size": 3609193,
+      "sha256": "a3f4ee4a7eeb712f9a7169214d2344acf1abcc7e665c0d300a8867c5b3128444",
+      "size": 3618061,
       "name": "MES Store",
       "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "MES Store 1.2.11\n\nApp and tutorial catalogs now load from the company's MES server at https://mes.dhmsc.com.\nAPK and tutorial downloads retain their existing verified distribution links. Cached catalogs and downloaded tutorials remain available offline.\nInstall over MES Store to preserve settings. The package ID and signing certificate are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.11/mes-store-1.2.11.apk"
+      "releaseNotes": "MES Store 1.2.13\n\nMES Radio is now available in the app catalog as a beta.\nFeatured introduces Radio with a dedicated graphite-and-yellow card, five-bar waveform artwork and a direct link to its app page.\nRadio's waveform icon appears in Featured, Apps and app details before installation.\nThe bundled catalog includes Radio for first launch and offline browsing.\n\nIncludes the existing tab navigation improvements. Install over MES Store to preserve settings and downloads. Android 9 or newer; the package ID and release signing key are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.13/mes-store-1.2.13.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
