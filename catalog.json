@@ -16,16 +16,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
-      "versionCode": 5,
-      "versionName": "1.0.1",
+      "versionCode": 6,
+      "versionName": "1.0.2",
       "minSdk": 28,
       "certificateSha256": "bbf9b1cff6be6162ab924e58420940224669958cf876c54c9136340f982bf7fe",
-      "sha256": "b2f048d375eeb74ea02b6a6bc7262d117621f8095778c8028ef6cf93cc6f9f40",
+      "sha256": "fbeaa082dbaa4eb0b681c7f021108aa3e25567bc68be10b328586f40470fbe7b",
       "size": 42359905,
       "name": "MES Radio",
       "description": "Push-to-talk for your MES team. Talk on radio channels and replay received voice.",
-      "releaseNotes": "MES Radio 1.0.1\n\nImproves recovery from temporary network and audio interruptions while keeping your sign-in and selected channel.\nImproves audio-session cleanup and connection credential renewal.\nAdds a saved Mute option for live voice and replay. Mute stays active when the screen turns off and after reconnection; selecting Quiet, Medium or Loud restores listening.\n\nAndroid 9 or newer. Updates MES Radio 1.0.0 in place and preserves sign-in, settings and voice history. Do not uninstall before updating.\n\nTwo-phone feedback and real-world unstable-network testing are still pending. Mute can help when radios are close together; this release does not claim automatic howling cancellation.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.1/mes-radio-1.0.1.apk"
+      "releaseNotes": "MES Radio 1.0.2\n\nRemoves the Mute option so the radio stays available for communication. Choose Quiet, Medium or Loud.\nIf you selected Mute in version 1.0.1, updating restores Medium volume automatically.\nKeeps the connection recovery, audio-session cleanup and credential-renewal improvements from 1.0.1.\n\nAndroid 9 or newer. Updates MES Radio in place and preserves sign-in, settings and voice history. Do not uninstall before updating.\n\nTwo-phone feedback and real-world unstable-network testing remain pending.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.2/mes-radio-1.0.2.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
