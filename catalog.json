@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 19,
-      "versionName": "1.2.13",
+      "versionCode": 20,
+      "versionName": "1.2.14",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "a3f4ee4a7eeb712f9a7169214d2344acf1abcc7e665c0d300a8867c5b3128444",
-      "size": 3618061,
+      "sha256": "d3feb5aa863635ead19796a325070c3c242859e7dd874dc002b3215a55a23360",
+      "size": 3623061,
       "name": "MES Store",
       "description": "Your MES apps and updates, together in one place.",
-      "releaseNotes": "MES Store 1.2.13\n\nMES Radio is now available in the app catalog as a beta.\nFeatured introduces Radio with a dedicated graphite-and-yellow card, five-bar waveform artwork and a direct link to its app page.\nRadio's waveform icon appears in Featured, Apps and app details before installation.\nThe bundled catalog includes Radio for first launch and offline browsing.\n\nIncludes the existing tab navigation improvements. Install over MES Store to preserve settings and downloads. Android 9 or newer; the package ID and release signing key are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.13/mes-store-1.2.13.apk"
+      "releaseNotes": "MES Store 1.2.14\n\nFeatured illustrations now catch a gentle shine after two seconds in view.\nThe light sweeps across the artwork once, then rests until you scroll away and return.\nLeaving Featured, hiding the artwork or backgrounding the app cancels pending and active effects.\nThe effect respects Android's disabled-animation setting and keeps card text and backgrounds unchanged.\n\nIncludes MES Radio beta and its dedicated graphite-and-yellow Featured card.\nInstall over MES Store to preserve settings and downloads. Android 9 or newer; the package ID and release signing key are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.14/mes-store-1.2.14.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
