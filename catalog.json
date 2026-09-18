@@ -16,16 +16,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
-      "versionCode": 3,
-      "versionName": "0.1.0-beta.2",
+      "versionCode": 4,
+      "versionName": "1.0.0",
       "minSdk": 28,
       "certificateSha256": "bbf9b1cff6be6162ab924e58420940224669958cf876c54c9136340f982bf7fe",
-      "sha256": "1d1da7a51cc58fdea1658345b4fd6eb6aaf01b1f74933f6aef5653b21a2d1912",
-      "size": 42335549,
+      "sha256": "a19b162f84601fa29524f5dccd2884faffbc19607ac4cbc6ad103a2108b3d75b",
+      "size": 42335553,
       "name": "MES Radio",
-      "description": "Beta push-to-talk for your MES team. Talk on assigned channels and replay received voice.",
-      "releaseNotes": "MES Radio 0.1.0-beta.2\n\nBeta for MES user sign-in, assigned radio channels, push-to-talk voice and local received-voice replay.\nSign in with your MES user account. Your administrator must assign your radio channels.\nIncludes microphone-on-press capture, speaker volume settings and local voice history for the last 24 hours.\nThe radio service remains active until sign-out. Remembered sign-in details are encrypted on the device.\n\nAndroid 9 or newer. Installs over the existing MES Radio Performance/beta app and preserves settings and real recordings. The package and signing certificate are unchanged.\n\nThis is a field-testing beta. Real speech between two physical devices, extended screen-off operation, network recovery and wired/Bluetooth routing still require field validation. Location and participant information depend on the deployed MES server features.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v0.1.0-beta.2/mes-radio-0.1.0-beta.2.apk"
+      "description": "Push-to-talk for your MES team. Talk on radio channels and replay received voice.",
+      "releaseNotes": "MES Radio 1.0.0\n\nFirst release of MES Radio: MES user sign-in, administrator-managed radio channels, push-to-talk voice and local received-voice replay.\nSign in with your MES user account and choose an available channel. Channel access is managed in MES Mobile App settings.\nIncludes microphone-on-press capture, speaker volume settings and local voice history for the last 24 hours.\nThe radio service remains active until sign-out. Remembered sign-in details are encrypted on the device.\nIncoming voice and replay receive an extra volume boost while the screen is off. Waking the screen restores your saved sound level.\n\nAndroid 9 or newer. Updates the existing MES Radio installation in place and preserves sign-in, settings and voice history. The package and signing certificate are unchanged.\n\nLocation and participant information depend on the deployed MES server features.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.0/mes-radio-1.0.0.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
