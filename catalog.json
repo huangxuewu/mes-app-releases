@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 8,
-      "versionName": "0.1.0-alpha.8",
+      "versionCode": 9,
+      "versionName": "0.1.0-alpha.9",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "bfeb8d584b453e14455bb1d1db901282c14311733675fe5bd50847d4010a2a28",
-      "size": 16444672,
+      "sha256": "d0d5cea74ddaf60794167fab9e0cd7c89323917dcef9c1afae042c2e2dacb26d",
+      "size": 16422092,
       "name": "MES Run Alpha",
       "description": "Supervisor production, staffing and process alerts with a visual floor plan.",
-      "releaseNotes": "MES Run Alpha 8 \u2014 Supervisor Handoff\n\nIf another supervisor finishes the run while you review Setup, the next refresh returns to the production plan. Setup no longer becomes an empty page.\n\nIf another supervisor starts production while you choose a product, the next refresh opens the confirmed running floor and closes the obsolete product picker. The current product, target and lot are preserved; the app does not create another run.\n\nExisting saved setups, staffing warnings, process alerts and lot history remain available. This update also clarifies the documentation for the deployed supervisor alert features and the future inspector/Andon inputs.\n\nUses the isolated sample factory with your existing records and access PIN. Update MES Run Alpha in MES Store and use the PIN supplied privately. Inspector submissions, live Andon signals and physical label-printer integration remain future work.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.8/mes-run-0.1.0-alpha.8.apk"
+      "releaseNotes": "MES Run Alpha 9 \u2014 Readable Navigation\n\nBreadcrumbs now keep the last three short page labels at every text size. When space is tight, the trail moves below the toolbar actions so the current page stays readable. Calendar remains at the top right of the plan, with Lots and Alerts beside it.\n\nThe schedule month heading stays together while week controls wrap below when needed. Weekday buttons announce complete dates and selection to screen readers. The operator/logout arrangement and swipe-to-edit line cards are retained.\n\nVery narrow screens use a date-entry form so dates and buttons stay within the screen. Wider screens keep the calendar grid. Invalid dates cannot be submitted.\n\nTry larger system text, moving between Plan, Setup and Floor, opening Calendar/Lots/Alerts, and changing weeks. Production records are unchanged by navigation.\n\nUses the isolated sample factory with your existing records and access PIN. Update MES Run Alpha in MES Store and use the PIN supplied privately. Inspector submissions, live Andon signals and physical label-printer integration remain future work.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.9/mes-run-0.1.0-alpha.9.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
