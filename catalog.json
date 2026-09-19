@@ -28,6 +28,19 @@
       "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.6/mes-radio-1.0.6.apk"
     },
     {
+      "packageName": "com.advancebusinesscare.mes.run",
+      "versionCode": 1,
+      "versionName": "0.1.0-alpha.1",
+      "minSdk": 28,
+      "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
+      "sha256": "198a243fac174264f6b2894d3b64a8728b31ae9b29bfc7c16bcff851e42e906b",
+      "size": 16235608,
+      "name": "MES Run Alpha",
+      "description": "Plan pillow production, assign your team, and track each production lot. Alpha testing with isolated sample data.",
+      "releaseNotes": "MES Run Alpha 1 \u00b7 0.1.0-alpha.1\n\nFirst hands-on supervisor alpha using an isolated sample factory. Changes affect sample data only. Sign in with the sample supervisor PIN provided separately; your normal MES PIN does not apply.\n\nTry the daily flow: select a line and production plan, review materials and machine parameters, assign staff on the floor, then start production. Stop requires Planned or Unplanned and a reason. Restarting or saving staff, material or parameter changes creates a new lot.\n\nIncludes line/step configuration, 13 machine illustrations plus Automatic, five overlock sewing positions, staff attendance badges, staffing warnings, horizontal card snapping, pull-down refresh, short breadcrumbs, saved setup recovery and lot history.\n\nThe sample server is available through HTTPS. Sample schedules and attendance roll forward each day while your line edits and production history remain saved. Android 9 or newer.\n\nOutput counts the first confirmed successful pallet-label print. Physical label printing is not connected in this alpha, so starts and stops alone do not increase output. QC, Andon and the inspector app remain under design and are not included as working features.\n\nPlease check one-handed use, text size, vertical scrolling, card snapping and vibration, avatar selection, the start/stop flow, and reopening unfinished setup after closing the app. Share the screen and steps if something is confusing or fails.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.1/mes-run-0.1.0-alpha.1.apk"
+    },
+    {
       "packageName": "com.advancebusinesscare.mes.appstore",
       "versionCode": 22,
       "versionName": "1.2.16",
