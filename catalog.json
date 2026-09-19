@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 2,
-      "versionName": "0.1.0-alpha.2",
+      "versionCode": 3,
+      "versionName": "0.1.0-alpha.3",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "0724d69c01f01c044d6046cdeb9fe9edc59ef4d8ace0b6773102a5bd49234721",
-      "size": 16284760,
+      "sha256": "6c55c306b0ade5f6170af1968644794db56954db6210dfc292944f68d58f26d8",
+      "size": 16301144,
       "name": "MES Run Alpha",
       "description": "Supervisor production, staff and step issue configuration with isolated sample data.",
-      "releaseNotes": "MES Run Alpha 2 \u2014 Step Issue Configuration\n\nUses the isolated sample factory. Your existing sample runs, line edits and sign-in PIN are retained.\n\nTry Edit \u2192 choose a line \u2192 Issues on a production step. Add or edit a reason, choose Whole Step or a specific position, set severity, and select QC, Andon or Manual reporting. Publishing and retiring preserve earlier versions in the database. Saving recovers safely after a lost response.\n\nIncludes sample reasons for bad sewing closure, pillow underweight and a stopped machine. Positions now have permanent identities for future QC/Andon interaction.\n\nThis alpha configures reasons only. Inspector input, live Andon signals, native issue alerts and physical label-printer integration are not connected yet. Production output still depends on confirmed pallet-label printing.\n\nInstall through MES Store. Use the sample supervisor PIN supplied privately.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.2/mes-run-0.1.0-alpha.2.apk"
+      "releaseNotes": "MES Run Alpha 3 \u2014 Swipe to Edit Lines\n\nThe first page now shows the signed-in operator beside the logout icon at the far right. The top Edit button has been removed.\n\nSwipe a production-line card left or right to reveal Edit. Tap Edit to configure that line, including its machine artwork, staffing, process rows and issue reasons. A normal tap still opens production. Tap an exposed card or press Back to close the edit action. Vertical scrolling and pull-to-refresh remain available.\n\nUses the same isolated sample factory. Your sample records and supervisor PIN are retained.\n\nInspector input, live Andon signals, native incident alerts and physical label-printer integration remain unfinished. This update changes line navigation; it does not deploy the alert backend currently under development.\n\nUpdate MES Run Alpha through MES Store and use the sample supervisor PIN supplied privately.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.3/mes-run-0.1.0-alpha.3.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
