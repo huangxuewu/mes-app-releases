@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 7,
-      "versionName": "0.1.0-alpha.7",
+      "versionCode": 8,
+      "versionName": "0.1.0-alpha.8",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "e2602cf01e391ba4944e760de3fbbb8e2a81ca13c773c5760fff65de9b953152",
-      "size": 16444676,
+      "sha256": "bfeb8d584b453e14455bb1d1db901282c14311733675fe5bd50847d4010a2a28",
+      "size": 16444672,
       "name": "MES Run Alpha",
       "description": "Supervisor production, staffing and process alerts with a visual floor plan.",
-      "releaseNotes": "MES Run Alpha 7 \u2014 Actionable Staffing Warnings\n\nTap a floor aisle warning to see the staffing needs and process alerts for that row. The overview includes steps hidden to the side, each with its avatars, minimum staffing and alert count. View Alerts opens only that step's process alerts.\n\nChange an assignment from the overview and return to it automatically. Staffing updates immediately after confirmation. An assignment change during production creates a new lot; changes before Start remain in the saved setup. Fixing staffing does not clear a separate process alert.\n\nIf an assignment save is not confirmed, Retry is available in the overview and checks the original action without creating a duplicate lot. The panel scrolls for enlarged text and small screens.\n\nUses the isolated sample factory with your existing test records and supervisor PIN. Update MES Run Alpha in MES Store and use the access PIN supplied privately.\n\nInspector submissions, live Andon signals and physical label-printer integration remain future work. Printing in automated tests is simulated.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.7/mes-run-0.1.0-alpha.7.apk"
+      "releaseNotes": "MES Run Alpha 8 \u2014 Supervisor Handoff\n\nIf another supervisor finishes the run while you review Setup, the next refresh returns to the production plan. Setup no longer becomes an empty page.\n\nIf another supervisor starts production while you choose a product, the next refresh opens the confirmed running floor and closes the obsolete product picker. The current product, target and lot are preserved; the app does not create another run.\n\nExisting saved setups, staffing warnings, process alerts and lot history remain available. This update also clarifies the documentation for the deployed supervisor alert features and the future inspector/Andon inputs.\n\nUses the isolated sample factory with your existing records and access PIN. Update MES Run Alpha in MES Store and use the PIN supplied privately. Inspector submissions, live Andon signals and physical label-printer integration remain future work.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.8/mes-run-0.1.0-alpha.8.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
