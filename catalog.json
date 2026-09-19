@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 17,
-      "versionName": "0.1.0-beta.6",
+      "versionCode": 18,
+      "versionName": "0.1.0-beta.7",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "54e27b04f1454eec44c03073fa3e5d800d4b1140cc4ff5114e9c636f48e02a99",
-      "size": 16167828,
+      "sha256": "29917d28eb3b3951ff485dc303681ab1c9b4492f5b4ff0490e4851cc629fbfe9",
+      "size": 16184212,
       "name": "MES Run Beta",
       "description": "Run production, coordinate staff, and follow line progress using isolated sample data.",
-      "releaseNotes": "MES Run Beta 6 - Employee Selection\n\nThe employee picker uses the step name without a position number and keeps the current assignee first. An employee already assigned elsewhere shows the step they belong to and remains unavailable for duplicate assignment.\n\nSearch ignores accidental spaces, explains when there are no matching employees and keeps None available. The heading, search and results can scroll while the keyboard is open, including at enlarged text sizes. Avatar initials fit inside their circles while employee names scale with the text setting. Attendance remains an avatar badge with accessible status, without repeated status labels.\n\nSelecting the same employee after a display-name update no longer sends an unnecessary reassignment request. Saved lot names remain historical snapshots. Actual employee changes still create a new lot during production.\n\nThe sample factory, existing data, package and private supervisor PIN are unchanged. No API or schema change is needed. The pallet and forklift cutouts are still under artwork review and are not included in this release.\n\nTesting limitation: focused native checks use the debug package on an emulator. Signed release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. The full Android lifecycle suite was not rerun. Physical label-printer integration, inspector submissions and live Andon inputs remain future work.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.6/mes-run-0.1.0-beta.6.apk"
+      "releaseNotes": "MES Run Beta 7 - Pallet Print History\n\nOpen Lots, choose a lot, then Output and View Prints. Each pallet now shows its saved packaging and quantity, first confirmed print, printer names and earlier attempts. Pending, submitted, confirmed and failed attempts remain distinct. Reprints count once; voided pallets show their original confirmation and void reason while remaining excluded from production count.\n\nThe detail sheet scrolls at enlarged text sizes and keeps Output selected when dismissed. Older print pages remain stable when a new reprint is added. Viewing history cannot print a label or change production.\n\nFor hands-on testing, search Lots for SAMPLE-PRINT-REVIEW on Hayes Garnet. Pallet Print Review (Sample) contains four simulated pallets: a counted pallet with a failed reprint, one awaiting confirmation, one failed print and one voided pallet. Only 24 pieces count. No physical labels were printed. This completed, unscheduled example is separate from the active run and scheduled totals. Original sample records and your private PIN are unchanged.\n\nTesting: ten backend checks, 31 model tests, four focused native checks and two enlarged-text repeats passed. Hosted sample authentication, isolation and all four pallet histories passed. The publisher verifies the downloadable APK checksum.\n\nTesting limitation: native tests use the debug package on an emulator. Signed-release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. The full Android production lifecycle suite was not rerun. Physical printer integration, inspector submissions and live Andon inputs remain future work.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.7/mes-run-0.1.0-beta.7.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
