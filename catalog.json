@@ -16,16 +16,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
-      "versionCode": 9,
-      "versionName": "1.0.5",
+      "versionCode": 10,
+      "versionName": "1.0.6",
       "minSdk": 28,
       "certificateSha256": "bbf9b1cff6be6162ab924e58420940224669958cf876c54c9136340f982bf7fe",
-      "sha256": "21257407fa31ceafa61b38f04518defe1ff9eb3f782e9386085c3b437bfedebd",
-      "size": 42376289,
+      "sha256": "93dedaba6c9a4dc2401637f7f5e40ab0a62b7b092e6555123bdb29ebbd047e21",
+      "size": 42392673,
       "name": "MES Radio",
       "description": "Push-to-talk for your MES team. Talk on radio channels and replay received voice.",
-      "releaseNotes": "MES Radio 1.0.5\n\nSteadier participant avatars with approximate location: ignores location noise within the reported accuracy and limits sudden relative movement.\nPhones travelling together no longer shift the radar relationship just because one phone's next fix arrives first. Real movement updates gradually; missing or stale locations remain unavailable.\nBroadcast settings now show only All channels. Broadcast priority and assigned speaker permissions are unchanged.\n\nSelect Broadcast to speak to every joined channel. Broadcast has highest priority and interrupts ordinary channel speech.\nListeners remain on their selected channel and receive Broadcast automatically. Ordinary Talk is unavailable during Broadcast; interrupted speakers must release and press again afterward.\nBroadcast announcements retain the yellow history cards and speaker badges in the receiving channel's history.\nExisting assigned Broadcast speaker permissions still apply.\nKeeps the connection recovery improvements and Quiet, Medium and Loud listening levels from previous patches.\n\nAndroid 9 or newer. Updates MES Radio in place and preserves sign-in, settings and voice history. Do not uninstall before updating.\n\nTwo-phone feedback and real-world unstable-network testing remain pending.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.5/mes-radio-1.0.5.apk"
+      "releaseNotes": "MES Radio 1.0.6\n\nBroadcast now uses a compact speaker toggle while your normal channel stays selected. All channels shows the total online headcount. The yellow icon has no button background; users without permission see a gray speaker with a ban badge.\nBroadcast mode adds a soft yellow inner edge glow and Hold to broadcast. While transmitting, the glow grows with microphone loudness and settles during pauses instead of pulsing on a timer. Reduced-motion settings keep a steady glow.\nBroadcast speaker assignments and global priority remain enforced by the server.\n\nSteadier participant avatars with approximate location: ignores location noise within the reported accuracy and limits sudden relative movement.\nPhones travelling together no longer shift the radar relationship just because one phone's next fix arrives first. Real movement updates gradually; missing or stale locations remain unavailable.\nBroadcast settings now show only All channels. Broadcast priority and assigned speaker permissions are unchanged.\n\nEnable the Broadcast speaker to speak to every joined channel. Broadcast has highest priority and interrupts ordinary channel speech.\nListeners remain on their selected channel and receive Broadcast automatically. Ordinary Talk is unavailable during Broadcast; interrupted speakers must release and press again afterward.\nBroadcast announcements retain the yellow history cards and speaker badges in the receiving channel's history.\nExisting assigned Broadcast speaker permissions still apply.\nKeeps the connection recovery improvements and Quiet, Medium and Loud listening levels from previous patches.\n\nAndroid 9 or newer. Updates MES Radio in place and preserves sign-in, settings and voice history. Do not uninstall before updating.\n\nTwo-phone feedback and real-world unstable-network testing remain pending.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.6/mes-radio-1.0.6.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
