@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 16,
-      "versionName": "0.1.0-beta.5",
+      "versionCode": 17,
+      "versionName": "0.1.0-beta.6",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "6b8f6e9d7ff70217f283572fbaeb5b34815713dbbd1c47d445f99cdd45435361",
+      "sha256": "54e27b04f1454eec44c03073fa3e5d800d4b1140cc4ff5114e9c636f48e02a99",
       "size": 16167828,
       "name": "MES Run Beta",
       "description": "Run production, coordinate staff, and follow line progress using isolated sample data.",
-      "releaseNotes": "MES Run Beta 5 - Compare Production Lots\n\nOpen Lots, select a lot and tap Changes to see staff, raw-material batches and machine parameters before and after the change. Only changed fields appear. The comparison uses the preceding saved lot in the same production run, including older and finished production.\n\nEmployee changes follow saved position and employee identities. Material comparisons preserve multiple batches and repeated entries. Original parameter names, values and units remain exact. Empty values and removed fields have distinct labels. The first lot explains its starting setup; a restart with identical snapshots shows no setup changes.\n\nThe new view scrolls at enlarged text sizes. Details, Events and confirmed pallet Output remain available. Viewing changes performs no production action and cannot create a new lot or alter production count.\n\nThe isolated sample factory, existing records, app identity and private supervisor PIN are unchanged. No schema migration or sample-data reset was needed.\n\nTesting limitation: native checks use the debug package on an emulator. Signed release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. The full Android lifecycle suite was not rerun. Physical label-printer integration, inspector submissions and live Andon inputs remain future work.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.5/mes-run-0.1.0-beta.5.apk"
+      "releaseNotes": "MES Run Beta 6 - Employee Selection\n\nThe employee picker uses the step name without a position number and keeps the current assignee first. An employee already assigned elsewhere shows the step they belong to and remains unavailable for duplicate assignment.\n\nSearch ignores accidental spaces, explains when there are no matching employees and keeps None available. The heading, search and results can scroll while the keyboard is open, including at enlarged text sizes. Avatar initials fit inside their circles while employee names scale with the text setting. Attendance remains an avatar badge with accessible status, without repeated status labels.\n\nSelecting the same employee after a display-name update no longer sends an unnecessary reassignment request. Saved lot names remain historical snapshots. Actual employee changes still create a new lot during production.\n\nThe sample factory, existing data, package and private supervisor PIN are unchanged. No API or schema change is needed. The pallet and forklift cutouts are still under artwork review and are not included in this release.\n\nTesting limitation: focused native checks use the debug package on an emulator. Signed release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. The full Android lifecycle suite was not rerun. Physical label-printer integration, inspector submissions and live Andon inputs remain future work.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.6/mes-run-0.1.0-beta.6.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
