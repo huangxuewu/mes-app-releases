@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 13,
-      "versionName": "0.1.0-beta.2",
+      "versionCode": 14,
+      "versionName": "0.1.0-beta.3",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "0e9560e1cd415311dfd548e67e3bf3d9f45d9e9e96f970e707e8b98eb5e663bc",
+      "sha256": "077805387f3f1510c07620b46e7268066e40803c6efc0e4c89590efb758b13bc",
       "size": 16151444,
       "name": "MES Run Beta",
       "description": "Run production, coordinate staff, and follow line progress using isolated sample data.",
-      "releaseNotes": "MES Run Beta 2 - Clearer Machine Profile Selection\n\nProduction setup uses a compact Machine profile selector. Search by name or description; review the configured output rate and parameter count before choosing a profile.\n\nSelecting the current profile keeps your edited settings. Switching profiles asks before replacing edits. Use profile defaults explicitly restores saved settings. A profile changed elsewhere must be reviewed again before it can replace your settings.\n\nLine Speed and Fill Weight show Not configured when an explicit value is blank. Open Parameters for the full list and descriptions.\n\nThe isolated sample factory includes Firm Pillow (Sample) alongside the existing profile, so you can try switching and restoring settings. Existing production, staff assignments, lots and the private supervisor PIN are preserved. All machine artwork and the Fiber Opening Machine from Beta 1 remain included.\n\nTesting limitation: focused native tests use the debug package on an emulator. Signed release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. Full Android production lifecycle tests were not rerun. Physical label-printer integration, inspector submissions and live Andon inputs remain future work.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.2/mes-run-0.1.0-beta.2.apk"
+      "releaseNotes": "MES Run Beta 3 - Review Parameter Changes\n\nLong machine-profile lists now support search by parameter name or description. Tap Changed to review edited fields together, with each previous value shown beside the edit. Saving retains every parameter, including fields hidden by search.\n\nThe editor heading scrolls with the form, leaving space for the active field above the keyboard. Save remains visible at the bottom. Configured MES parameter names are preserved exactly.\n\nReordering unchanged raw materials no longer offers a new lot or sends an unnecessary production command. Material search now explains when there are no matches and requires a name for manual entry. Real batch and parameter changes continue to create new lots during production.\n\nChoose Parameter Review (Sample) in production setup to try eight mock controls. Existing profiles, production records, app identity and the private sample supervisor PIN are preserved.\n\nTesting limitation: focused native checks use the debug package on an emulator. Signed release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. The complete Android lifecycle suite was not rerun. Physical label-printer integration, inspector submissions and live Andon inputs remain future work.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.3/mes-run-0.1.0-beta.3.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
