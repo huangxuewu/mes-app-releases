@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 12,
-      "versionName": "0.1.0-beta.1",
+      "versionCode": 13,
+      "versionName": "0.1.0-beta.2",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "06564dbdffdc0d47847860c5aa7784525efbd89a3f7fc3e4812d894f3a273ad1",
-      "size": 16135060,
+      "sha256": "0e9560e1cd415311dfd548e67e3bf3d9f45d9e9e96f970e707e8b98eb5e663bc",
+      "size": 16151444,
       "name": "MES Run Beta",
       "description": "Run production, coordinate staff, and follow line progress using isolated sample data.",
-      "releaseNotes": "MES Run Beta 1 - Production Setup and Floor\n\nThe supervisor section spans the floor width. Scroll up to reduce it to a compact Supervisor - Name row; scroll back to restore the avatar and machine picture. The production pathway begins below it, and production cards stop before the aisle.\n\nMaterials is now Raw Materials. The setup parameter hint shows only Line Speed and Fill Weight with their configured units. Open Parameters for all saved MES line-profile settings and descriptions.\n\nFiber Opening Machine replaces the duplicate Carding Machine - Wide picture. Machine selectors, input fields, buttons and card borders use consistent styling.\n\nStop-reason tags fill in complete editable sentences. Choose from eight planned and ten unplanned options. The line swipe hint is removed; swipe a production line left or right to reveal Edit.\n\nUses the existing isolated sample factory and private supervisor access. Existing sample production and app identity are preserved. Inspector submissions, live Andon signals and physical label-printer integration remain future work.\n\nTesting limitation: the native debug build was checked on an emulator. Installation of this signed release and installation through MES Store have not been verified because automatic approval review blocked those checks. This beta is provided for hands-on testing.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.1/mes-run-0.1.0-beta.1.apk"
+      "releaseNotes": "MES Run Beta 2 - Clearer Machine Profile Selection\n\nProduction setup uses a compact Machine profile selector. Search by name or description; review the configured output rate and parameter count before choosing a profile.\n\nSelecting the current profile keeps your edited settings. Switching profiles asks before replacing edits. Use profile defaults explicitly restores saved settings. A profile changed elsewhere must be reviewed again before it can replace your settings.\n\nLine Speed and Fill Weight show Not configured when an explicit value is blank. Open Parameters for the full list and descriptions.\n\nThe isolated sample factory includes Firm Pillow (Sample) alongside the existing profile, so you can try switching and restoring settings. Existing production, staff assignments, lots and the private supervisor PIN are preserved. All machine artwork and the Fiber Opening Machine from Beta 1 remain included.\n\nTesting limitation: focused native tests use the debug package on an emulator. Signed release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. Full Android production lifecycle tests were not rerun. Physical label-printer integration, inspector submissions and live Andon inputs remain future work.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.2/mes-run-0.1.0-beta.2.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
