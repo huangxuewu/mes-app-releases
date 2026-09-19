@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 5,
-      "versionName": "0.1.0-alpha.5",
+      "versionCode": 6,
+      "versionName": "0.1.0-alpha.6",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "045fe5884415940915c40850503bb9ba586d1372c0a8c255ce302e2b8ab52634",
-      "size": 16395520,
+      "sha256": "e937b695e89aeca75eb7ca566c1f52f81fe58789f2f43d0013dcbded02d8f3cb",
+      "size": 16428292,
       "name": "MES Run Alpha",
       "description": "Supervisor production, staffing and process alerts with a visual floor plan.",
-      "releaseNotes": "MES Run Alpha 5 \u2014 Floor Readability\n\nThe floor remains usable with larger Android text. At large text sizes or on a short screen, the production summary and Materials/Parameters controls scroll with the floor. Start, Stop and Restart stay available at the bottom.\n\nOutput and lot numbers have room to wrap cleanly. Long stop reasons have a compact preview; tap it to read the full reason and its Planned/Unplanned classification. Viewing the details does not change production or create a lot.\n\nLarge-text screens use fewer breadcrumb labels to keep the current page visible. Alert badges become dots when enlarged counts would crowd their icons; the alert list and screen-reader descriptions retain the counts. Buttons accommodate enlarged labels.\n\nUses the same isolated sample factory, existing sample records and supervisor PIN. Update MES Run Alpha through MES Store.\n\nInspector submissions, live Andon inputs and physical label-printer integration remain future work.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.5/mes-run-0.1.0-alpha.5.apk"
+      "releaseNotes": "MES Run Alpha 6 \u2014 Lot History\n\nOpen Lots from either the production plan or the floor, including after a run finishes. Browse older lots or find one by its complete lot number.\n\nDetails show the staff, materials and machine parameters saved when that lot began. Events show changes, planned/unplanned stops and their full reasons. Output shows pallet registrations and confirmed label quantities, including pending or failed prints. A failed reprint keeps the original confirmed output counted once.\n\nPull down to refresh while keeping the selected lot and page. The calendar remains at the top right of the plan screen. Swipe-to-edit lines and the approved artwork are retained.\n\nUses the isolated sample factory with your existing test records and supervisor PIN. Update MES Run Alpha in MES Store and use the access PIN supplied privately.\n\nInspector submissions, live Andon signals and physical label-printer integration remain future work. Printing in local automated tests is simulated; this update does not connect a physical printer.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.6/mes-run-0.1.0-alpha.6.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
