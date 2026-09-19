@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 14,
-      "versionName": "0.1.0-beta.3",
+      "versionCode": 15,
+      "versionName": "0.1.0-beta.4",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "077805387f3f1510c07620b46e7268066e40803c6efc0e4c89590efb758b13bc",
-      "size": 16151444,
+      "sha256": "5decbd4f8b8d86733ec9ff47a6b557953ac54d304c950c5c9a6bc4af47f68fb9",
+      "size": 16167824,
       "name": "MES Run Beta",
       "description": "Run production, coordinate staff, and follow line progress using isolated sample data.",
-      "releaseNotes": "MES Run Beta 3 - Review Parameter Changes\n\nLong machine-profile lists now support search by parameter name or description. Tap Changed to review edited fields together, with each previous value shown beside the edit. Saving retains every parameter, including fields hidden by search.\n\nThe editor heading scrolls with the form, leaving space for the active field above the keyboard. Save remains visible at the bottom. Configured MES parameter names are preserved exactly.\n\nReordering unchanged raw materials no longer offers a new lot or sends an unnecessary production command. Material search now explains when there are no matches and requires a name for manual entry. Real batch and parameter changes continue to create new lots during production.\n\nChoose Parameter Review (Sample) in production setup to try eight mock controls. Existing profiles, production records, app identity and the private sample supervisor PIN are preserved.\n\nTesting limitation: focused native checks use the debug package on an emulator. Signed release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. The complete Android lifecycle suite was not rerun. Physical label-printer integration, inspector submissions and live Andon inputs remain future work.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.3/mes-run-0.1.0-beta.3.apk"
+      "releaseNotes": "MES Run Beta 4 - Keep Unfinished Edits\n\nParameters, Raw Materials and Stop/Finish editors now protect unfinished changes when you press Back, tap outside, swipe down or use the accessibility dismiss action. Keep editing retains your values; Discard closes without submitting changes. Unchanged editors still close normally.\n\nTapping the selected Planned or Unplanned tag keeps the current reason. Replacing custom wording with another reason or stop type asks first. Switching between unedited preset reasons remains immediate. Finishing a run preserves its existing stop reason unless you change it.\n\nThe app keeps the existing sample factory, profiles, app identity and private supervisor PIN. No schema change or sample-data reset is required.\n\nTesting limitation: focused native checks use the debug package on an emulator. Signed release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. The complete Android lifecycle suite was not rerun. Physical label-printer integration, inspector submissions and live Andon inputs remain future work.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.4/mes-run-0.1.0-beta.4.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
