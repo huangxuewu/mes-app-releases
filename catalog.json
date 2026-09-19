@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 4,
-      "versionName": "0.1.0-alpha.4",
+      "versionCode": 5,
+      "versionName": "0.1.0-alpha.5",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "99e4cff31e6681186e83e4713640c421ac9776a9bc098c5cf31d83f1fd77617c",
-      "size": 16383064,
+      "sha256": "045fe5884415940915c40850503bb9ba586d1372c0a8c255ce302e2b8ab52634",
+      "size": 16395520,
       "name": "MES Run Alpha",
-      "description": "Supervisor production, staffing and process alerts using an isolated sample factory.",
-      "releaseNotes": "MES Run Alpha 4 \u2014 Production Alerts\n\nReport a station issue from the floor or plan. Choose a configured supervisor reason to capture its affected step or position, severity and required verification. Floor markers open that production row's alerts; the toolbar opens all process alerts and separate lot findings.\n\nAcknowledge an issue, record a correction, then verify and resolve it when supervisor verification is allowed. Acknowledging keeps the warning visible. New observations prevent an older verification from clearing the issue and preserve your typed notes for review. Response history records who did what and when.\n\nReports keep their original lot. If production changes while a report is open, review the current process or keep the finding with its original lot. Exact lot lookup includes older production. Lot findings do not flag the current floor. Alert actions do not create production lots or change output.\n\nUses the same isolated sample factory. Your sample history and supervisor PIN are retained. Update MES Run Alpha in MES Store and use the PIN supplied privately.\n\nInspector submissions, live Andon signals and physical label-printer integration remain unfinished. Reasons requiring a QC recheck stay open until recorded QC evidence is supported. These supervisor reports do not control machines or replace a QC inspection.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.4/mes-run-0.1.0-alpha.4.apk"
+      "description": "Supervisor production, staffing and process alerts with a visual floor plan.",
+      "releaseNotes": "MES Run Alpha 5 \u2014 Floor Readability\n\nThe floor remains usable with larger Android text. At large text sizes or on a short screen, the production summary and Materials/Parameters controls scroll with the floor. Start, Stop and Restart stay available at the bottom.\n\nOutput and lot numbers have room to wrap cleanly. Long stop reasons have a compact preview; tap it to read the full reason and its Planned/Unplanned classification. Viewing the details does not change production or create a lot.\n\nLarge-text screens use fewer breadcrumb labels to keep the current page visible. Alert badges become dots when enlarged counts would crowd their icons; the alert list and screen-reader descriptions retain the counts. Buttons accommodate enlarged labels.\n\nUses the same isolated sample factory, existing sample records and supervisor PIN. Update MES Run Alpha through MES Store.\n\nInspector submissions, live Andon inputs and physical label-printer integration remain future work.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.5/mes-run-0.1.0-alpha.5.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
