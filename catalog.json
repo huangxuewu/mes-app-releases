@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 9,
-      "versionName": "0.1.0-alpha.9",
+      "versionCode": 10,
+      "versionName": "0.1.0-alpha.10",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "d0d5cea74ddaf60794167fab9e0cd7c89323917dcef9c1afae042c2e2dacb26d",
-      "size": 16422092,
+      "sha256": "55636b092e817b7ce01a31879fae80443532018a4d477b9fd2779f4043b94d57",
+      "size": 16468112,
       "name": "MES Run Alpha",
       "description": "Supervisor production, staffing and process alerts with a visual floor plan.",
-      "releaseNotes": "MES Run Alpha 9 \u2014 Readable Navigation\n\nBreadcrumbs now keep the last three short page labels at every text size. When space is tight, the trail moves below the toolbar actions so the current page stays readable. Calendar remains at the top right of the plan, with Lots and Alerts beside it.\n\nThe schedule month heading stays together while week controls wrap below when needed. Weekday buttons announce complete dates and selection to screen readers. The operator/logout arrangement and swipe-to-edit line cards are retained.\n\nVery narrow screens use a date-entry form so dates and buttons stay within the screen. Wider screens keep the calendar grid. Invalid dates cannot be submitted.\n\nTry larger system text, moving between Plan, Setup and Floor, opening Calendar/Lots/Alerts, and changing weeks. Production records are unchanged by navigation.\n\nUses the isolated sample factory with your existing records and access PIN. Update MES Run Alpha in MES Store and use the PIN supplied privately. Inspector submissions, live Andon signals and physical label-printer integration remain future work.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.9/mes-run-0.1.0-alpha.9.apk"
+      "releaseNotes": "MES Run Alpha 10 - MES Announcements and Floor Refinements\n\nThe signed-in Alpha / Sample Data row is replaced by a slim MES announcement strip. Current messages scroll horizontally; tap to read the full text. The strip disappears when there are no available messages. Announcement targeting and publishing dates come from MES.\n\nProduction-step cards now stop before the floor pathway, with thin borders and no shadows. The first supervisor card remains full width. Materials and Parameters buttons have smaller corners, and machine selectors match the editor input fields.\n\nUses the isolated sample factory, identified on sign-in. Existing sample supervisor access and saved test production are preserved. No sample announcement is automatically published. Inspector submissions, live Andon signals and physical label-printer integration remain future work.\n\nTest line editing, swipe through floor cards and check the clear pathway. Where an announcement is available, tap it to read the complete message. Public release notes do not contain the private test PIN.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-alpha.10/mes-run-0.1.0-alpha.10.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
