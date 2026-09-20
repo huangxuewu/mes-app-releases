@@ -16,16 +16,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
-      "versionCode": 10,
-      "versionName": "1.0.6",
+      "versionCode": 11,
+      "versionName": "1.0.7",
       "minSdk": 28,
       "certificateSha256": "bbf9b1cff6be6162ab924e58420940224669958cf876c54c9136340f982bf7fe",
-      "sha256": "93dedaba6c9a4dc2401637f7f5e40ab0a62b7b092e6555123bdb29ebbd047e21",
+      "sha256": "aa54b23d42bb0d34912b7c1b462de755800d598a412b46eefb082818a82c864f",
       "size": 42392673,
       "name": "MES Radio",
       "description": "Push-to-talk for your MES team. Talk on radio channels and replay received voice.",
-      "releaseNotes": "MES Radio 1.0.6\n\nBroadcast now uses a compact speaker toggle while your normal channel stays selected. All channels shows the total online headcount. The yellow icon has no button background; users without permission see a gray speaker with a ban badge.\nBroadcast mode adds a soft yellow inner edge glow and Hold to broadcast. While transmitting, the glow grows with microphone loudness and settles during pauses instead of pulsing on a timer. Reduced-motion settings keep a steady glow.\nBroadcast speaker assignments and global priority remain enforced by the server.\n\nSteadier participant avatars with approximate location: ignores location noise within the reported accuracy and limits sudden relative movement.\nPhones travelling together no longer shift the radar relationship just because one phone's next fix arrives first. Real movement updates gradually; missing or stale locations remain unavailable.\nBroadcast settings now show only All channels. Broadcast priority and assigned speaker permissions are unchanged.\n\nEnable the Broadcast speaker to speak to every joined channel. Broadcast has highest priority and interrupts ordinary channel speech.\nListeners remain on their selected channel and receive Broadcast automatically. Ordinary Talk is unavailable during Broadcast; interrupted speakers must release and press again afterward.\nBroadcast announcements retain the yellow history cards and speaker badges in the receiving channel's history.\nExisting assigned Broadcast speaker permissions still apply.\nKeeps the connection recovery improvements and Quiet, Medium and Loud listening levels from previous patches.\n\nAndroid 9 or newer. Updates MES Radio in place and preserves sign-in, settings and voice history. Do not uninstall before updating.\n\nTwo-phone feedback and real-world unstable-network testing remain pending.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.6/mes-radio-1.0.6.apk"
+      "releaseNotes": "MES Radio 1.0.7\n\nLive speech gets progressively quieter when the speaker is estimated to be within 5 meters. At 5 meters or beyond, it uses your saved Quiet, Medium or Loud level. Live speech is reduced, not fully muted.\nRecordings keep their original audio, and Replay plays at your saved listening level regardless of how close the speaker was.\nWorks for regular channels and Broadcast. A nearby-speaker status explains when live volume is lowered.\n\nBoth phones must enable location sharing and have fresh positions reporting accuracy of 5 meters or better. Missing, old or imprecise positions leave live volume unchanged. Location remains an estimate, and sharing stops when the app leaves the foreground; this does not guarantee feedback prevention. Two-phone proximity and acoustic testing remain pending.\n\nKeeps the Broadcast speaker toggle, speech-reactive glow, radar stabilization and connection recovery from previous releases.\nAndroid 9 or newer. Updates MES Radio in place and preserves sign-in, settings and voice history. Do not uninstall before updating.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.7/mes-radio-1.0.7.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
