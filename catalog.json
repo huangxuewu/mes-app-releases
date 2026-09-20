@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 22,
-      "versionName": "0.1.0-beta.11",
+      "versionCode": 23,
+      "versionName": "0.1.0-beta.12",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "c204b6974781d68cda3a3b756975e6a743463599b12bde707bc99c3ac46cfa42",
-      "size": 21275792,
+      "sha256": "a7a61a551526dd7e77b2cb2eca45dd9221d39c85d653d9ac470b81e220b66104",
+      "size": 24830516,
       "name": "MES Run Beta",
       "description": "Run production, coordinate MES staff, and follow line progress in an isolated test environment.",
-      "releaseNotes": "MES Run Beta 11 - Staff, Floor Review and Machine Artwork\n\nUse actual MES employees, portraits, line assignments and attendance. Hayes retains its 20-position layout; Hai Jing now uses its five production steps. Production Team 1 is linked to Hayes and Team 2 to Hai Jing. Production commands, quantities, materials and machine parameters remain in the isolated sample environment. Existing production history is preserved.\n\nReview shows before/after avatars, staffing changes and shortages. The line editor adds Sort with drag handles, Same Row synchronized steps, delete and Undo; Available Positions replaces Positions. Production-line cards show machine status after saving. The machine picker includes Auto Weight Blown Fill Machine, Forklift, Boxes on Pallet and Forklift with Pallet, plus the updated Pillow Stuffer and Needle Detector illustrations.\n\nUpdate MES Run Beta in MES Store and sign in again using the same private test PIN. Existing sample supervisor sessions are retired. Review saved setups against the refreshed staff and layout before starting. MES Run continues to focus on production records; pallet label printing belongs to a separate app.\n\nSigned build, 41 Android model checks, 21 backend checks and 17 desktop store checks passed. Native checks cover floor review, sorting, save recovery, conflicts and the new artwork. Hosted checks verify read-only MES reference permissions, matching staff/attendance, team routing and unchanged production-history hashes. The publisher verifies the downloadable APK checksum.\n\nSigned-release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. The complete API-driven Android production lifecycle was not rerun. Physical printing, inspector submissions and live Andon inputs are outside this release.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.11/mes-run-0.1.0-beta.11.apk"
+      "releaseNotes": "MES Run Beta 12 - Machine Library and MES Parameters\n\nThe machine picker now includes Clamp Shell Suck Fill Machine, Pallet Hand Wrap and Pallet Machine Wrap, plus the revised Box Sealing Machine. Fiber Feeding Machine is the updated name for the yellow-conveyor figure. One Overlock Sewing option remains. All 19 figures can be selected independently for lines and production steps.\n\nMachine profiles now follow the MES line configuration. Hayes has eight profiles with their configured descriptions and 19 settings each; Hai Jing currently has no configured profiles. Choose a profile explicitly when more than one is available. Production setup shows Line Speed and Fill Weight; Parameters shows the full settings. Each new run preserves its selected profile metadata, and changing running settings creates a new lot while retaining earlier history.\n\nUpdate MES Run Beta in MES Store and use the existing test PIN. Try the new pictures in Swipe Line > Edit, then review profile selection and parameter details before starting a sample run. Employee references, attendance and product identities remain linked to MES. Production commands, quantities, raw materials and product fill weights remain isolated sample data. Pallet label printing belongs to a separate app.\n\nSigned-release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. Native checks use emulator debug builds. Physical printing, inspector submissions and live Andon inputs are outside this release.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.12/mes-run-0.1.0-beta.12.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
