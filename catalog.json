@@ -42,16 +42,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 23,
-      "versionName": "1.2.17",
+      "versionCode": 24,
+      "versionName": "1.2.18",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "996104196c9725ebbe7a63cabda1be98889fd658760a015737de333fc4b76617",
-      "size": 6961717,
+      "sha256": "389703b3187b10039cc733fb0207075ee532bb6ff99862a23894d76e440a3b99",
+      "size": 6961709,
       "name": "MES Store",
-      "description": "Find MES apps, install updates, and read guides.",
-      "releaseNotes": "MES Store 1.2.17\n\nSee three feature screenshots on each app page. Tap a screenshot to open it full screen, browse the set, or zoom in. Screenshots are available offline.\n\nShorter introductions make apps easier to browse. App icons now match their actual launchers, including before installation.\n\nIncludes previews for Dispatcher, MES Radio, MES Run Beta, MES Store, SignPad, and Time Punch. Previews show sample data.\n\nInstall over MES Store to preserve settings and downloads. Android 9 or newer; the package ID and release signing key are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.17/mes-store-1.2.17.apk"
+      "description": "Keep your MES apps ready for work.",
+      "releaseNotes": "MES Store 1.2.18\n\nApp introductions now explain why you would use each app, with a short statement about its value in your work.\n\nUpdated wording for Dispatcher, MES Radio, MES Run Beta, MES Store, SignPad, and Time Punch appears consistently across Featured, Apps, search, and app details.\n\nInstall over MES Store to preserve settings and downloads. Android 9 or newer; the package ID and release signing key are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.18/mes-store-1.2.18.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
