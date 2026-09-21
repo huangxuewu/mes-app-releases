@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "packageName": "com.advancebusinesscare.mes.signaturepad",
+      "name": "SignPad",
+      "intro": "Finish the paperwork while the shipment is still in front of you.",
+      "featured": {
+        "eyebrow": "THE FINAL HANDOFF",
+        "headline": "The load is ready.\nMake it official.",
+        "description": "Put the signature where it belongs: with the shipment. Leave the dock with the paperwork accounted for.",
+        "actionLabel": "Meet SignPad"
+      },
+      "link": {
+        "label": "SignPad guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/signpad.md"
+      }
+    }
+  ]
+}
