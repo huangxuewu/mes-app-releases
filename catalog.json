@@ -12,7 +12,11 @@
       "name": "Dispatcher",
       "description": "Schedule outbound pickups and inbound arrivals, track load progress, and view daily timelines.",
       "releaseNotes": "Dispatcher 1.1.3\n\nSwipe left or right on Inbounds and Outbounds to select the next or previous filter. A swipe must cover at least a quarter of the page width, with a 96 dp minimum, before switching on release. Short swipes, vertical scrolling, and search-field gestures do not switch filters. The Today page retains its existing timeline gestures.\n\nLoading dots on Print and Start Loading buttons now draw as one compact indicator, preventing device fonts or display sizes from wrapping the dots onto another line.\n\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.3/dispatcher-1.1.3.apk"
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.3/dispatcher-1.1.3.apk",
+      "releaseApproval": {
+        "keyId": "mes-release-approval-v1",
+        "signature": "Mf/2gQqxbAYQTaxDHwO6Ww085Sc5GWpWNaOq9/gvfmGYtGXtF6UotqIymQqOirTyYSIE/sIiiBqODlwrt2dUQv/XBPeDkjd2EA35hATOMbWYiu2YE9aX5vTj/SzgL1e2ULlBRoXFn+EwK6EH9x4OWTL55d7QGuetclazCGB69y7aYAY5qynWBeB4IurtaE+Vyz5/LKFyiShLsLVBTJglAdnlbBSuD/44vNEvz1ZR67EMLbLQPKF4wrQX5k6hSE3MBmp6ZOtxQ2/EAydxe3e1rV3yl6X9pAKIEA5wHh/c6oEgSunvaaVO3V1bI+OogBouKB/gAdEQKFH8pDoknnQG70npGTE/NsGrRc08rOA6IGg+UzAqUujCdMQnxRk0GVDfacNtYWj1MbdNwuz5jSRHKSYGb3jt0xi7Cz2QLFmtr0LcGh474DQFVkMCF3H/atOwcc44Eg78Rf8gRsHJ/Ru1Q6YfZgwFHFrlK0va3DVL6SXkx9J5aXAfChWLAhmZH7oI"
+      }
     },
     {
       "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
@@ -25,7 +29,11 @@
       "name": "MES Radio",
       "description": "Push-to-talk for your MES team. Talk on radio channels and replay received voice.",
       "releaseNotes": "MES Radio 1.0.7\n\nLive speech gets progressively quieter when the speaker is estimated to be within 5 meters. At 5 meters or beyond, it uses your saved Quiet, Medium or Loud level. Live speech is reduced, not fully muted.\nRecordings keep their original audio, and Replay plays at your saved listening level regardless of how close the speaker was.\nWorks for regular channels and Broadcast. A nearby-speaker status explains when live volume is lowered.\n\nBoth phones must enable location sharing and have fresh positions reporting accuracy of 5 meters or better. Missing, old or imprecise positions leave live volume unchanged. Location remains an estimate, and sharing stops when the app leaves the foreground; this does not guarantee feedback prevention. Two-phone proximity and acoustic testing remain pending.\n\nKeeps the Broadcast speaker toggle, speech-reactive glow, radar stabilization and connection recovery from previous releases.\nAndroid 9 or newer. Updates MES Radio in place and preserves sign-in, settings and voice history. Do not uninstall before updating.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.7/mes-radio-1.0.7.apk"
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.7/mes-radio-1.0.7.apk",
+      "releaseApproval": {
+        "keyId": "mes-release-approval-v1",
+        "signature": "BJjyKDyQ9TEaVROzo9eNw2J2U/PO8dQbM1kXlwFYcIDzoPwFtUzix9wWuxpjBaN+sUGl7jmMbHCansNwjfW7+gF11mb3BI56uvYn0KFOFFcmjTJp87/W1UL2XO6/OmLNsz6U0W2dfqEKs1uaBRj9hXODy12xBmq5TfJRnw2cgnj3wNaI+E2dzt2jfbax9iZNTbzaLRnf7T4FFEwveINqkkuMTGJUcyY49T37p1Ut1xs46CMtkr3OODWWbU8H8oSYv3Oc1aS4+FBj7wZVI3yeEoZYQUzdUuVzfXZ6AggadVOicSZ79jAzir+FXlCTB1Cxxmu6/4jH2oEpcFRBJ8Od7bBfngZufpJ5r/AtNlN5VuhmnFpAFQ8w0vE/EI916odOs+geBikQA7wjlAj296zUR/kNuFuzbb/+ICdOSyIe7PzPr6J6Rv+i3uRlF1WIUKnbCYmc5150+sXK5TEeex4CCReK+o4qoC7GMYFrYBErrstWCDVFzn1M73h3mYsjRs8e"
+      }
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
@@ -38,7 +46,11 @@
       "name": "MES Run Beta",
       "description": "Run production, coordinate MES staff, and follow line progress in an isolated test environment.",
       "releaseNotes": "MES Run Beta 13 - Daily-use UI Refinements\n\nSmaller headings, tighter spacing and compact controls make line configuration, production setup and the floor easier to scan. Breadcrumbs stay aligned between pages. Machine profiles no longer display parameter counts.\n\nTap the info icon beside a machine parameter to read its configured description. Routine explanations now open on demand. The Review screen keeps before/after avatars, assignment changes and staffing shortages visible with less repeated text. Tap the reduced-production icon beside a step name to view that step's staffing details.\n\nUpdate MES Run Beta in MES Store and use the existing test PIN. Try Swipe Line > Edit, Sort, Setup > Parameters, and the floor staffing indicators. The approved machine artwork and production workflow remain unchanged. Actual MES product identities, employees, attendance and machine profiles remain linked; production commands, quantities, raw materials and product fill weights remain isolated sample data.\n\nNormal and enlarged-text native checks use emulator debug builds. Signed-release installation and the MES Store installation flow remain unverified because automatic approval review previously blocked those checks. Pallet label printing is a separate app; physical printing, inspector submissions and live Andon input are outside this release.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.13/mes-run-0.1.0-beta.13.apk"
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.13/mes-run-0.1.0-beta.13.apk",
+      "releaseApproval": {
+        "keyId": "mes-release-approval-v1",
+        "signature": "WimVlUfMkeTyKYxFjgVV4803zIExstpopW2enOSBBSwurHLbJmzTCD+uqvG5TbRinLv5NbPNUxOoQ8Zj4q2HC5osy1RSPsdg/BaeSwuVlJnnLK9pFjfeeiBbVm72Ssttqfr1Af+M6hB3X/e3gPtVC+PVuszlAG0QjeQyf/QUTgSjJLZVuxvz0bBsl6U1s+Sq/tuLzqQEgcbFoqVmUjo7jY8KPwZJ/6lTeOiGvny1w1OrlhaUXJXthfcpSvIYBhaDiVJS5bBFk6p22pv3F/ZTa0EvGJ7FpCpVRriMSf8n21UM4s9yNqpfuUVfGUvwSFWGUlwCOUwq0PW6xbPYYXFxptm8G2kDm/8yQiz59PIv9DImQUWnRRNmF+9Iw/i5F7yhtvZLbX2h8OjdBeaJKzzAV41TcoxWQ3Cm7ZfcpJs4FuUa77Oa8xBsHUVg0SLfburKgd6RL7NvsjzTAdCd3W8q0i5gJXYv0JxdtBamupXoZdPoKEsC1E7aYFylfOzU7Wa/"
+      }
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
@@ -51,7 +63,11 @@
       "name": "MES Store",
       "description": "Your workplace apps, without the hunt for download links.",
       "releaseNotes": "MES Store 1.2.19\n\nApp information can now change without a new APK. Names, introductions, Featured headlines and supporting text, and website/help links load from app-info.json in the public MES releases GitHub repository.\n\nEach app has its own voice on Featured and a dedicated help link on its detail page. Pull down to refresh app information, or let automatic checks fetch it. The last valid copy stays available offline; external help pages open in your browser.\n\nInstall over MES Store to preserve settings and downloads. Android 9 or newer; the package ID and release signing key are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.19/mes-store-1.2.19.apk"
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.19/mes-store-1.2.19.apk",
+      "releaseApproval": {
+        "keyId": "mes-release-approval-v1",
+        "signature": "oPfMyXtgw7v4Q7t/3gJ8KJuEOI0F3Rr6AdMWHB2NoflfrfNv4e9N3mnoWdkCdIShXXEGA4muShGyS9TtmwlelOtmj6WVjD/IfS5G/eUK8TysYV1J95SsoxIPtU+d1oSSH847vGPpcciKJ35aN54EBdjXaagpsQutNNcpgdHfDAUZd11Epc55XYRH+mq2Io2cRsSCn6U/1/qu2DeoXYuGixk1tIUg+keEHm8HG8T5TNAFtJmSCm0YoCP7uXzTyqKw5ig3gueDSf+bYPaWzOZUqovvxPfgT6IK1YwCg4AdbvhCe4QLGHT721snTj5TwhjxMIuIWFcOi8fELtnbvLBrdgVjmyFJwoxpt/eozZs5wwkNOiLUqUao7LyqJ2fGjFa+0W3pe9aoUQTNSmvwU685V7MolX1YG2dW6iGdE1rvcFGWMWRjjCFqEbvi1U8Zi2RIZXB5GgUXg2CwzrRa5zwduBU0N/DkB6x8M/P2qRNrM2LHeJczodN8dXiyhQUtHT1n"
+      }
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
@@ -64,7 +80,11 @@
       "name": "SignPad",
       "description": "Sign bills of lading, scan shipments, and keep warehouse work moving.",
       "releaseNotes": "SignPad 1.6.3\n\nConnects to the new MES server at https://mes.dhmsc.com.\nExisting MES server settings move automatically. Custom server addresses are preserved.\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/signpad-v1.6.3/signpad-1.6.3.apk"
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/signpad-v1.6.3/signpad-1.6.3.apk",
+      "releaseApproval": {
+        "keyId": "mes-release-approval-v1",
+        "signature": "mLymaiBiRNFtjf7/B+5KOWlJ3DyZEdb1L7Eqm+GAmIo2e6ulK3qW/0hF/j2m/EOwmLteod2SEXGFmeMIU2eVa/12NFEGvZFiaWM2ebzJ4QUpMKvHQaA7/qeDN11D5fjiGNFtjeaFKSwxkwtsSiECTxj+MQqfSh6jvIkeKn4JfwXS2cLdkSmm7Xd1GDg1cJ6oGrl/mEaF7lfgjq05HzLvFmTIoCsRCFZXU/obi45tiCMsoQWI52kEJba5CVrd00rz063fjAg9NmKHvl+WXevc9mCj9PtJGKHmDndbI+XdYT+wdpl5XR99K0EaqlaletklT9gNEvrcRNnjim8oEgBwg8zuQ1wCf3/mbm1NBY8hD2ltS2QLNabb8G93HzZjTKxoEPSmjcXQuF/deQQ2300Vkq7aRgcN4DyDWlR9RUxHCoSYChWRe1epzwvsgviIjpJ8Yq1Imo+53mbhdx6nuzI9kPOaV/5SxQcA3mU8w1TPJhj8BID6fM8GaUzQtGLvrpUR"
+      }
     },
     {
       "packageName": "com.advancebusinesscare.mes.timepunch",
@@ -77,7 +97,11 @@
       "name": "Time Punch",
       "description": "Employee PIN, punch photos, and clock-in, break, and clock-out actions for MES tablets.",
       "releaseNotes": "Time Punch 1.2.1\n\nConnects to the new MES server at https://mes.dhmsc.com.\nExisting MES server settings move automatically. Custom server addresses are preserved.\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.2.1/time-punch-1.2.1.apk"
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.2.1/time-punch-1.2.1.apk",
+      "releaseApproval": {
+        "keyId": "mes-release-approval-v1",
+        "signature": "oz7kQClCv2oX5+xKtx394CoqMEZo79SG63fimmTyAh0IIvpzIQzKNU8NtRyebOkJAVb0LC31OYYDv1UqK37RN74jxC6xaAOzT2i0GJ3Aa8Ewztjy11/v6DZ+tx9aEGW8x+1vArIk8FZK9Q3n5rYPfi54TUUMEzbWc2llFYexuMpZAIJu1WxQVNdh5nShrb93vb8ErIswzoEiypK0VuF1zlupHmJq7z0GjBh1HUBmXcvaaamQvE6WT5XBe7caFcKez88SlyDclZe8iZrVSoypDpoOv94dceuU71NAlzY8d65JeLuEKv5XMC2OQ/6pmeujPZoKaSGmA2ampcpB1t8PuoP+ZCohijnPkmjRYhSA4LW3iJUszCyBia7q92ym1G3IxYTlKa3NqIGtMz1ZY9Zsh1ADpH0N0Sg4jez2eZtZ9vdurhlaWIYBcG+eJoHMci7BgvNK8sPXEC4QUsvAqWcr1Vq5HxRG0nywKy1l/I/5+BIUaRvEujHMrOIQc7ByfhtI"
+      }
     }
   ]
 }
