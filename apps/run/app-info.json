@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "packageName": "com.advancebusinesscare.mes.run",
+      "name": "MES Run Beta",
+      "intro": "Give every shift a shared picture of production.",
+      "featured": {
+        "eyebrow": "ON THE PRODUCTION FLOOR",
+        "headline": "One floor.\nA shared plan.",
+        "description": "People, lines, and the day's work belong in the same conversation. See how the pieces fit in the MES Run beta.",
+        "actionLabel": "Explore Run"
+      },
+      "link": {
+        "label": "MES Run beta guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/run.md"
+      }
+    }
+  ]
+}
