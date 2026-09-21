@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
+      "name": "MES Radio",
+      "intro": "A quick word can get the whole team moving.",
+      "featured": {
+        "eyebrow": "PUSH TO TALK",
+        "headline": "Need a hand?\nSay the word.",
+        "description": "Across the floor or around the corner, reach the people you need without walking away from the job.",
+        "actionLabel": "Meet Radio"
+      },
+      "link": {
+        "label": "Radio guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/radio.md"
+      }
+    }
+  ]
+}
