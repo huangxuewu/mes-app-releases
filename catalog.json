@@ -54,19 +54,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 27,
-      "versionName": "1.2.21",
+      "versionCode": 28,
+      "versionName": "1.2.22",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "b43e65b425c54fceb15b35aa0455cc1c8e29cba55fede5bc5a509073ab63e2df",
-      "size": 6983488,
+      "sha256": "aa9e796d8434804d417891db7db368b4b365893267679076a11466d6124d4df1",
+      "size": 6983568,
       "name": "MES Store",
       "description": "Your workplace apps, without the hunt for download links.",
-      "releaseNotes": "MES Store 1.2.21\n\nFeatured cards now show each app's actual launcher icon in the large image, matching the small icon beside its name. MES Run displays its approved three-person ribbon icon instead of MES Store artwork. Installed apps use their current icon; apps not installed use the bundled launcher capture.\n\nKeeps the existing card colors, app introductions, Explore buttons and gentle shine. Includes the Dispatcher tutorial in the offline fallback catalog. APK release approval and installation verification are unchanged.\n\nUpdate MES Store in place to receive the corrected card images. Android 9 or newer; the package and signing identity are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.21/mes-store-1.2.21.apk",
+      "releaseNotes": "MES Store 1.2.22\n\nFeatured app icons now render directly at the card's screen resolution. This prevents MES Run's adaptive launcher icon from being rendered into a small bitmap and then enlarged. Large and small icon instances keep independent drawable state. The approved MES Run ribbon artwork and SignPad artwork are unchanged.\n\nKeeps each app's actual icon, card layout, Explore action and gentle shine. Release approval and APK installation verification are unchanged.\n\nUpdate MES Store in place to receive the sharper icons. Android 9 or newer; package and signing identity are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.22/mes-store-1.2.22.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v1",
-        "signature": "cYFIaZ/ZwA2UmxJyqtpzj7YCQ0dZxBIw7kPej1pGG9R5LtRQmWUnrU+dZ1yAHhKLpLoSIh2YvTwmwRe5QqQvSFzZJAKPsqpOxWTZURHNySQEu0oH9hxN0ppAwFKBSEu+m7Gv1WgAiwXGZVlPoGIKecPi1nxsafHROEQ8JdQiinJvF/sWglk4oZJbOvE5mToR5pUVjz7YZp1a5oppxmSahZk647ViMFZo4Krm8JB0vI9BuFjdvFgwEaWvc1ciscDpwEmHdxJOnsyBgTBOB699NMP0OEpxumFwBKurnGx13zvyUTGPwA737PXVesx84eBJJzCL4NdqdlOlPyZvAzAISydRgLtWe9hl6syleCnUVanovN5Vev9cXsArxDDUBKU0azyxuv5Q9kvf0/2+PsOSbVp4hN0cmAoJfj90tfI6259pdZ2ZNmFCUCd33+YEWGje2HMbKFTvI24vdMUQVkNFlMHrB2i2juKLNpVMtC+QjLeyCnwA48eNmEsFvsCXLe2q"
+        "signature": "Gr6ioXlG0uPPyydxUqjXi9yoz+UBemeocgye10JP/2kiWnAVFqPWArA61dEmcivmA08ToPVyzV9+yJe9oylCFr5C2hzkl9zS6M0h/EcI996fbK7QWfSamf+PgOhuk79Ybzr6TAQyj64izhHIYQrGAJS89YYXY5nWMOeQBPNLV7Bvg8Gem+TLSnbaoR2XXJpOfqAVIkO4O0BfGmqo5E9gdENq9YMc+4c9s5YKcVA/JDU9zIFHrFYMdu+bMuwlkfRdvX48Pk4CL0CtyJbOZDOiwFzFh+yM9qvVN9YntdjvvU229ATcDaG/AuL/kX4+5+N/FDHkW3dY0PvMLH1eQFD475rLNLaREGM7buzhCoMgU6hlNRuiEL5oAk4srQrAWJHGosqwvQqomTolhWMqCc4fF1iy1w2g7xHCmhYyywzCPYMIzil7aJQfgMAvsfE0nQea5xexfOzLNH/2h9jbzNoW/0CU2VNWzCPpjNptrIHCC6LHo4dXg+amKihKA9mLg/ZD"
       }
     },
     {
