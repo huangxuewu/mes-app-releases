@@ -29,16 +29,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 23,
-      "versionName": "0.1.0-beta.12",
+      "versionCode": 24,
+      "versionName": "0.1.0-beta.13",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "a7a61a551526dd7e77b2cb2eca45dd9221d39c85d653d9ac470b81e220b66104",
-      "size": 24830516,
+      "sha256": "dbcdf312874a57c478b12d99fa36317287bb3f0a9815a939fa300c18f7f53cb2",
+      "size": 24872312,
       "name": "MES Run Beta",
       "description": "Run production, coordinate MES staff, and follow line progress in an isolated test environment.",
-      "releaseNotes": "MES Run Beta 12 - Machine Library and MES Parameters\n\nThe machine picker now includes Clamp Shell Suck Fill Machine, Pallet Hand Wrap and Pallet Machine Wrap, plus the revised Box Sealing Machine. Fiber Feeding Machine is the updated name for the yellow-conveyor figure. One Overlock Sewing option remains. All 19 figures can be selected independently for lines and production steps.\n\nMachine profiles now follow the MES line configuration. Hayes has eight profiles with their configured descriptions and 19 settings each; Hai Jing currently has no configured profiles. Choose a profile explicitly when more than one is available. Production setup shows Line Speed and Fill Weight; Parameters shows the full settings. Each new run preserves its selected profile metadata, and changing running settings creates a new lot while retaining earlier history.\n\nUpdate MES Run Beta in MES Store and use the existing test PIN. Try the new pictures in Swipe Line > Edit, then review profile selection and parameter details before starting a sample run. Employee references, attendance and product identities remain linked to MES. Production commands, quantities, raw materials and product fill weights remain isolated sample data. Pallet label printing belongs to a separate app.\n\nSigned-release installation and installation through MES Store remain unverified because automatic approval review previously blocked those checks. Native checks use emulator debug builds. Physical printing, inspector submissions and live Andon inputs are outside this release.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.12/mes-run-0.1.0-beta.12.apk"
+      "releaseNotes": "MES Run Beta 13 - Daily-use UI Refinements\n\nSmaller headings, tighter spacing and compact controls make line configuration, production setup and the floor easier to scan. Breadcrumbs stay aligned between pages. Machine profiles no longer display parameter counts.\n\nTap the info icon beside a machine parameter to read its configured description. Routine explanations now open on demand. The Review screen keeps before/after avatars, assignment changes and staffing shortages visible with less repeated text. Tap the reduced-production icon beside a step name to view that step's staffing details.\n\nUpdate MES Run Beta in MES Store and use the existing test PIN. Try Swipe Line > Edit, Sort, Setup > Parameters, and the floor staffing indicators. The approved machine artwork and production workflow remain unchanged. Actual MES product identities, employees, attendance and machine profiles remain linked; production commands, quantities, raw materials and product fill weights remain isolated sample data.\n\nNormal and enlarged-text native checks use emulator debug builds. Signed-release installation and the MES Store installation flow remain unverified because automatic approval review previously blocked those checks. Pallet label printing is a separate app; physical printing, inspector submissions and live Andon input are outside this release.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.13/mes-run-0.1.0-beta.13.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
