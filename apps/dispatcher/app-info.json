@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "packageName": "com.advancebusinesscare.mes.loadboard",
+      "name": "Dispatcher",
+      "intro": "Know what's arriving before it reaches the dock.",
+      "featured": {
+        "eyebrow": "AT THE DOCK",
+        "headline": "Make room for\nwhat's next.",
+        "description": "A busy dock needs a clear plan. Give incoming loads and outgoing shipments their place in the day.",
+        "actionLabel": "Meet Dispatcher"
+      },
+      "link": {
+        "label": "Dispatcher guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/dispatcher.md"
+      }
+    }
+  ]
+}
