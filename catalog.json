@@ -42,16 +42,16 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 24,
-      "versionName": "1.2.18",
+      "versionCode": 25,
+      "versionName": "1.2.19",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "389703b3187b10039cc733fb0207075ee532bb6ff99862a23894d76e440a3b99",
-      "size": 6961709,
+      "sha256": "51d95d100f1a2cfa42f14c1a13acc2ba3e08448b7f3cc3af5371972de865db7e",
+      "size": 6971979,
       "name": "MES Store",
-      "description": "Keep your MES apps ready for work.",
-      "releaseNotes": "MES Store 1.2.18\n\nApp introductions now explain why you would use each app, with a short statement about its value in your work.\n\nUpdated wording for Dispatcher, MES Radio, MES Run Beta, MES Store, SignPad, and Time Punch appears consistently across Featured, Apps, search, and app details.\n\nInstall over MES Store to preserve settings and downloads. Android 9 or newer; the package ID and release signing key are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.18/mes-store-1.2.18.apk"
+      "description": "Your workplace apps, without the hunt for download links.",
+      "releaseNotes": "MES Store 1.2.19\n\nApp information can now change without a new APK. Names, introductions, Featured headlines and supporting text, and website/help links load from app-info.json in the public MES releases GitHub repository.\n\nEach app has its own voice on Featured and a dedicated help link on its detail page. Pull down to refresh app information, or let automatic checks fetch it. The last valid copy stays available offline; external help pages open in your browser.\n\nInstall over MES Store to preserve settings and downloads. Android 9 or newer; the package ID and release signing key are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.19/mes-store-1.2.19.apk"
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
