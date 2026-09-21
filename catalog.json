@@ -54,19 +54,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 26,
-      "versionName": "1.2.20",
+      "versionCode": 27,
+      "versionName": "1.2.21",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "5024f33c17ffefb705896960d3fc8ed435a919bd216682ca181a36c281d5c8f0",
-      "size": 6980276,
+      "sha256": "b43e65b425c54fceb15b35aa0455cc1c8e29cba55fede5bc5a509073ab63e2df",
+      "size": 6983488,
       "name": "MES Store",
       "description": "Your workplace apps, without the hunt for download links.",
-      "releaseNotes": "MES Store 1.2.20\n\nAdds independent release approval for every APK, including updates to MES Store itself. The store blocks missing or invalid approvals before downloading or opening an installation session, and rechecks the APK before installation.\n\nApproval is tied to the exact APK bytes, package, version, Android requirement, signing certificate, size, and download URL. Replacing an APK and its catalog checksum does not make it approved. The verification key is built into MES Store; its separate private approval key is kept outside GitHub.\n\nAll six current apps have been verified and approved. App introductions, Featured text, and help links remain independently editable. Valid cached app information remains available offline.\n\nInstall the genuine 1.2.20 update to enable this protection. It covers installations through MES Store and assumes the separate approval key, signing computer, and device remain trusted. It cannot control manual installation outside the store. Existing installations retain their settings and data; Android 9 or newer, with the same package ID and APK signing key.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.20/mes-store-1.2.20.apk",
+      "releaseNotes": "MES Store 1.2.21\n\nFeatured cards now show each app's actual launcher icon in the large image, matching the small icon beside its name. MES Run displays its approved three-person ribbon icon instead of MES Store artwork. Installed apps use their current icon; apps not installed use the bundled launcher capture.\n\nKeeps the existing card colors, app introductions, Explore buttons and gentle shine. Includes the Dispatcher tutorial in the offline fallback catalog. APK release approval and installation verification are unchanged.\n\nUpdate MES Store in place to receive the corrected card images. Android 9 or newer; the package and signing identity are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.21/mes-store-1.2.21.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v1",
-        "signature": "X+TDcAb6j7gdd7rJPuIGFslTwHX78zCdrvc9H32rFr1/He0qLhvG+K92wfMd57XDvrsY0N2r6BWoGuygDo8UVUkaNGZEQiEZwrl7TWJJoObvXqgCRJesenIQeuY6ooMFbrb7viCgCm8MyJ2V4LkhpT4Jh82v5I6W5bbvfDdwq1+8uexVgKIbIO+QIuvKnYjvapcX8/TnOhyxH6g6eV9a35KoeaUJ8osCS6Sw5ROSNtlqBMML+c4sKvmee9BOHKf5qB6CEHiXr1blNQn4sh0EuKHeCudZ7rHw73TiDzgc0UPR+G4O57lZ5LNXGYPNKeFYsn3QwL4l2+I/tvpWZI1Fau/waO2n+4RuF3kPbIMTUZaSh8rILSWjfDtKUTrWZAX99OBGEpF38ufVDbWPkT33NIlGzoRDu6K6jyEKzCVmoqUTQUctJejMtMPxdh3zDBCt4WxdZpp8FzZqhB9iL7ITnGvETT9aju0YRKD5Aa3HBI8fNZOT/7DWyvF/9OfAzASB"
+        "signature": "cYFIaZ/ZwA2UmxJyqtpzj7YCQ0dZxBIw7kPej1pGG9R5LtRQmWUnrU+dZ1yAHhKLpLoSIh2YvTwmwRe5QqQvSFzZJAKPsqpOxWTZURHNySQEu0oH9hxN0ppAwFKBSEu+m7Gv1WgAiwXGZVlPoGIKecPi1nxsafHROEQ8JdQiinJvF/sWglk4oZJbOvE5mToR5pUVjz7YZp1a5oppxmSahZk647ViMFZo4Krm8JB0vI9BuFjdvFgwEaWvc1ciscDpwEmHdxJOnsyBgTBOB699NMP0OEpxumFwBKurnGx13zvyUTGPwA737PXVesx84eBJJzCL4NdqdlOlPyZvAzAISydRgLtWe9hl6syleCnUVanovN5Vev9cXsArxDDUBKU0azyxuv5Q9kvf0/2+PsOSbVp4hN0cmAoJfj90tfI6259pdZ2ZNmFCUCd33+YEWGje2HMbKFTvI24vdMUQVkNFlMHrB2i2juKLNpVMtC+QjLeyCnwA48eNmEsFvsCXLe2q"
       }
     },
     {
