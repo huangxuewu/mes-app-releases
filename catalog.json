@@ -54,19 +54,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 25,
-      "versionName": "1.2.19",
+      "versionCode": 26,
+      "versionName": "1.2.20",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "51d95d100f1a2cfa42f14c1a13acc2ba3e08448b7f3cc3af5371972de865db7e",
-      "size": 6971979,
+      "sha256": "5024f33c17ffefb705896960d3fc8ed435a919bd216682ca181a36c281d5c8f0",
+      "size": 6980276,
       "name": "MES Store",
       "description": "Your workplace apps, without the hunt for download links.",
-      "releaseNotes": "MES Store 1.2.19\n\nApp information can now change without a new APK. Names, introductions, Featured headlines and supporting text, and website/help links load from app-info.json in the public MES releases GitHub repository.\n\nEach app has its own voice on Featured and a dedicated help link on its detail page. Pull down to refresh app information, or let automatic checks fetch it. The last valid copy stays available offline; external help pages open in your browser.\n\nInstall over MES Store to preserve settings and downloads. Android 9 or newer; the package ID and release signing key are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.19/mes-store-1.2.19.apk",
+      "releaseNotes": "MES Store 1.2.20\n\nAdds independent release approval for every APK, including updates to MES Store itself. The store blocks missing or invalid approvals before downloading or opening an installation session, and rechecks the APK before installation.\n\nApproval is tied to the exact APK bytes, package, version, Android requirement, signing certificate, size, and download URL. Replacing an APK and its catalog checksum does not make it approved. The verification key is built into MES Store; its separate private approval key is kept outside GitHub.\n\nAll six current apps have been verified and approved. App introductions, Featured text, and help links remain independently editable. Valid cached app information remains available offline.\n\nInstall the genuine 1.2.20 update to enable this protection. It covers installations through MES Store and assumes the separate approval key, signing computer, and device remain trusted. It cannot control manual installation outside the store. Existing installations retain their settings and data; Android 9 or newer, with the same package ID and APK signing key.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.20/mes-store-1.2.20.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v1",
-        "signature": "oPfMyXtgw7v4Q7t/3gJ8KJuEOI0F3Rr6AdMWHB2NoflfrfNv4e9N3mnoWdkCdIShXXEGA4muShGyS9TtmwlelOtmj6WVjD/IfS5G/eUK8TysYV1J95SsoxIPtU+d1oSSH847vGPpcciKJ35aN54EBdjXaagpsQutNNcpgdHfDAUZd11Epc55XYRH+mq2Io2cRsSCn6U/1/qu2DeoXYuGixk1tIUg+keEHm8HG8T5TNAFtJmSCm0YoCP7uXzTyqKw5ig3gueDSf+bYPaWzOZUqovvxPfgT6IK1YwCg4AdbvhCe4QLGHT721snTj5TwhjxMIuIWFcOi8fELtnbvLBrdgVjmyFJwoxpt/eozZs5wwkNOiLUqUao7LyqJ2fGjFa+0W3pe9aoUQTNSmvwU685V7MolX1YG2dW6iGdE1rvcFGWMWRjjCFqEbvi1U8Zi2RIZXB5GgUXg2CwzrRa5zwduBU0N/DkB6x8M/P2qRNrM2LHeJczodN8dXiyhQUtHT1n"
+        "signature": "X+TDcAb6j7gdd7rJPuIGFslTwHX78zCdrvc9H32rFr1/He0qLhvG+K92wfMd57XDvrsY0N2r6BWoGuygDo8UVUkaNGZEQiEZwrl7TWJJoObvXqgCRJesenIQeuY6ooMFbrb7viCgCm8MyJ2V4LkhpT4Jh82v5I6W5bbvfDdwq1+8uexVgKIbIO+QIuvKnYjvapcX8/TnOhyxH6g6eV9a35KoeaUJ8osCS6Sw5ROSNtlqBMML+c4sKvmee9BOHKf5qB6CEHiXr1blNQn4sh0EuKHeCudZ7rHw73TiDzgc0UPR+G4O57lZ5LNXGYPNKeFYsn3QwL4l2+I/tvpWZI1Fau/waO2n+4RuF3kPbIMTUZaSh8rILSWjfDtKUTrWZAX99OBGEpF38ufVDbWPkT33NIlGzoRDu6K6jyEKzCVmoqUTQUctJejMtMPxdh3zDBCt4WxdZpp8FzZqhB9iL7ITnGvETT9aju0YRKD5Aa3HBI8fNZOT/7DWyvF/9OfAzASB"
       }
     },
     {
