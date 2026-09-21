@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "packageName": "com.advancebusinesscare.mes.timepunch",
+      "name": "Time Punch",
+      "intro": "Your time at work deserves a clear record.",
+      "featured": {
+        "eyebrow": "EVERY SHIFT COUNTS",
+        "headline": "Your day.\nAccounted for.",
+        "description": "Start a shift, take your break, head home. Make recording those moments a simple part of your day.",
+        "actionLabel": "Meet Time Punch"
+      },
+      "link": {
+        "label": "Time Punch guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/time-punch.md"
+      }
+    }
+  ]
+}
