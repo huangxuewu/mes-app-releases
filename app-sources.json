@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {"repository": "huangxuewu/mes-dispatcher", "packageName": "com.advancebusinesscare.mes.loadboard", "slug": "dispatcher"},
+    {"repository": "huangxuewu/mes-radio", "packageName": "com.advancebusinesscare.mes.radio.debug.perf", "slug": "radio"},
+    {"repository": "huangxuewu/mes-run", "packageName": "com.advancebusinesscare.mes.run", "slug": "run"},
+    {"repository": "huangxuewu/mes-app-store", "packageName": "com.advancebusinesscare.mes.appstore", "slug": "store"},
+    {"repository": "huangxuewu/mes-signature-pad", "packageName": "com.advancebusinesscare.mes.signaturepad", "slug": "signpad"},
+    {"repository": "huangxuewu/mes-time-punch", "packageName": "com.advancebusinesscare.mes.timepunch", "slug": "time-punch"}
+  ]
+}
