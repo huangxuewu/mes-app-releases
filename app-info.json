@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "packageName": "com.advancebusinesscare.mes.loadboard",
+      "name": "Dispatcher",
+      "intro": "Know what's arriving before it reaches the dock.",
+      "featured": {
+        "eyebrow": "AT THE DOCK",
+        "headline": "Make room for\nwhat's next.",
+        "description": "A busy dock needs a clear plan. Give incoming loads and outgoing shipments their place in the day.",
+        "actionLabel": "Meet Dispatcher"
+      },
+      "link": {
+        "label": "Dispatcher guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/dispatcher.md"
+      }
+    },
+    {
+      "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
+      "name": "MES Radio",
+      "intro": "A quick word can get the whole team moving.",
+      "featured": {
+        "eyebrow": "PUSH TO TALK",
+        "headline": "Need a hand?\nSay the word.",
+        "description": "Across the floor or around the corner, reach the people you need without walking away from the job.",
+        "actionLabel": "Meet Radio"
+      },
+      "link": {
+        "label": "Radio guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/radio.md"
+      }
+    },
+    {
+      "packageName": "com.advancebusinesscare.mes.run",
+      "name": "MES Run Beta",
+      "intro": "Give every shift a shared picture of production.",
+      "featured": {
+        "eyebrow": "ON THE PRODUCTION FLOOR",
+        "headline": "One floor.\nA shared plan.",
+        "description": "People, lines, and the day's work belong in the same conversation. See how the pieces fit in the MES Run beta.",
+        "actionLabel": "Explore Run"
+      },
+      "link": {
+        "label": "MES Run beta guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/run.md"
+      }
+    },
+    {
+      "packageName": "com.advancebusinesscare.mes.appstore",
+      "name": "MES Store",
+      "intro": "Your workplace apps, without the hunt for download links.",
+      "featured": {
+        "eyebrow": "YOUR MES TOOLBOX",
+        "headline": "Start here.\nGet to work.",
+        "description": "The right app should be easy to find. Bring your MES tools and their updates together in one place.",
+        "actionLabel": "Explore Store"
+      },
+      "link": {
+        "label": "MES Store guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/store.md"
+      }
+    },
+    {
+      "packageName": "com.advancebusinesscare.mes.signaturepad",
+      "name": "SignPad",
+      "intro": "Finish the paperwork while the shipment is still in front of you.",
+      "featured": {
+        "eyebrow": "THE FINAL HANDOFF",
+        "headline": "The load is ready.\nMake it official.",
+        "description": "Put the signature where it belongs: with the shipment. Leave the dock with the paperwork accounted for.",
+        "actionLabel": "Meet SignPad"
+      },
+      "link": {
+        "label": "SignPad guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/signpad.md"
+      }
+    },
+    {
+      "packageName": "com.advancebusinesscare.mes.timepunch",
+      "name": "Time Punch",
+      "intro": "Your time at work deserves a clear record.",
+      "featured": {
+        "eyebrow": "EVERY SHIFT COUNTS",
+        "headline": "Your day.\nAccounted for.",
+        "description": "Start a shift, take your break, head home. Make recording those moments a simple part of your day.",
+        "actionLabel": "Meet Time Punch"
+      },
+      "link": {
+        "label": "Time Punch guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/time-punch.md"
+      }
+    }
+  ]
+}
