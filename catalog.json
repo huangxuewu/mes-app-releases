@@ -54,19 +54,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 28,
-      "versionName": "1.2.22",
+      "versionCode": 29,
+      "versionName": "1.2.23",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "aa9e796d8434804d417891db7db368b4b365893267679076a11466d6124d4df1",
-      "size": 6983568,
+      "sha256": "cbe8410a080f8c4b5ff7a3658b7707c9dd71c7eef5ceb8e33bd26f7bb26397b2",
+      "size": 6985404,
       "name": "MES Store",
       "description": "Your workplace apps, without the hunt for download links.",
-      "releaseNotes": "MES Store 1.2.22\n\nFeatured app icons now render directly at the card's screen resolution. This prevents MES Run's adaptive launcher icon from being rendered into a small bitmap and then enlarged. Large and small icon instances keep independent drawable state. The approved MES Run ribbon artwork and SignPad artwork are unchanged.\n\nKeeps each app's actual icon, card layout, Explore action and gentle shine. Release approval and APK installation verification are unchanged.\n\nUpdate MES Store in place to receive the sharper icons. Android 9 or newer; package and signing identity are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.22/mes-store-1.2.22.apk",
+      "releaseNotes": "MES Store 1.2.23\n\nRedesigns the MES Run Featured card with a cool silver background, soft flowing ribbons and dark teal text that complements its approved teal-and-silver icon. The background is drawn natively for sharp edges at every screen size.\n\nKeeps the full-resolution launcher icon, app introduction, Explore action and gentle shine. Other Featured cards and APK installation verification are unchanged.\n\nUpdate MES Store in place to receive the new card design. Android 9 or newer; package and signing identity are unchanged.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.23/mes-store-1.2.23.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v1",
-        "signature": "Gr6ioXlG0uPPyydxUqjXi9yoz+UBemeocgye10JP/2kiWnAVFqPWArA61dEmcivmA08ToPVyzV9+yJe9oylCFr5C2hzkl9zS6M0h/EcI996fbK7QWfSamf+PgOhuk79Ybzr6TAQyj64izhHIYQrGAJS89YYXY5nWMOeQBPNLV7Bvg8Gem+TLSnbaoR2XXJpOfqAVIkO4O0BfGmqo5E9gdENq9YMc+4c9s5YKcVA/JDU9zIFHrFYMdu+bMuwlkfRdvX48Pk4CL0CtyJbOZDOiwFzFh+yM9qvVN9YntdjvvU229ATcDaG/AuL/kX4+5+N/FDHkW3dY0PvMLH1eQFD475rLNLaREGM7buzhCoMgU6hlNRuiEL5oAk4srQrAWJHGosqwvQqomTolhWMqCc4fF1iy1w2g7xHCmhYyywzCPYMIzil7aJQfgMAvsfE0nQea5xexfOzLNH/2h9jbzNoW/0CU2VNWzCPpjNptrIHCC6LHo4dXg+amKihKA9mLg/ZD"
+        "signature": "HKOu071wc0nI9/sczl1euz/tUiN3Z47rm8jOUtm4UYnmnphnq87Dd3dtVNSc8I94cYwT2dCKRpgiuRYQ9DSS4IIloofTfu3+CokYCsgrvAk6vK1U/ZshCy3JnEb2TfJz/DH50jzkTfS9/LydJSWbIc9LJh/XvaTRarTLLBtk4TDkzEgJeq7PCYjYaR3MqLNe8wwDD0qmE5EaKPKWjPaRDCzsyhB2LTPOW+y0xvjbKKuWYLyOPo1+K+BTQF9rzrtyf9A2YqgsqbR+eAEE4fl2VKNT5Sv5pl2ztmCx5c5bctUsxqpgyCDFxhmM9eCDBwbC1owGouINXwwag6J1AILV0DGo3Irnp1zEcUIwI/LEAR9EVb7cvONma3KkqPGkfSkNcyG+3NsaENVqLUuELPMyihDqyVNa/EU7qFT23tjDkQOrJrq076+SiOnxfbD7BmrW/jj5O3GkQaCm5ImE/P3XM3MjHNV2zHLmcU0guUIBwbUOYuEmfJ+n/H3/slK0s8m8"
       }
     },
     {
