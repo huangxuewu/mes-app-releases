@@ -37,19 +37,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 24,
-      "versionName": "0.1.0-beta.13",
+      "versionCode": 25,
+      "versionName": "0.1.0-beta.14",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "dbcdf312874a57c478b12d99fa36317287bb3f0a9815a939fa300c18f7f53cb2",
-      "size": 24872312,
+      "sha256": "af65f838b8c536a072f42a92ee0fbd974dc5c1f7e5e2d7cf644722f12aff5f4f",
+      "size": 24888696,
       "name": "MES Run Beta",
       "description": "Run production, coordinate MES staff, and follow line progress in an isolated test environment.",
-      "releaseNotes": "MES Run Beta 13 - Daily-use UI Refinements\n\nSmaller headings, tighter spacing and compact controls make line configuration, production setup and the floor easier to scan. Breadcrumbs stay aligned between pages. Machine profiles no longer display parameter counts.\n\nTap the info icon beside a machine parameter to read its configured description. Routine explanations now open on demand. The Review screen keeps before/after avatars, assignment changes and staffing shortages visible with less repeated text. Tap the reduced-production icon beside a step name to view that step's staffing details.\n\nUpdate MES Run Beta in MES Store and use the existing test PIN. Try Swipe Line > Edit, Sort, Setup > Parameters, and the floor staffing indicators. The approved machine artwork and production workflow remain unchanged. Actual MES product identities, employees, attendance and machine profiles remain linked; production commands, quantities, raw materials and product fill weights remain isolated sample data.\n\nNormal and enlarged-text native checks use emulator debug builds. Signed-release installation and the MES Store installation flow remain unverified because automatic approval review previously blocked those checks. Pallet label printing is a separate app; physical printing, inspector submissions and live Andon input are outside this release.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.13/mes-run-0.1.0-beta.13.apk",
+      "releaseNotes": "MES Run Beta 14 - Staff Swapping and Compact Parameters\n\nLong-press an assigned employee avatar and drag it onto another avatar in the same production-step card to swap their positions. Dropping onto an empty position moves the employee there. A normal tap still opens employee selection. Drops outside the card or cancelled drags leave assignments unchanged.\n\nBefore production, swaps save to the current setup. During an open production run, both assignments are recorded together in one new lot, preserving earlier lot history. Stale assignments and cross-card swaps are rejected.\n\nMachine parameters now use two equal-width columns with tighter padding. Configured help remains available from the info icon beside each input. Floor breadcrumbs use smaller gaps, keeping Alerts and History beside the navigation trail; the trail scrolls horizontally when enlarged text needs more space.\n\nUpdate MES Run Beta in MES Store and use the existing test PIN. The package, signing identity, approved machine artwork, MES references and isolated sample factory are retained. No server deployment or data reset is included. Pallet label printing remains a separate app.\n\nNative verification uses the emulator debug app. Signed-release installation and the MES Store installation flow remain unverified because automatic approval review previously blocked those checks; they have not been retried. No physical phone was modified.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.14/mes-run-0.1.0-beta.14.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v1",
-        "signature": "WimVlUfMkeTyKYxFjgVV4803zIExstpopW2enOSBBSwurHLbJmzTCD+uqvG5TbRinLv5NbPNUxOoQ8Zj4q2HC5osy1RSPsdg/BaeSwuVlJnnLK9pFjfeeiBbVm72Ssttqfr1Af+M6hB3X/e3gPtVC+PVuszlAG0QjeQyf/QUTgSjJLZVuxvz0bBsl6U1s+Sq/tuLzqQEgcbFoqVmUjo7jY8KPwZJ/6lTeOiGvny1w1OrlhaUXJXthfcpSvIYBhaDiVJS5bBFk6p22pv3F/ZTa0EvGJ7FpCpVRriMSf8n21UM4s9yNqpfuUVfGUvwSFWGUlwCOUwq0PW6xbPYYXFxptm8G2kDm/8yQiz59PIv9DImQUWnRRNmF+9Iw/i5F7yhtvZLbX2h8OjdBeaJKzzAV41TcoxWQ3Cm7ZfcpJs4FuUa77Oa8xBsHUVg0SLfburKgd6RL7NvsjzTAdCd3W8q0i5gJXYv0JxdtBamupXoZdPoKEsC1E7aYFylfOzU7Wa/"
+        "signature": "Vjf96hr4fCLxKOfntLC/7GB0k+on+to18QOH0AXJ0mbG5fxUlxnV3L3HgfJiaqdPPAWyjLjhe+LvI2FBixgBRwxcAJD6F5qNirANGNDMSuPslWUF9rcrEJH7tyU7/leut3eclzmlxUGnp7iYpT8bTctqrHW3njP/xFML5BdHWdU1HuCmY+yXWtY3zWOUFOiU/3eQYtdhe0pOkHbgWVjaNjEv7uJ+OwhmqKrvhTjc8cbgkuc5v94B/+1Qcuckz+sgJCYvA9FK0uDqZs60iDwIS1yv2EnSMLoLUU3yMnCeEgjhd24G5jCS0GQ6AuQcLnKFSPWp5wHPgxHloLGjRIO0fa7gaovfezZ5PnlTpb2iVgl3/PbwTFkBa7ob7o0+spfSVnu1VSIfL/p5VCdwfZM2YrU4VGdegI5Re6h/3vT300bVzfDW/eS/RdVj6UbSEhX48hbN1awzdQVSVSv0q4SlfZqcMiLNAhgqpZFA4aktRALQwy7uj9fssbvF8wlngx2C"
       }
     },
     {
