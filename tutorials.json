@@ -124,6 +124,155 @@
           "note": "Loading and both signatures are complete. The signed BOL is ready for the shipment."
         }
       ]
+    },
+    {
+      "id": "dispatcher-daily-workflow",
+      "title": "How to use Dispatcher",
+      "subtitle": "Your MES tasks, on your phone",
+      "description": "Match familiar MES desktop functions to Dispatcher, then schedule loads, start loading, pair with MES, and print paperwork from your phone.",
+      "updated": "2026-09-21",
+      "introduction": "Dispatcher brings familiar MES dispatch tasks to your phone. Compare desktop functions with their mobile equivalents, then review loads, schedule pickups and arrivals, start loading, and print through paired MES. Training examples may show different loads; always match your current paperwork.",
+      "pdfUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/tutorial-dispatcher-daily-workflow-v1/dispatcher-daily-workflow.pdf",
+      "sha256": "b274064c9c8df4b12677724ab755f2fe6846c98f0172996cf884f482e10ec5d8",
+      "size": 1806680,
+      "pageCount": 13,
+      "sections": [
+        {
+          "title": "Your MES work, at the dock",
+          "page": 1,
+          "steps": [
+            "MES: Outbound > Load List. Dispatcher: Today / Outbounds. Review pickup times and shipment progress.",
+            "MES: Load List > Set Time or pencil. Dispatcher: Outbounds > Assign time / Reschedule. Save the pickup time for the whole load.",
+            "MES: Inbound > Shipment Details > ETA Time. Dispatcher: Inbounds > Assign time / Reschedule. Save an incoming shipment's arrival time.",
+            "MES: Outbound > Gate > dock assignment. Dispatcher: Today > Start Loading. Choose a dock and confirm trailer / seal.",
+            "MES: MES menu > plus above the clock. Dispatcher: Config > scan icon. Pair the phone with a MES desktop.",
+            "MES: Load List > printer on the load row. Dispatcher: Outbounds > Print > Picking List. Print the summary and DC breakdowns.",
+            "MES: Load List > printer beside a PO. Dispatcher: Outbounds > Print > Shipping Label. Choose the DC / PO and print its labels.",
+            "MES: Gate > right-click truck > View BOL. Dispatcher: Outbounds > Print > Bill of Lading. Print the saved full-load BOL."
+          ],
+          "note": "Scheduling and starting loading connect directly to MES. Printing needs a paired desktop that is connected and signed in with the MES Office module enabled; choose the printer in Android."
+        },
+        {
+          "title": "Sign in to Dispatcher",
+          "page": 2,
+          "steps": [
+            "Enter your username: Open Dispatcher and enter your MES username. The app remembers the username for next time.",
+            "Enter your password: Use your MES account password. Ask your supervisor if you do not have an account.",
+            "Tap Sign in: Wait for the live load pages to open. If offered phone sign-in, enable it with phone security or choose Not now."
+          ],
+          "note": "If you enabled phone sign-in, use Use phone security for the saved account. An expired session may still require your MES password."
+        },
+        {
+          "title": "See the day ahead",
+          "page": 3,
+          "steps": [
+            "In MES: review Outbound Loads: Load List groups the shipments under each load, with pickup times and checklist progress.",
+            "In Dispatcher: open Today: Check the date, swipe the timeline or open its vertical view, then scroll through the load cards.",
+            "Refresh before coordinating work: Pull down until Release to refresh. Config > Today page can show Inbounds, Outbounds or Both."
+          ],
+          "note": "Times use the factory time zone. Phone cards summarize the same MES work; they do not edit the warehouse checklist."
+        },
+        {
+          "title": "Find the outbound load",
+          "page": 4,
+          "steps": [
+            "In MES: find the load row: Use Load List to check the load number, carrier, DC shipments and current progress.",
+            "In Dispatcher: open Outbounds: Use Today, All, Needs time or Complete. Match the load number and carrier on the card.",
+            "Open the task you need: Assign time or Reschedule changes its pickup. Print opens its paperwork choices."
+          ],
+          "note": "One card represents a whole load. Progress counts completed DC shipments, not individual cartons."
+        },
+        {
+          "title": "Set the pickup time",
+          "page": 5,
+          "steps": [
+            "In MES: Set Pickup Time: The load's Set Time button or pencil opens the date and time picker shown above.",
+            "In Dispatcher: choose date and time: Tap Assign time or Reschedule. Pick a date, then a slot or Choose a custom time.",
+            "Save the whole load's pickup: Tap Save appointment and wait for MES. If prompted about another load, choose another time or Keep time."
+          ],
+          "note": "If a save times out, refresh and check before retrying. Offline changes cannot save. Desktop crop shows time controls."
+        },
+        {
+          "title": "Plan inbound arrivals",
+          "page": 6,
+          "steps": [
+            "In MES: open the shipment's ETA: Open Inbound Shipment Details and click ETA Time to reach Set ETA Time.",
+            "In Dispatcher: open Inbounds: Match the container or trailer. Tap Assign time or Reschedule and choose the date and time.",
+            "Save the expected arrival: Tap Save appointment and wait for confirmation. Refresh the incoming shipment to check it."
+          ],
+          "note": "This schedules arrival; it does not receive the cargo or complete unloading, counting, inspection or putaway."
+        },
+        {
+          "title": "Choose a loading dock",
+          "page": 7,
+          "steps": [
+            "In MES: use Gate Control: The desktop shows dock availability and waiting trucks. Assign a waiting truck to an available dock.",
+            "In Dispatcher: tap Start Loading: On Today or the vertical timeline, open the load and select an Available dock.",
+            "Check the assignment: Match the load and dock. Docks occupied by another load or under maintenance cannot be selected."
+          ],
+          "note": "This is the phone route for starting loading. It does not expose all desktop yard or gate-management functions."
+        },
+        {
+          "title": "Confirm the trailer",
+          "page": 8,
+          "steps": [
+            "In MES: enter truck details: Truck Register includes trailer and seal fields before the desktop's dock-assignment steps.",
+            "In Dispatcher: confirm trailer / seal: After choosing a dock, check the load. Enter the required trailer number and optional seal.",
+            "Confirm and wait for MES: Tap Confirm. Loading begins after the assignment succeeds; check any prefilled values first."
+          ],
+          "note": "Dispatcher's Confirm also starts loading. Driver/contact fields and other desktop registration options are not included."
+        },
+        {
+          "title": "Pair the phone with MES",
+          "page": 9,
+          "steps": [
+            "In MES: display the pairing QR: Click the plus button above the clock on the desktop's main menu.",
+            "In Dispatcher: scan the desktop: While signed in, open Config, tap the top-right scan icon, and scan the MES QR code.",
+            "Check the station connection: Paired MES should show the intended station and Connected. The phone example is still Unpaired."
+          ],
+          "note": "For printing, keep the paired desktop connected and signed in with the MES Office module enabled. Pairing is not needed for scheduling."
+        },
+        {
+          "title": "Print picking paperwork",
+          "page": 10,
+          "steps": [
+            "In MES: use the load-row printer: The highlighted icon prepares the picking summary and shipment breakdowns for the load.",
+            "In Dispatcher: choose Picking List: Tap Print on the load, then Picking List. Wait for the paired MES to prepare and send the PDF.",
+            "Choose sections and print: Review the summary and eligible DC breakdowns, tap Print selected, then choose the Android printer."
+          ],
+          "note": "Each selected section includes all its pages. Use the summary and DC slips for the SignPad workflow."
+        },
+        {
+          "title": "Print a shipment's labels",
+          "page": 11,
+          "steps": [
+            "In MES: use the shipment printer: Expand the load and use the printer beside the correct PO. This is different from the load-row printer.",
+            "In Dispatcher: choose the DC / PO: Open Print > Shipping Label, match both DC and PO, and tap an eligible Ready row.",
+            "Check print completion: Complete Android printing and keep the app session active. Successful printing then saves Printed in MES."
+          ],
+          "note": "Printed rows are disabled. A download or preview alone does not mark the labels Printed."
+        },
+        {
+          "title": "Check the bill of lading",
+          "page": 12,
+          "steps": [
+            "In MES: open View BOL: Right-click a dock with its truck assigned, then choose View BOL to open that load's BOL.",
+            "In Dispatcher: choose Bill of Lading: Open the load's Print menu and read the signature badge before requesting the saved document.",
+            "Print the document you need: Tap Bill of Lading, wait for the PDF, then review and print it through Android."
+          ],
+          "note": "Shipper Signed is not Both Signed. Complete final signatures in SignPad; BOL editing stays in desktop MES."
+        },
+        {
+          "title": "Finish printing in Android",
+          "page": 13,
+          "steps": [
+            "Choose the destination: Tap Select a printer and choose the intended printer. If offered, Save as PDF saves a file; choose a physical printer for paper output.",
+            "Review the print settings: Expand the options to check copies, paper size and page range. For shipping labels, use the correct label printer and matching paper.",
+            "Print and check the result: Review the preview and load number, then use Android's print action. Wait for completion and collect the correct pages or labels."
+          ],
+          "note": "Ask your administrator to enable the printer's Android print service. Options vary by phone and printer. This screen uses a training PDF and has no printer selected yet."
+        }
+      ]
     }
   ]
 }
