@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "packageName": "com.advancebusinesscare.mes.appstore",
+      "name": "MES Store",
+      "intro": "Your workplace apps, without the hunt for download links.",
+      "featured": {
+        "eyebrow": "YOUR MES TOOLBOX",
+        "headline": "Start here.\nGet to work.",
+        "description": "The right app should be easy to find. Bring your MES tools and their updates together in one place.",
+        "actionLabel": "Explore Store"
+      },
+      "link": {
+        "label": "MES Store guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/store.md"
+      }
+    }
+  ]
+}
