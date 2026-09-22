@@ -37,19 +37,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 28,
-      "versionName": "0.1.0-beta.17",
+      "versionCode": 29,
+      "versionName": "0.1.0-beta.18",
       "minSdk": 28,
       "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "5b18fc4ed33c94d28321b36a8a7d2a5cfd78d4f2d87a90d87aaeac3d4a15a306",
-      "size": 25380866,
+      "sha256": "ca3534aed730820277211eeddb6ba7a3df5a78540726c77705f254abab801b11",
+      "size": 26795054,
       "name": "MES Run Beta",
       "description": "Run production, coordinate MES staff, and follow line progress in an isolated test environment.",
-      "releaseNotes": "MES Run Beta 17 - production recording and staff coordination\n\nWhat's new\n- Staff photos load early and share a device cache across floor cards, drag previews and staff lists. Initials stay visible while a new photo loads.\n- The floor line name sits closer to the breadcrumbs. Stopped-production notes scroll on a single yellow line below navigation; tap to read the complete note.\n- Compact navigation and a single-row floor footer, with Raw Materials and Parameters icons beside the production action.\n- Animated avatar swap previews, grouped synchronized steps and more compact setup/configuration fields.\n- MES Run Production home-screen widget: choose a line to see its machine, status, product, running time and confirmed quantity. Start/Stop opens the app for the existing production review or stop-reason flow.\n\nTesting\nUpdate MES Run Beta in MES Store and use your existing supervisor test PIN. Try returning to the floor and staff list, dragging avatars, opening the full stop note, and adding the MES Run Production widget from Android's widget picker.\n\nEnvironment and limits\nThis beta uses the isolated sample production environment, with authorized MES product, staff and parameter references. It does not operate live factory production. Pallet label printing remains a separate app.\nThe widget is periodically refreshed by Android; it is not live machine telemetry. Review its update time. An uncached staff photo still needs its first download. Physical-device and independent MES Store installation verification remain outstanding; emulator checks use the debug app.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.17/mes-run-0.1.0-beta.17.apk",
+      "releaseNotes": "MES Run Beta 18 - compact widget and easier sign-in\n\nWhat's new\n- Compact home-screen widget with three columns: machine picture and small status, running product above a progress bar and percentage, and the Start/Stop action.\n- The widget uses confirmed production against the current target and requests a shorter, single-row launcher size. Start/Stop opens the existing production review or stop-reason flow.\n- The last successful supervisor PIN is remembered securely and stays masked on the login screen. Logging out clears it; an expired session keeps it available for signing in again.\n- Added Pillow Inspection and Pillow Weighing to the line and step picture lists, matching the existing industrial artwork with transparent backgrounds.\n\nTry it\nUpdate MES Run Beta in MES Store. Add or resize the MES Run Production widget, review progress, and open Stop. Sign out to check that the PIN field clears. In line configuration, select Pillow Inspection or Pillow Weighing and save.\n\nEnvironment and limits\nThis beta uses the isolated sample production environment with authorized MES product, staff and parameter references. It does not operate live factory production. Existing sample history is preserved. Pallet label printing remains a separate app.\nAndroid controls widget sizing and background refresh. Stale data offers Review before production actions. Physical-device and independent MES Store installation checks remain outstanding; current emulator checks use the debug app.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.18/mes-run-0.1.0-beta.18.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v1",
-        "signature": "cagnK3kfNZlJKLiYXahnShiqiMolfk3uqrBzQ7vn6wgjK45uLBcjtz3W98P7Ewih5DCXbBCIL/YNypqYtvp7xb/wZMCiaTVvcW7VAqMjpUzUuAUR1ND+XChdZqHnRvrTFQ0+kn1T2JTJ4zc4VVy0wkOBHZr435R7GBOXhdmhCOE2fTJoxk6tcbGi7szv95nv/lTN3neCSGY7SMW0jBvIOd++EouvdT+7nN3nHkZVCnoqXlYM0vcV8bavZ446vDcUsj5c4SXejjfkgHB5sgMQNq4RES69G7aUcMG54z+7yubE+Q7w6Wklb7BQzrXmSij7r0ZLPUjSUVNWtaR3pe7oqmN5/NVHgfikEBlbamWiMaLTleRS89/scWNW2eYv2c4FnuCyPXHG72tE09AcxHqJNckvItyhVUsQJhMLf9M2BPLZQ0x6QtyYa46Z0DzvCCe+an/8uhZbNzfXtg43R9Usg0HnOTfky6i8lECNxXo9wk320qMOdAeXdmerEgQ3ippc"
+        "signature": "h/3ykDbJkEUCt/HJvTYxcNMnwDb60a1FL+6AM3hmr8VsLgGfWcPRvCjaW7aNBTKuL8srTp47PMjcO8vydo/EzSyKlmdARo35X3cUCnYzXNsrswNB6+Vn4/rZ3je3ad7361mkplCe6XSXcIeyd+sh/GJ3d0AkXBWXVEUS6Zr9SbmTY7egE8k+Y9r6WoJ5zDHMrHuhMMmdoz8e+2fOV7ktJ+Enb5XAN4KnjAdtwXozD/VWp5vOovfxotZrZ5NQAqNeBrM5WGQ5tMI3YT0qqGffXl1wjshGiLLzKoKoX3sgx/ujiJ8A4D0bXtUtjCcLXXi3MiHMy/+0FQJBkRKBGWo865Hz45HznOaKh4r7QmUKwlHiIvy4n9tIxLT7Kn2CtPv4L7ABgkK2ue+2C/EcqpSxS9JlmcWoxS9myKcr2DgR1Gs8zr4RPUJVUs4pLfFTeCtbtZp6vqtd8HfBzzlQfnv1z5rkjVYykTDGhtEVd2b5dG30k5DMLZYnp9zwzqusfelJ"
       }
     },
     {
