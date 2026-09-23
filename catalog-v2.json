@@ -54,19 +54,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 30,
-      "versionName": "1.2.24",
+      "versionCode": 31,
+      "versionName": "1.2.25",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "92ba02243f77b94dfd4d838fb9f0a3e3770e879ea51cf372a5b389eded239db0",
-      "size": 6985432,
+      "sha256": "311e8ab6deacc6f186cd238613f5d82b2b727af16148b756bf117ea0d3553e41",
+      "size": 6985096,
       "name": "MES Store",
       "description": "Browse and install approved MES apps, read guides, and keep your apps up to date.",
-      "releaseNotes": "MES Store 1.2.24\n\nMigrates release approval to the replacement signing authority and a separate catalog for updated stores. APK identity, signature, checksum, and release-approval verification remain required.\n\nInstall this APK directly over the existing MES Store. Do not uninstall. The Android signing certificate and package ID are unchanged, so settings and app data are preserved.\n\nThis is a one-time manual update: older stores trust the unavailable original approval key and cannot authorize this migration through their built-in updater. Their original catalog remains available. After installing 1.2.24, subsequent approved updates use the replacement authority.\n\nRequires Android 9 or newer.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.24/mes-store-1.2.24.apk",
+      "releaseNotes": "mes-app-store 1.2.25\n\nRebuilt from the latest pulled MES source on September 23, 2026. Retains the existing package and Android signing identity for an in-place update.\nRefreshes the bundled app catalog for this coordinated release. Uses the existing v2 release approval authority. Stores older than 1.2.24 require a direct APK update over the installed app; do not uninstall.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.25/mes-store-1.2.25.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "YTHi7rg9d99BSCbxo6WbL86FuLnJouYkTpPVx6zhC0bSok4IkabvBOzFcoZc42UuLK9WkXBGw5kkzP2/JO+AMNFF9Ww+HbD/BtuN21idRyNxxAJowtvA9jMRuKI/MzSIOwCLfJCndrZ+sxgte0j6KOopTaXlzhEc2aBGKEmc4d9LSDjATvKR9XYzMEb+RH232rpymmdfxWCt2lJH3Ab94lLf0EuZWbQxCnz+fOg1hPRm/1ZUtIHm21La7tTr1YtqUO5kMoHMBccAHyd6Y1ms5PM01Jy+C13BmOzNTOtOZro+T3avx/gMF6LKi9dVKcpPn1/rDVVgMs/4agADwW1pI6UDKAPiv9cnBj7fmDuwPA7+zkKGvK0mX3NgP14z5cqIKkI86NQkDb6ZUjKFUMUF62d8BzwnPXsAft1vNss+91jqQfA34eRL17wKDMjhWCxiD7ru8GSY5iUl71kfClQ9PH5Bc5Ebb6UpMOPxxKrlORnfUpaO13DPp5jmt9lGh+ms"
+        "signature": "Y9t6Pu72VUfTgi5dbetqsaNfhKajBOR8S3BOTbfXzmcrKGnx1IH6MausqhX1DIfgJTiHPT5w1CI208CtQT2PlXKOyGXKYvVn4NKIa5ss3n1YWmRJvU+4ukd+Jzi1fdxIKMOiNHiM0ssGDmYZHMKaO5MWuCJS6MmSSguuTj1vIc+My+GpZwGynWNy+CM+FgwqGvj43rQ2sTfENj2ebIK/6tALd973dtpeCrmGdBabIPk6X/UrU4prnhF+7hJvk9wAClzGQGlLKRY91BDhYYP/77SA50TwcG2WGCtUgBk0U0aXY4eb4yakvW/joRyso90aL5W7D2peaa6PPz+vmFr3B2JWFCH76SQ3RVq9rcqCLozDANGfGcUOapbSWKBng1zXvfcf9n3I3KGDna9EYY3WoBEFcqor64RVhOBjO9YgNgZaY2uoZi8oTG+TRIDwDfiwGqIdJSi6be1UBY4AgOWKItmEOh/1/rnVGzSPCWHUbPEbtbHC5sOLSzaXiPuz7txL"
       }
     },
     {
