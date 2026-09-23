@@ -105,19 +105,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.upkeep",
-      "versionCode": 3,
-      "versionName": "0.1.0-beta.3",
+      "versionCode": 4,
+      "versionName": "0.1.0-beta.4",
       "minSdk": 28,
       "certificateSha256": "9c9af0c3deab42ffeadde187a2845c593c58b26f02cb702ed74b77bd9e7aec06",
-      "sha256": "1bc0f8a47e5e479df25b1f48dd21116d5bee46eaefa675cd6ab9bfc73b87917d",
-      "size": 9666228,
+      "sha256": "85b1a21deda03689c44f988406ffaeedc51dc812ebe6899c7afe258000864ca2",
+      "size": 9748148,
       "name": "Upkeep Beta",
       "description": "Test reporting, repairs, parts approvals, preventive maintenance and inspections with mock data only.",
-      "releaseNotes": "Upkeep 0.1.0-beta.3 \u2014 compact daily-use UI\n\nTighter ticket details and shared screens, using the approved Tasks spacing.\nSmaller headings, reduced card padding, compact timer controls and paired secondary actions.\nTask location and date are inset; bottom instructional hints are removed.\nLess hint text in reporting, workspace selection, purchases, PM and inspection.\n\nDemo PIN: 1234. Mock data only; session changes reset when the app process restarts.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.3/upkeep-0.1.0-beta.3.apk",
+      "releaseNotes": "Upkeep 0.1.0-beta.4 \u2014 daily inspections, recurring PM and photo viewer\n\nInspection is now a separate workspace with daily equipment checks and inspection history. Failed checks create linked repair tickets for technicians in Fix.\nPM is part of Tasks, with a distinct blue style, PM tag and visible repeat interval. Completing PM preserves its history and schedules the next occurrence. Available shows due work; the PM filter also shows upcoming tasks.\nFix bottom navigation is Tasks, Parts, History. All bottom bars use tighter icon-to-label spacing.\nIssue photos support swiping, tap-to-enlarge, a grid of all task photos, and circular portrait/landscape controls. Photo selection survives rotation.\nOn-hold card metadata now aligns with location and date.\n\nDemo PIN: 1234. Mock data only; session changes reset when the app process restarts. Forklift checklists are sample UI content. Camera capture uses in-memory preview images; there are no uploads or production authentication.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.4/upkeep-0.1.0-beta.4.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "HOx/g+lbZh3vFwOEMavNU8y2L/G4OHxU0jWR6KG4PdAUftRvQQlG9au3B6YMb1OD2gq5X3V6nF8ZiPzxm42fKWN7RPCkjwVVwhETT2uhz92MrJ6mQ9cUj5WWAkGv+3GfcvHiCwtl3IRQ4U7++o7C7p7ptlJALDCDrD0Ov3fmERiAUFsjghdioIYZ3paaFje6BjyYEPfT6Wk1n0nkyWWyrY4nnrJryobK4OFPs/e2abtYbRKSd/Pb4Q8/r3Mtkn67vsVIzX57NBQoXO8C9HcdmN3Guk7VVFUkhBsXLrNeDFGq4j7fofMJblk8zc7CsbcoCKOb5jBV2g+ilXnAicbLoBnYrFdC9p/XIvESR994pxbJ/afTLhCv8kkZP2etvu++1Z+/fxnc+2IOG4B2SsPdW7n/34lw1V1ExuiSvpIzbntsL+oGa7IIlbJYrgl2zgeIvMg8RV01gAOeq4xlrMUEcqAwrZc+Zhy/wnu39Ah21evr/poD389oTjZ9qbcg3QRZ"
+        "signature": "KVnGuxiTYRJGOLD6Qiw1rKBaiRnPQsjfh9OquTViEehqR8kg8IWhWZMkMRIPOpIzqrpQLBnKx+/lDRlX2JJuX1En3VjfmF8MEneu+GGbVIvaKHEyhv7Rle9QslJkormJ1ZMh5hM3KVjDaKLwEp/PIBphRlrdWXZHOoMc5AmQZGX66HOZPG6jif00JQ9XO58LPeQD8V9cWlVMwrxsip1Zl2w8B22TsS0erI73jl1zB2mHaC0PSQ2QEJK7SCV+YXpRb/YUhZXJZlblAyTwbHE9hd+lzV538Vj1tmvvbQgfcBP1gtj1YHmRGHD3IgEjgXShsCQ0zeyVFgVwXVB1QUaPO9DlahoYxCWSFhhBFoVhqWWc2NT8JGvUc5QFQwgDGW38GIlHbkhYmqpTBTJRx86sIBlY18JLdXcm8MhC02UHWkLOVc3j6JHrX/k/KMw1BufEpPSxZ0soiDIgWic/Z5EqZzvTUBAkZ7KnraYUi0RWLlVM+5vsVVLjf0YF9bQW7NHa"
       }
     }
   ]
