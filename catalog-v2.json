@@ -20,19 +20,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.radio.debug.perf",
-      "versionCode": 11,
-      "versionName": "1.0.7",
+      "versionCode": 12,
+      "versionName": "1.0.8",
       "minSdk": 28,
-      "certificateSha256": "bbf9b1cff6be6162ab924e58420940224669958cf876c54c9136340f982bf7fe",
-      "sha256": "aa54b23d42bb0d34912b7c1b462de755800d598a412b46eefb082818a82c864f",
-      "size": 42392673,
+      "certificateSha256": "27538ebce7627a51ec982c7093ba6b15f0bd40aa530ceb3d5ba50e69cbdfafbd",
+      "sha256": "7f152d2f45cb401878a133f2095c92e093aa2a74532d13c1aeb33f9dd43e6de2",
+      "size": 42392417,
       "name": "MES Radio",
       "description": "Push-to-talk for your MES team. Talk on radio channels and replay received voice.",
-      "releaseNotes": "MES Radio 1.0.7\n\nLive speech gets progressively quieter when the speaker is estimated to be within 5 meters. At 5 meters or beyond, it uses your saved Quiet, Medium or Loud level. Live speech is reduced, not fully muted.\nRecordings keep their original audio, and Replay plays at your saved listening level regardless of how close the speaker was.\nWorks for regular channels and Broadcast. A nearby-speaker status explains when live volume is lowered.\n\nBoth phones must enable location sharing and have fresh positions reporting accuracy of 5 meters or better. Missing, old or imprecise positions leave live volume unchanged. Location remains an estimate, and sharing stops when the app leaves the foreground; this does not guarantee feedback prevention. Two-phone proximity and acoustic testing remain pending.\n\nKeeps the Broadcast speaker toggle, speech-reactive glow, radar stabilization and connection recovery from previous releases.\nAndroid 9 or newer. Updates MES Radio in place and preserves sign-in, settings and voice history. Do not uninstall before updating.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.7/mes-radio-1.0.7.apk",
+      "releaseNotes": "SIGNING KEY REPLACED: this release cannot update the old installation. Uninstall the old app first, which deletes its local settings, drafts and recordings, then install this version and sign in again. The package ID is unchanged. Server-side records are not deleted by uninstalling.\n\nmes-walkie-talkie 1.0.8\n\nRebuilt from the latest pulled MES source on September 23, 2026. Retains the existing package ID with the owner-approved replacement signing key.\nIncludes the pending nearby-audio correction: a one-meter range, location accuracy accounted for, a stable decision per message, and a minimum live gain of 0.5. Recordings and Replay retain their existing behavior. Precise nearby ranging remains dependent on device location accuracy.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-radio-v1.0.8/mes-radio-1.0.8.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "F1T9EyZilohxV2orq9Xz8cNo2wmonJbaGP04Z2+5VgSAQnTY99vDsjrH9o4z9t8dQIkE3t0kxtGhoV1ZbZeh3dSyI8UxIaPBr2HrLYpleTsK1Tta4aB5Bm2ysHuzy4jKXgtr4WcF+A3IWoirhLmHgDUopbjAewo2npmE1bEFZ6RuybYAllDdAzBArzIdOyY6Ua87dBtu2O1VyMhKmQq4nUfnLF+m+BOgxv+8qbO5CUJEgGLWof6v6sTuqAOUzbMXb7qyyaWcluFrFUw8cm3SCExWtAnzPfVDB44RemeRrOQ3/6HccCRqHGj7Q+aMXALkKsbn3gGr5WoqPyfH+lZgLv2CWTjyqGDfbh2iFryYZuNmDTrCOdtfKqeKXnOgep86SSzooVzND+3VevkVLrf6W5p8K/XmB3v2RPpvJYkxH7PzgMjUE1vj2edIKK9wrKafMomrQbHXQ1ZZGYT5tA/7vpvyD6CgXhWkg2kFQRQOfgN4rChFHVPgB1b8hCvBtBfH"
+        "signature": "AgOM4D+RVVAVh4eOfDODyIqM/qqEQttIwOV2MFGkwH3gTbXypg7XtSy66gdbiec0lFJ3HYZjTjXa2a1jGAOHuLTitpupaqAS8oiqwehJkNr6Ue14uIJ9KaILYW+ZuIvjbH0Ki03/6bAtGp0oh44jjPizs3Kl5FXcr6gBXSRwetJU7HF4x2GzGdgFzJ6uemLzn0JINWH/5izosw2GyRFiy+/BOPfzyKFtANjg+xVevUAn9NQzGHTpXM4fAcYwg/IWcCIQdTilVlDY/N5++LDmGX1z1HHz5hXHzQzMWbq8K2LN1QIa+H61LY0FKpCRFOLWNRN4+1u4oU1dyWbNT2/JXZ+4XmJaPgMiWavb8pq3CXD7Yl9AEu17CMwUZI+zmeblrDfZLymCvG3a1fRv2izYd/m5gIN3/d9rgXnloNQCFBIL77+eOiKJgx3ALQDWGogJq6a4VnUhKtgcOyu/zUVw2Fmsa+krJdikT6FiSQXoVO52ua7noGnksKiRpEBdQ+Zm"
       }
     },
     {
