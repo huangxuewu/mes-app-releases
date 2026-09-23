@@ -37,19 +37,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.run",
-      "versionCode": 29,
-      "versionName": "0.1.0-beta.18",
+      "versionCode": 36,
+      "versionName": "0.1.0-beta.25",
       "minSdk": 28,
-      "certificateSha256": "8f79d51b7838a08146697e6a8bfe0ccfa21a33dd55e3c6f44a962b140e4b1097",
-      "sha256": "ca3534aed730820277211eeddb6ba7a3df5a78540726c77705f254abab801b11",
-      "size": 26795054,
+      "certificateSha256": "7620cd699ef94bd81f7c1f60628463955a90f4e16b593a826981bca0abba7941",
+      "sha256": "e515f8303c934b4bbb8f0bd5317d9d1592330633e465490c0f00443e8d5e984f",
+      "size": 27708154,
       "name": "MES Run Beta",
-      "description": "Run production, coordinate MES staff, and follow line progress in an isolated test environment.",
-      "releaseNotes": "MES Run Beta 18 - compact widget and easier sign-in\n\nWhat's new\n- Compact home-screen widget with three columns: machine picture and small status, running product above a progress bar and percentage, and the Start/Stop action.\n- The widget uses confirmed production against the current target and requests a shorter, single-row launcher size. Start/Stop opens the existing production review or stop-reason flow.\n- The last successful supervisor PIN is remembered securely and stays masked on the login screen. Logging out clears it; an expired session keeps it available for signing in again.\n- Added Pillow Inspection and Pillow Weighing to the line and step picture lists, matching the existing industrial artwork with transparent backgrounds.\n\nTry it\nUpdate MES Run Beta in MES Store. Add or resize the MES Run Production widget, review progress, and open Stop. Sign out to check that the PIN field clears. In line configuration, select Pillow Inspection or Pillow Weighing and save.\n\nEnvironment and limits\nThis beta uses the isolated sample production environment with authorized MES product, staff and parameter references. It does not operate live factory production. Existing sample history is preserved. Pallet label printing remains a separate app.\nAndroid controls widget sizing and background refresh. Stale data offers Review before production actions. Physical-device and independent MES Store installation checks remain outstanding; current emulator checks use the debug app.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.18/mes-run-0.1.0-beta.18.apk",
+      "description": "Run production, coordinate MES staff, and follow line progress using the production MES service.",
+      "releaseNotes": "SIGNING KEY REPLACED: this release cannot update the old installation. Uninstall the old app first, which deletes its local settings, drafts and recordings, then install this version and sign in again. The package ID is unchanged. Server-side records are not deleted by uninstalling.\n\nMES Run Beta 25\n\nRedesigned stop form with gray reason codes, searchable reasons and separate notes.\nAdd camera or gallery photos to unplanned stops. Confirm uploads photos first, with circular percentage progress on each thumbnail, then saves the stop. Failed uploads can be retried.\nPhotos are stored as WebP in Dropbox and linked to the stop in production history.\nUses the production MES service. Sign in with your existing authorized supervisor PIN.\n\nRebuilt from the latest pulled source with the replacement signing identity on September 23, 2026.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-run-v0.1.0-beta.25/mes-run-0.1.0-beta.25.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "VLaGcJj+FJGi52NF8YZ9CUXRV34HVmR4E9Mvtk7jeCU6z1AEOk33TUSYwKjPG4mSZsW7FtN7UGzHUG4/xQuDB4fOlkAjweAQ1aHVmQerg79YEFq8y0AxPtgN6eDRsVJKdR8x5VJxeSg2KdbdMKOK4/4NEoXvFJEs8zGLjg1dIV/cBSfNI/9h2fy2XIGmXnshem4IoEvPceLoy30JPI3ve/CgwFALLN+xnEaSc9/rc/IncjHR5ejiOvnGl1EmC8UJPAGZcV1BqB9SKvjIewwhRpr92woRwndWcxvUxVzDigMNfVt3oive+6sIEgoHbj/AB+b5VMEJIzf3/Kc0D5fGiewxKCFvbzCv04Pt36JqRd5QEombvLIlgI7DcydItTwco8IFb6qresnYMJ73KEwJrRYEpTY9QmDAt9dpNmOlXawIiJw9ksrMIXbyyS8r3KYSmXxbt7ETw3WOLxvNf09BOsdZzuAoQSOn2ggqBLwd4dS+kGhpz1NT69s3+KNjpwGq"
+        "signature": "DUANZR7xkhgLUEJMOQDuQZCTi3Nogy948uTcC9ZHx4xcpwpV9PrMsaU71Inh+anZfVRlD7fXCL1WhznMNUD/c+Rd4vgybhcFwFMMdlV9DHUUjPDoV/D1EInv5CGCB4ROLbjQBy7YDQIsTgmKDvzbHAyPZvjlz8Mx2U164xzkHM0YuPphG7ePpjOVrUBRT+R6ZKv4trECECv+SFvuplH9yY3b1iMTV0uiqvnPiV5rgWmsNQQPK/C6+zpAOwX1zT32Hk8e4dkCt4C5obrrELlxXfowzFhrGjIAE08DlWO4tJ77a9cCQdpd4jou/tk2UK6ky8u4GNsM/I/wsRQSk5q+rMbG2kCI+npN0I9EY+Ybj6u1UxVPC6Es656oFRAs9a1Vxc5HgL6AUymvkuSDU6yCpHnnBS1LQ696hDD+5QC9iWSbvdT+rxrJpxE/deTClJDdRw5s672D6vcMl8s2vQvvx9QQMDDPG0Px7ZXFWiuAXTE9SVpcQyvVZ1RUpit1uPV6"
       }
     },
     {
