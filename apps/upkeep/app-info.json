@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "packageName": "com.advancebusinesscare.mes.upkeep",
+      "name": "Upkeep Beta",
+      "intro": "Try maintenance tasks, inspections, and purchase approvals with sample data.",
+      "featured": {
+        "eyebrow": "MAINTENANCE PRACTICE",
+        "headline": "Practice the work.\nFollow every step.",
+        "description": "Explore repair tasks, preventive maintenance, inspections and purchase approvals in a device-only sandbox.",
+        "actionLabel": "Explore"
+      },
+      "link": {
+        "label": "Upkeep beta guide",
+        "url": "https://github.com/huangxuewu/mes-app-releases/blob/main/help/upkeep.md"
+      }
+    }
+  ]
+}
