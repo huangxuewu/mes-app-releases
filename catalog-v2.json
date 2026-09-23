@@ -3,19 +3,19 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.loadboard",
-      "versionCode": 7,
-      "versionName": "1.1.3",
+      "versionCode": 8,
+      "versionName": "1.1.4",
       "minSdk": 28,
       "certificateSha256": "3aff69f4f754ff2850ace3b3e4577c8554f09642a7f8b9b0e58e08eb6f58c70e",
-      "sha256": "41beab717c32ce3d8ee4d2cbab406ec2d55de48de186e44188f71b98afcf2ac0",
+      "sha256": "24906d87b92e3015c65a308f50c705bfcf79667602d9d31edf6588a93b61530f",
       "size": 56601703,
       "name": "Dispatcher",
       "description": "Schedule outbound pickups and inbound arrivals, track load progress, and view daily timelines.",
-      "releaseNotes": "Dispatcher 1.1.3\n\nSwipe left or right on Inbounds and Outbounds to select the next or previous filter. A swipe must cover at least a quarter of the page width, with a 96 dp minimum, before switching on release. Short swipes, vertical scrolling, and search-field gestures do not switch filters. The Today page retains its existing timeline gestures.\n\nLoading dots on Print and Start Loading buttons now draw as one compact indicator, preventing device fonts or display sizes from wrapping the dots onto another line.\n\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.3/dispatcher-1.1.3.apk",
+      "releaseNotes": "mes-loadboard 1.1.4\n\nRebuilt from the latest pulled MES source on September 23, 2026. Retains the existing package and Android signing identity for an in-place update.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.4/dispatcher-1.1.4.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "JWwdjWZAm2/V8bG3JbLTJVT0uLRxLUj3YJD+CdLA642wNPlijAXLCxbFwU0azZ3mncmbi45C92n0m5DCo6JS1paRVVIXonHjMgtoyqoTzL8qpOUm4GhN14bWjLAilOWCOxI5xjyHlH6MKXLA/xc4elTer2A5oQ6dkInU5vZA9FDL7WGGW+CZCQzgeiiH32ZhgeRPXDuVLDRR2oN99PX093pEQGPvZaoEY82C2by93znaX6leFnZYEFLxAMAlO1rlTdR+CRY8GW/DO1c2oobChhdvePqt8jKU86XHLzfd4utigheO/NviaP9brnY5tnqGYHGXfIMZQEVH5u+sx+wNXy78VebwgpxGkwLLZGiO3A1X8S0SmZ5rwPPOOnaNuA+FmnPUo0LUQnkjRcb+sGtCx8otGIViNPoyOUwJQCugNfVCoW9jLClBWz9f8xBU5XbyyIIa7zZWKjbixVTvNAFGSDWk3jheGCSOERSYEN1L3/CNtJPi9VNqWEjT3NPqm3tk"
+        "signature": "Y++g8HcRDeUcIkXqy/xJ/fU34qCG/c3+idQE4pv42FxuH/cNoLEjKknp8xtzP8d/+qx0uv3VZgN9vu1dl9s1sTedjcBkQUHWrgKJPqFxES4WMG9GbpphVX1UrcxaSi6KXycD51PZEFNi8JcA5Ss2vixpuRH0jebRAnw3e6sQfKnUEG73Wtn9aWT8TXmFpH60lVbY1S0t3SWwPZ2bDtSRye1jam2E8Vp/QSnkJZYsRW8HfDLKH3pIYBbn1UhlaKYCb7yGy+98RA9WWm9xl6kMbUwWXA094+fg6p3SaS4iM58IhrdJaDulvR14q6uwi8rWApMP6LAXgv+OYU1zW99Ux97wBi0mG3HkOK0BXlwO6YUTcryUHp2SyZmxWLP+0fMr+2baUk0g2EZLCRxPO0X2R7spDWtVBCnNWimk7fdAklFvNoyqtMUzoqF1CVYTrrJbUZjBJro+bPIiRVXtwCwEtGZRtMipDvzA2B2YydvX0gaT9Gx9ebQMMHgphtWfk7FN"
       }
     },
     {
