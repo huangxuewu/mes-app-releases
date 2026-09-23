@@ -102,6 +102,23 @@
         "keyId": "mes-release-approval-v2",
         "signature": "QDlrrgA6aivRIeJqjmi04RjAP0vUqSqEivvegPMSBbiU9xbb95anbYIMxumBOPhsUBJuomq5vhvCMuUIhsLPi0z6uzHJeV/AQNLP02jmIQKpngUXJUNaej51zLt+d9LmnnJ/d60EkntOR38Q29m9xnWu9mk8q2LaOqTlkXXMt4a6FbjJ1TFmj6W9Zsv/myC26xUzM1VamTPdaLYJrgmuGWMr5boWRx5EG2YHI++rRsaq2JhyfuD5j/rNc6g1QIkC/C2aJFaV3y42N4JT4cidNV5VZ0paMPqAwBX8BT4o7IuiaQzTBHV9yL170ZPRqEBCxg1z0JQO8ioTEjPzaN4CzdbbOLJ52p/6iEw7a78XX8D7xuZXm+3uwZ9LPZkURbk1UY9PJQaRWPW7YVmTrgYoQdPF0f7acHnNt3BZU9/2RYbJLvhLAkYaE5eDy4CpY1QmEPpZIPfoL/oZyMxTSGu3wbAX6Gv97310FDGO/+gpIOOJZMCfPdh90qKSx7I9mMmd"
       }
+    },
+    {
+      "packageName": "com.advancebusinesscare.mes.upkeep",
+      "versionCode": 1,
+      "versionName": "0.1.0-beta.1",
+      "minSdk": 28,
+      "certificateSha256": "9c9af0c3deab42ffeadde187a2845c593c58b26f02cb702ed74b77bd9e7aec06",
+      "sha256": "170544f13e7ea2e37ac9def89c2d20f3c1957a7d504223dbaddc33d817720877",
+      "size": 9581184,
+      "name": "Upkeep Beta",
+      "description": "Practice maintenance tasks, preventive maintenance, inspections, and purchase approvals with device-only sample data.",
+      "releaseNotes": "Upkeep 0.1.0-beta.1 \u2014 procedure-testing beta\n\nNative Android app with charcoal surfaces, orange actions and animated transitions.\nBottom navigation: Tasks, Report, PM, Inspection, History.\n\nReport problems with location, priority, schedule, deadline and generated demo photos.\nTechnicians pick up tasks, track active work, pause, hold with a reason, resolve and close repairs. Issuers can cancel with a reason.\nTechnicians enter part names, quantities, prices and purchase links. Approvers approve, request changes or reject. Test ordering and receiving without making a real purchase.\nPM includes recurring service plans, overdue tracking and required checklists. Closing a service schedules its next occurrence.\nInspections record Pass, Fail or N/A; failed findings require notes and create follow-up repair tickets.\nHistory includes repair notes, activity, photos, PM and inspection records.\n\nMOCK DATA ONLY: no server connection, login credentials, database writes, real orders or photo uploads. Changes are held only in memory and reset when the app process restarts. Android configuration changes preserve the current session.\nTap the beta strip to switch Technician / Issuer / Approver, open Purchases & approvals, or reset sample data. Purchase links are previewed in-app only. This beta tests procedures on a single device; there is no multi-user synchronization.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.1/upkeep-0.1.0-beta.1.apk",
+      "releaseApproval": {
+        "keyId": "mes-release-approval-v2",
+        "signature": "RmYAStRxsW3kJcBkre/gcQb5259i25GYK8aeZS4+tsaNAn9qVCdkNbw2fLRkSZznVfGHIBMVv8tQIEhAPX1DiAxte6G/GOrr548uocKleRvFDYRFadQ0JoDBvA3uBr6b4snpOWmo4j4FOEyi5pQusr6lD+7/HhyPj9+3YShRMc/vwa7rtCgGF+e4+7SaWH8HT11k5EiiRs29FBPHbjS3jTwhXvFbT3uaD8sqLxfloN78Bu1SOgAZ+IA20vIW5yFyRgYC+NeG+FoRSIslW6NDWzSoDeeRubsAhvPqJUacP2jctYAJrtd49LdipwFNiEC8he/uj9ZZicY29tB7e9snE9vcIYLckE/8drf+88IRfoIg0NhKjftdox0DGjpRlkDspB6BHpTK1LxZyYuCBTv1p01dcJgv0wKys4bAV/1SqUVlZLlWyLCpOT4+GoKks+7iFJrn4Sy8EU3Kh40cqe0tf35NW2KVdOxqOtabbdJ9HLCSejrPyn8lk29/aUjrG9Yl"
+      }
     }
   ]
 }
