@@ -105,19 +105,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.upkeep",
-      "versionCode": 1,
-      "versionName": "0.1.0-beta.1",
+      "versionCode": 2,
+      "versionName": "0.1.0-beta.2",
       "minSdk": 28,
       "certificateSha256": "9c9af0c3deab42ffeadde187a2845c593c58b26f02cb702ed74b77bd9e7aec06",
-      "sha256": "170544f13e7ea2e37ac9def89c2d20f3c1957a7d504223dbaddc33d817720877",
-      "size": 9581184,
+      "sha256": "b20e8b19f5418f8dec9b40e4289a0b1b95a0399416dc00ced55cb70b878261c6",
+      "size": 9682612,
       "name": "Upkeep Beta",
-      "description": "Practice maintenance tasks, preventive maintenance, inspections, and purchase approvals with device-only sample data.",
-      "releaseNotes": "Upkeep 0.1.0-beta.1 \u2014 procedure-testing beta\n\nNative Android app with charcoal surfaces, orange actions and animated transitions.\nBottom navigation: Tasks, Report, PM, Inspection, History.\n\nReport problems with location, priority, schedule, deadline and generated demo photos.\nTechnicians pick up tasks, track active work, pause, hold with a reason, resolve and close repairs. Issuers can cancel with a reason.\nTechnicians enter part names, quantities, prices and purchase links. Approvers approve, request changes or reject. Test ordering and receiving without making a real purchase.\nPM includes recurring service plans, overdue tracking and required checklists. Closing a service schedules its next occurrence.\nInspections record Pass, Fail or N/A; failed findings require notes and create follow-up repair tickets.\nHistory includes repair notes, activity, photos, PM and inspection records.\n\nMOCK DATA ONLY: no server connection, login credentials, database writes, real orders or photo uploads. Changes are held only in memory and reset when the app process restarts. Android configuration changes preserve the current session.\nTap the beta strip to switch Technician / Issuer / Approver, open Purchases & approvals, or reset sample data. Purchase links are previewed in-app only. This beta tests procedures on a single device; there is no multi-user synchronization.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.1/upkeep-0.1.0-beta.1.apk",
+      "description": "Test reporting, repairs, parts approvals, preventive maintenance and inspections with mock data only.",
+      "releaseNotes": "Upkeep 0.1.0-beta.2 \u2014 access, workspaces and guided reporting\n\nNew wrench launcher icon and animated splash: orange background contracts into a circle, shrinks away and reveals PIN entry.\nUse demo PIN 1234, then choose Fix (Technician), Issue (Staff), or Review (Manager), each with its own bottom navigation.\nFix includes compact task cards, a filter beside the app name, and an animated icon toggle for compact/detailed views.\nIssue reporting follows four steps: issue-type tags, urgency tags, optional photos, then description and location. Answers survive Back, tab changes and rotation.\nAdd up to five photos using the system camera or generated sample photos. Camera preview images stay in memory only; no photo is uploaded.\nReview shows open and overdue tasks, pending approvals, and work needing attention.\nExisting repair, parts approval, preventive maintenance, inspection and history procedures remain available.\n\nUI / PROCEDURE BETA: PIN 1234 is a demo, not production authentication. Mock data only; no server connection, database writes, real orders, payments or uploads. Session data resets when the app process restarts. There is no multi-device synchronization. Camera capture is preview-resolution in this beta.\nUse the beta strip to switch workspaces, lock the app, review purchases or reset sample data.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.2/upkeep-0.1.0-beta.2.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "RmYAStRxsW3kJcBkre/gcQb5259i25GYK8aeZS4+tsaNAn9qVCdkNbw2fLRkSZznVfGHIBMVv8tQIEhAPX1DiAxte6G/GOrr548uocKleRvFDYRFadQ0JoDBvA3uBr6b4snpOWmo4j4FOEyi5pQusr6lD+7/HhyPj9+3YShRMc/vwa7rtCgGF+e4+7SaWH8HT11k5EiiRs29FBPHbjS3jTwhXvFbT3uaD8sqLxfloN78Bu1SOgAZ+IA20vIW5yFyRgYC+NeG+FoRSIslW6NDWzSoDeeRubsAhvPqJUacP2jctYAJrtd49LdipwFNiEC8he/uj9ZZicY29tB7e9snE9vcIYLckE/8drf+88IRfoIg0NhKjftdox0DGjpRlkDspB6BHpTK1LxZyYuCBTv1p01dcJgv0wKys4bAV/1SqUVlZLlWyLCpOT4+GoKks+7iFJrn4Sy8EU3Kh40cqe0tf35NW2KVdOxqOtabbdJ9HLCSejrPyn8lk29/aUjrG9Yl"
+        "signature": "oeR0WRoZNCf856y/zaQ4CiETNn/tBTMIXSB/C7cP5of1kZczAZY9CyAdZuQHSIQZibNguE8eRj47DHciSnUjiTIkktNARI6Qo3d7dtlneXew+UEkFRZdEcaEVm3bUpkLjY7p9dX2sye3TqXzHlYQJeSKImQkOMhlSJ2PS3pYT/A4vrmZuLVXmT5cEmoNIjudFyKIklhM92wBPBPo0EdALIs/KtoqmlmjJgabAPVnuIUsnGpI12pRqGhcD8/402AwRtIV5OO0fDoovr0cmmpJE5dBrWWOguLWB6zZ1GCYwl2+ord/uqrMU1aRtC97d4tIycyJbuVN1PUnsWfnjWwIduMB5ZJ6+LL4yY2SsyEMOq5uThW2ElY0K2rhtOVJ4YA9SPufxoD5U9Q60FaHtYhhYsoRa2xzyYcLMBlxdkLav/9kh6xAkxHyEbMIFBgM9pBPfUIbmgDarGPF9Dm62Dkoo9fIrYiL6a9Gf2znSImIc0DzpSKMN7yl/PjLZXv9XsBp"
       }
     }
   ]
