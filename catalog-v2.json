@@ -71,19 +71,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
-      "versionCode": 13,
-      "versionName": "1.6.3",
+      "versionCode": 14,
+      "versionName": "1.6.4",
       "minSdk": 28,
       "certificateSha256": "b36d13641a6ac3f404a3ccc5f7b65753415e3b8263a8e509df843a418082e47c",
-      "sha256": "921894e35886baa6b2743510b460400080f7e8beb494143eebd27f3fe57834e3",
-      "size": 2226904,
+      "sha256": "28e3c09cfcb2fb9aaf13d2ffa8481c4f44375117e4764efd75c6ecfa484c4d0b",
+      "size": 2226900,
       "name": "SignPad",
       "description": "Sign bills of lading, scan shipments, and keep warehouse work moving.",
-      "releaseNotes": "SignPad 1.6.3\n\nConnects to the new MES server at https://mes.dhmsc.com.\nExisting MES server settings move automatically. Custom server addresses are preserved.\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/signpad-v1.6.3/signpad-1.6.3.apk",
+      "releaseNotes": "mes-signature-pad 1.6.4\n\nRebuilt from the latest pulled MES source on September 23, 2026. Retains the existing package and Android signing identity for an in-place update.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/signpad-v1.6.4/signpad-1.6.4.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "gh1CRHXktBv30yuAeXuxkX5nuXd57/ZcB+OOtITog5iW10dxaIe1UF1Wxc0E5iIix7dxJJqm426K3Elq/tYCZFVlReHw5N2b0dBDQRFldGQ3UjIwyGw+1ULkA/RKWT0LJzGrAXqp/lLZShUwGuL9Or4sOhsG4ObnObopB/EW1RcOJlT3hfTouLU4XUFAPNaowNGPpQwxQdiwy6D+8JiuIcXjhZiRsrgZI0QlOhgOdv+NfBthOg3w9zF4ACJEQ8w8ljnGP0t++Pp7bRClXtvIrM+075kAVyh9SFQJ9EYQ1t4D5+nbuP37lgMgY5Jf8ou7kEQukDgiXWaDd6Zjg3Q2xwbydA06hUzAUbUP770TzSkdjx+tOq8IZzB5lARwMf9dZHwhUaUAGnw71sTIsxG/Ak5qTordf0/iGa/7AOcJDcqFl7AOi+k8p2Pc+JNAw2XvcNO3IvkK7LWjRcdJ70F/OqLABxNW3Gf38+tB3Sft7QHMToz90dGqToVCXsDK3QrY"
+        "signature": "SSK/4/Or0OG5TqKihEnlyNQhe5fr/fMxXgCq+On5S131VGznhVD6EECoAXbI2JSThYGSHLBm4QegAhy/8Jr7x+qH/2Kkfa5pwHkZe/il6E1OAIagL+QtJ1owG9N4jY5LUtKBM5Vjyeza7nbW4EliNY13s3esDc6OcCBDUYTgWv7NaMEHGQKiI8qbEdwRAjNBGxAJRMQ480268wbBSfnamqc3/T/crrI/jF7KwxfWgn2CqW/aCGMp6GiTQ3MqFZ97TqbQcYvFAbvDO4ZfOAS9oKvOPBBHQI3eBvpLPukAYtg22G8MkasNE80cWdKuqLiNToTfl5eqYEI36pGBr/61nFGeoOKwsPGVREZ3X1N3h49bFC5hncXd3eFeD3s8B1+irrTDBpsk8Aif30GS2JiHXQ+11kONovH4IWyVfUBaba8bYBiv4KkKHKzIz6wUQ3HY4usxpL8QC4A5WJVBeHyBkV/vo/UZBI8RJPPjAinpUWGqfoobV/zQorSrtVxhIOqH"
       }
     },
     {
