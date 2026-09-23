@@ -88,19 +88,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.timepunch",
-      "versionCode": 8,
-      "versionName": "1.2.1",
+      "versionCode": 9,
+      "versionName": "1.2.2",
       "minSdk": 28,
       "certificateSha256": "46634657f184e541f3d6c4c7193d18c6f278b6665e34befdfb73418213c474f7",
-      "sha256": "f873bef12532916512ede485f569e65876f878eec45dd1ec979b29f1008f0c0b",
+      "sha256": "206d384bc508f634983552d79ba2f9e644f9d361dec9ac0d038608e53e8b99e4",
       "size": 7910712,
       "name": "Time Punch",
       "description": "Employee PIN, punch photos, and clock-in, break, and clock-out actions for MES tablets.",
-      "releaseNotes": "Time Punch 1.2.1\n\nConnects to the new MES server at https://mes.dhmsc.com.\nExisting MES server settings move automatically. Custom server addresses are preserved.\nInstall over the existing app to retain saved settings and authorization. The package ID and signing certificate are unchanged.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.2.1/time-punch-1.2.1.apk",
+      "releaseNotes": "mes-time-punch 1.2.2\n\nRebuilt from the latest pulled MES source on September 23, 2026. Retains the existing package and Android signing identity for an in-place update.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/time-punch-v1.2.2/time-punch-1.2.2.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "i7va8rVXHVw/YNcN/OM33ST4uACOn9/9y/uhVk2Zzfxxn+NiRAJ2P3z4PB2WPShg1Ki70Q30zY9iKn+hh69Mug8Zt947yTGJVEcUXmaf4v+CE7vvZdTmOMToL3nOQv3bmW4KcTkenlPlt1C0KDMuK0s7gJCGISg1Bs555DWOjqKB6lZPNqiVNHNDkiwQBPOQTLQfC85dZMloEAB0rk3FMrsRj9sVUpGhcqQvXYA5d5OM7J7AXs+JUDOKdS/bEJZroG2y4JXi5mEODinRByHxxCKYS0swS8dXie3caffjEXarFMZRyRf1dzFszZsMfpDxPWWzMpG6SQ67qpxO7N5yXfgDqyQrInDB5SE8tnBPhxH1B7kOtz0uTxjPlzt14Y+tOsFkxu6lxEZqrGoYJyBFNbtZ4PO0MJR3XdqmmC8RS2G75geXU0Hfp2SGgliQnLdPI2ywNrL6erYmlo8rNYdte7DVqL50BeAmu8ohmrNy+qboFisIO1z1/P18PS2WwXBk"
+        "signature": "QDlrrgA6aivRIeJqjmi04RjAP0vUqSqEivvegPMSBbiU9xbb95anbYIMxumBOPhsUBJuomq5vhvCMuUIhsLPi0z6uzHJeV/AQNLP02jmIQKpngUXJUNaej51zLt+d9LmnnJ/d60EkntOR38Q29m9xnWu9mk8q2LaOqTlkXXMt4a6FbjJ1TFmj6W9Zsv/myC26xUzM1VamTPdaLYJrgmuGWMr5boWRx5EG2YHI++rRsaq2JhyfuD5j/rNc6g1QIkC/C2aJFaV3y42N4JT4cidNV5VZ0paMPqAwBX8BT4o7IuiaQzTBHV9yL170ZPRqEBCxg1z0JQO8ioTEjPzaN4CzdbbOLJ52p/6iEw7a78XX8D7xuZXm+3uwZ9LPZkURbk1UY9PJQaRWPW7YVmTrgYoQdPF0f7acHnNt3BZU9/2RYbJLvhLAkYaE5eDy4CpY1QmEPpZIPfoL/oZyMxTSGu3wbAX6Gv97310FDGO/+gpIOOJZMCfPdh90qKSx7I9mMmd"
       }
     }
   ]
