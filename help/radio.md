@@ -12,3 +12,7 @@ volume. Radio does not replace your workplace's emergency communication procedur
 
 Updates are available in MES Store. Install over the existing app to retain settings
 and voice history.
+
+## Version 1.0.8 signing migration
+
+Version 1.0.8 uses a replacement Android signing key. Uninstall the old MES Radio first, then install 1.0.8 and sign in again. Uninstalling deletes local settings and voice recordings. The package ID is unchanged.
