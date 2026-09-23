@@ -105,19 +105,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.upkeep",
-      "versionCode": 2,
-      "versionName": "0.1.0-beta.2",
+      "versionCode": 3,
+      "versionName": "0.1.0-beta.3",
       "minSdk": 28,
       "certificateSha256": "9c9af0c3deab42ffeadde187a2845c593c58b26f02cb702ed74b77bd9e7aec06",
-      "sha256": "b20e8b19f5418f8dec9b40e4289a0b1b95a0399416dc00ced55cb70b878261c6",
-      "size": 9682612,
+      "sha256": "1bc0f8a47e5e479df25b1f48dd21116d5bee46eaefa675cd6ab9bfc73b87917d",
+      "size": 9666228,
       "name": "Upkeep Beta",
       "description": "Test reporting, repairs, parts approvals, preventive maintenance and inspections with mock data only.",
-      "releaseNotes": "Upkeep 0.1.0-beta.2 \u2014 access, workspaces and guided reporting\n\nNew wrench launcher icon and animated splash: orange background contracts into a circle, shrinks away and reveals PIN entry.\nUse demo PIN 1234, then choose Fix (Technician), Issue (Staff), or Review (Manager), each with its own bottom navigation.\nFix includes compact task cards, a filter beside the app name, and an animated icon toggle for compact/detailed views.\nIssue reporting follows four steps: issue-type tags, urgency tags, optional photos, then description and location. Answers survive Back, tab changes and rotation.\nAdd up to five photos using the system camera or generated sample photos. Camera preview images stay in memory only; no photo is uploaded.\nReview shows open and overdue tasks, pending approvals, and work needing attention.\nExisting repair, parts approval, preventive maintenance, inspection and history procedures remain available.\n\nUI / PROCEDURE BETA: PIN 1234 is a demo, not production authentication. Mock data only; no server connection, database writes, real orders, payments or uploads. Session data resets when the app process restarts. There is no multi-device synchronization. Camera capture is preview-resolution in this beta.\nUse the beta strip to switch workspaces, lock the app, review purchases or reset sample data.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.2/upkeep-0.1.0-beta.2.apk",
+      "releaseNotes": "Upkeep 0.1.0-beta.3 \u2014 compact daily-use UI\n\nTighter ticket details and shared screens, using the approved Tasks spacing.\nSmaller headings, reduced card padding, compact timer controls and paired secondary actions.\nTask location and date are inset; bottom instructional hints are removed.\nLess hint text in reporting, workspace selection, purchases, PM and inspection.\n\nDemo PIN: 1234. Mock data only; session changes reset when the app process restarts.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.3/upkeep-0.1.0-beta.3.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "oeR0WRoZNCf856y/zaQ4CiETNn/tBTMIXSB/C7cP5of1kZczAZY9CyAdZuQHSIQZibNguE8eRj47DHciSnUjiTIkktNARI6Qo3d7dtlneXew+UEkFRZdEcaEVm3bUpkLjY7p9dX2sye3TqXzHlYQJeSKImQkOMhlSJ2PS3pYT/A4vrmZuLVXmT5cEmoNIjudFyKIklhM92wBPBPo0EdALIs/KtoqmlmjJgabAPVnuIUsnGpI12pRqGhcD8/402AwRtIV5OO0fDoovr0cmmpJE5dBrWWOguLWB6zZ1GCYwl2+ord/uqrMU1aRtC97d4tIycyJbuVN1PUnsWfnjWwIduMB5ZJ6+LL4yY2SsyEMOq5uThW2ElY0K2rhtOVJ4YA9SPufxoD5U9Q60FaHtYhhYsoRa2xzyYcLMBlxdkLav/9kh6xAkxHyEbMIFBgM9pBPfUIbmgDarGPF9Dm62Dkoo9fIrYiL6a9Gf2znSImIc0DzpSKMN7yl/PjLZXv9XsBp"
+        "signature": "HOx/g+lbZh3vFwOEMavNU8y2L/G4OHxU0jWR6KG4PdAUftRvQQlG9au3B6YMb1OD2gq5X3V6nF8ZiPzxm42fKWN7RPCkjwVVwhETT2uhz92MrJ6mQ9cUj5WWAkGv+3GfcvHiCwtl3IRQ4U7++o7C7p7ptlJALDCDrD0Ov3fmERiAUFsjghdioIYZ3paaFje6BjyYEPfT6Wk1n0nkyWWyrY4nnrJryobK4OFPs/e2abtYbRKSd/Pb4Q8/r3Mtkn67vsVIzX57NBQoXO8C9HcdmN3Guk7VVFUkhBsXLrNeDFGq4j7fofMJblk8zc7CsbcoCKOb5jBV2g+ilXnAicbLoBnYrFdC9p/XIvESR994pxbJ/afTLhCv8kkZP2etvu++1Z+/fxnc+2IOG4B2SsPdW7n/34lw1V1ExuiSvpIzbntsL+oGa7IIlbJYrgl2zgeIvMg8RV01gAOeq4xlrMUEcqAwrZc+Zhy/wnu39Ah21evr/poD389oTjZ9qbcg3QRZ"
       }
     }
   ]
