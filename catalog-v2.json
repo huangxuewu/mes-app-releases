@@ -105,19 +105,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.upkeep",
-      "versionCode": 8,
-      "versionName": "0.1.0-beta.8",
+      "versionCode": 9,
+      "versionName": "0.1.0-beta.9",
       "minSdk": 28,
       "certificateSha256": "9c9af0c3deab42ffeadde187a2845c593c58b26f02cb702ed74b77bd9e7aec06",
-      "sha256": "2c167449b7a9a164e16bbaba5e9e02e2d39ab3e8cc310c253cee9c6bfbe3496e",
+      "sha256": "ad7eace5b54b9f7cd777317af87b12c2b46400a7831775bb9d01bd662082be64",
       "size": 9764528,
       "name": "Upkeep Beta",
       "description": "Test reporting, repairs, parts approvals, preventive maintenance and inspections with mock data only.",
-      "releaseNotes": "Upkeep 0.1.0-beta.8 - task header search\n\nSearch is now an icon immediately after Available (or the current task-list heading). The separate Search text row has been removed.\nTap the icon to show search and status filters; tap the close icon to collapse them. The task-count filter remains on the right.\nTask selection, Open, photo thumbnails and the session camera are unchanged.\n\nDemo PIN: 1234. Sample data only; photos remain in-memory previews and there are no uploads or real purchases.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.8/upkeep-0.1.0-beta.8.apk",
+      "releaseNotes": "Upkeep 0.1.0-beta.9 - page-specific footer actions\n\nThe bottom-right button now follows the current page. The camera appears on Tasks, My issues, Report, Daily checks, active task details, service plans and inspection checklists.\nParts offers New request. Purchase forms offer Submit with the same validation as the form. Purchase details offer Approve, Order, Receive, Edit or Back according to role, ownership and status.\nReview opens Approvals; the approvals list offers Review next and disables it when no requests are pending. History offers Search. Completed/history records offer Back.\nThe workspace chooser offers Lock app, and the operations menu offers Close menu. The staff name remains at bottom left. Captured session photos remain available when switching pages.\n\nDemo PIN: 1234. Sample data only. Camera photos remain in memory, and purchase operations do not place real orders.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.9/upkeep-0.1.0-beta.9.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "ANY7CrV7XA1HSOTF0Ris7hCXQOC/rGuxzce/p/++KG4Dj4/23XCAwtIL+l5SzOdHZopfGuvTWP2RAuZwdf9UxJsQ4dA0a397DopKx+bojgaR1fbDHstspaS8zIGi+pJIQOfZ2yyCeDMrxK7pQq2z6VRNi25VkwS+7nrlnG+ilmdAzsU1Mu9GGv43aSVbITj669rWlpL7muS5xxnnAAl5Ih+1ZfDrNpWjTtaRQ6FIWQywjZaxWhehanLV5YDt7alPQkcPyR/2tLILq7fYKt5xYcP2dyxt4b5bRjMS3kIx1tmxvptxjFx9/B6zxsXqAZ1/+T86uRK8rsMwj5ghG2LxkkFJkIXo+MLopfJFFfdX3WHBYZ9ycNdgxT89pWcEfBEcon3yog3uFUcrZE5RJ0BGddbgr0kOKCwWul9Achwnv5c13ZDEyrvizTcZPmTISRo9b5mSJX9nnjmaw9QsmKP3GOv4BD2HTukojsB+sDJbHmdLbX/ggsLAXcmrKOGZX4sv"
+        "signature": "POo/vvse7dbLLD+bncsrvSNUwf18bfg0ZBL6qarbBPCoS37zKs8V2zoFV59rdWiSTJobTw2NIcr7R+f23y92mFqF8NPxtujZvwNO9EvBKYOmTY/Fs/AVZzMkzdj+sYDyJNI+ZaKlmCN5EbratB2+gCxZl+JmpUjP0CbV4flw02vhGcjknKBntF8UYWPvaNvu9H/dAWQJ6C+PktiH8dGLTO4WlqLSOWDdKWaVaS1hRzXGBf6jXadDQemRFDAOKBcZ7IhXSX5PlgHXiW+3EPUUwU2hhOXvrfUd8q8wl9tQBcSxk4z+s5uovz6YfHvbFklBnlfVikLb6ymOoh+jvtj/pRLlKdj+4hy5g8Oud1Wmp49I2jP8YdkHZtxM7FUslrW5vx7vxk9Ahxv+0T5UOJbR82klMRNdCeLENv8kqvItzjb3R0p/sgOM8dXM5+CW345dWCBFlCae90Hz5PK+PLedKKLHz3ENEJu4sTkdFW8fYt7EC6XVKJeq2jiQxxKPD7dG"
       }
     }
   ]
