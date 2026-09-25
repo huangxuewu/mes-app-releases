@@ -105,19 +105,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.upkeep",
-      "versionCode": 7,
-      "versionName": "0.1.0-beta.7",
+      "versionCode": 8,
+      "versionName": "0.1.0-beta.8",
       "minSdk": 28,
       "certificateSha256": "9c9af0c3deab42ffeadde187a2845c593c58b26f02cb702ed74b77bd9e7aec06",
-      "sha256": "938939bca6fa2ccc9806665a746b05847dfd4de15b4029a4b736b7b5839b16e3",
+      "sha256": "2c167449b7a9a164e16bbaba5e9e02e2d39ab3e8cc310c253cee9c6bfbe3496e",
       "size": 9764528,
       "name": "Upkeep Beta",
       "description": "Test reporting, repairs, parts approvals, preventive maintenance and inspections with mock data only.",
-      "releaseNotes": "Upkeep 0.1.0-beta.7 - select tasks and preview photos\n\nTap a task row to make it active. Tap its Open arrow to view task details or the PM service plan.\nThe active row shows small photo thumbnails to the left of Open. Tap a thumbnail to enlarge that exact picture; close the viewer to return to the selected row. Multiple thumbnails scroll horizontally.\nThe selected row stays active through rotation and returning from details. Filters select the first visible task when the current selection is absent. Rows without pictures show No photos.\n\nThe session camera and reusable photo stack remain available. Demo PIN: 1234. Sample data only; photos are in-memory previews and there are no uploads or real purchases.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.7/upkeep-0.1.0-beta.7.apk",
+      "releaseNotes": "Upkeep 0.1.0-beta.8 - task header search\n\nSearch is now an icon immediately after Available (or the current task-list heading). The separate Search text row has been removed.\nTap the icon to show search and status filters; tap the close icon to collapse them. The task-count filter remains on the right.\nTask selection, Open, photo thumbnails and the session camera are unchanged.\n\nDemo PIN: 1234. Sample data only; photos remain in-memory previews and there are no uploads or real purchases.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.8/upkeep-0.1.0-beta.8.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "o10FaphBuSRpHcpltUiK9ybLIerkpF7zs8vwO3H2773eZlTiF4xsxlaFqV9S/qoMV6hQ1mKPXzZGLsvcOVCMNvKQuQGnFzspDcP85YHYvDLCLfRUKLyR0hjCbXZ8pmqB4C2qn9/26xTal5dEoBp0VlrgKY3opI+DGrPNBAhuPuRxsWtI+aMF1jZYGYee8wiwM+4f9LzW+spkm+7PCWxicu/RBUNA5eQDpJVFFarNaQJl1FDkFYFeCztexMrq0FEwvTfrEmEilRYuz/O3BKvfiTCeA+AebphNzzKz9QHi6I7huva/kj5c+/aD1vAUuVN13vBANj3nePJGimBkRYpmS/8GIy3QeOBcBe3hRTi3KGyUfmSqlH3EJxMRYr8teMOPOlPgZtfmgKu9A1K30Gb+8EnJKHRyDUMDHiJQvZLVgMrQxnQlsaQYNdX+bnIuLhjLJZtEK/esawDTIf7IKNUWmCRBUekGNcQcoPaIF7PbX9xkn2AOQ+g5d+Fv/Aux8Lri"
+        "signature": "ANY7CrV7XA1HSOTF0Ris7hCXQOC/rGuxzce/p/++KG4Dj4/23XCAwtIL+l5SzOdHZopfGuvTWP2RAuZwdf9UxJsQ4dA0a397DopKx+bojgaR1fbDHstspaS8zIGi+pJIQOfZ2yyCeDMrxK7pQq2z6VRNi25VkwS+7nrlnG+ilmdAzsU1Mu9GGv43aSVbITj669rWlpL7muS5xxnnAAl5Ih+1ZfDrNpWjTtaRQ6FIWQywjZaxWhehanLV5YDt7alPQkcPyR/2tLILq7fYKt5xYcP2dyxt4b5bRjMS3kIx1tmxvptxjFx9/B6zxsXqAZ1/+T86uRK8rsMwj5ghG2LxkkFJkIXo+MLopfJFFfdX3WHBYZ9ycNdgxT89pWcEfBEcon3yog3uFUcrZE5RJ0BGddbgr0kOKCwWul9Achwnv5c13ZDEyrvizTcZPmTISRo9b5mSJX9nnjmaw9QsmKP3GOv4BD2HTukojsB+sDJbHmdLbX/ggsLAXcmrKOGZX4sv"
       }
     }
   ]
