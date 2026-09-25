@@ -17,3 +17,11 @@ Small warning icons mark high or urgent priority. Due dates are shown separately
 This beta runs entirely on your device with in-memory sample data. It has no MES server connection, production login, real purchases or uploads. Closing the app process resets the business data; rotating the screen preserves the current session. Purchase links are displayed only.
 
 Updates keep the existing package and signing identity. This beta is for procedure testing, not live maintenance records.
+
+History starts with completed records. Tap the footer Search action or the heading's filter
+icon to refine them; active filters remain visible and can be cleared.
+
+Purchase pages use the footer for their primary action. Invalid fields show their own error
+message. Unfinished requests survive rotation and temporary navigation within this session;
+return through New request or Edit to continue. Saving, submitting or resetting clears the
+editing draft. Changes are not retained after the app process ends.
