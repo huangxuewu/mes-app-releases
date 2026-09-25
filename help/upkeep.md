@@ -6,7 +6,9 @@ Enter demo PIN **1234**, then choose Fix, Issue, Inspection or Review. Use the t
 
 Tap the top-right menu for the full-screen operations menu. Choose a workspace, open purchases and approvals (Fix/Review), show detailed task photos (Fix/Issue), lock the app, or reset sample data. Close or Android Back returns to your current screen. The bottom-left footer shows the active staff member.
 
-The bottom-right camera builds a temporary photo stack. Each capture has a PHOTO reference. In reports, tap **Choose photos**; on an owned repair, tap **Add photos**. Swipe through the cards, select pictures and attach them. Removing a report attachment keeps the picture in the stack. **Menu → Exit app** clears this session; rotation and camera round trips preserve it.
+The bottom-right button follows the current page. It shows the camera on task, report and inspection work. Parts shows New request; purchase forms show Submit; purchase details show the allowed next action. Review/Approvals opens the approval queue or next request. History shows Search, finished records show Back, and the menu shows Close.
+
+The camera builds a temporary photo stack. Each capture has a PHOTO reference. In reports, tap **Choose photos**; on an owned repair, tap **Add photos**. Swipe through the cards, select pictures and attach them. Removing a report attachment keeps the picture in the stack. **Menu → Exit app** clears this session; rotation and camera round trips preserve it.
 
 The search icon sits immediately after Available (or the current list heading). Tap it to open search/status controls; tap the close icon to collapse them. The task-count filter stays on the right.
 
