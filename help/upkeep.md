@@ -2,7 +2,7 @@
 
 Try maintenance tasks, inspections, and purchase approvals with sample data.
 
-Enter demo PIN **1234**, then choose Fix, Issue, Inspection or Review. Use the top navigation pills for each workspace. In Fix, PM shares the Tasks list; open a task to start work.
+Enter demo PIN **1234**, then choose Fix, Issue, Inspection or Review. Use the top navigation pills for each workspace. In Fix, PM shares the Tasks list; tap a row to select it, then tap **Open** for details. The selected row shows photo thumbnails to the left of Open; tap one to enlarge it.
 
 Tap the top-right menu for the full-screen operations menu. Choose a workspace, open purchases and approvals (Fix/Review), show detailed task photos (Fix/Issue), lock the app, or reset sample data. Close or Android Back returns to your current screen. The bottom-left footer shows the active staff member.
 
