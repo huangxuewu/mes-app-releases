@@ -105,19 +105,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.upkeep",
-      "versionCode": 6,
-      "versionName": "0.1.0-beta.6",
+      "versionCode": 7,
+      "versionName": "0.1.0-beta.7",
       "minSdk": 28,
       "certificateSha256": "9c9af0c3deab42ffeadde187a2845c593c58b26f02cb702ed74b77bd9e7aec06",
-      "sha256": "d6d4ef0191a0a570e1affb1dcbb4751fd503c0aa768a635539cf7ebcd9adb9da",
+      "sha256": "938939bca6fa2ccc9806665a746b05847dfd4de15b4029a4b736b7b5839b16e3",
       "size": 9764528,
       "name": "Upkeep Beta",
       "description": "Test reporting, repairs, parts approvals, preventive maintenance and inspections with mock data only.",
-      "releaseNotes": "Upkeep 0.1.0-beta.6 - session photo stack\n\nThe bottom-right camera lets you take pictures before creating a report. Each preview gets a stable PHOTO reference and stays in the current session.\nChoose photos in the report wizard or Add photos on an owned repair to browse a swipeable stack of photo cards. Select multiple pictures and attach them together. Already attached pictures are marked, and reports retain their five-photo limit.\nRemoving a picture from a draft no longer deletes the source capture. Reuse it across reports and repairs. Workspace changes, rotation, and camera round trips preserve the stack.\nMenu > Exit app ends the session and clears captured photos. Finishing the app activity or stopping its process clears them too. Temporary backgrounding preserves the session.\n\nDemo PIN: 1234. Sample data only. Camera pictures remain preview-resolution bitmaps in memory; there are no photo uploads, real orders or production authentication.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.6/upkeep-0.1.0-beta.6.apk",
+      "releaseNotes": "Upkeep 0.1.0-beta.7 - select tasks and preview photos\n\nTap a task row to make it active. Tap its Open arrow to view task details or the PM service plan.\nThe active row shows small photo thumbnails to the left of Open. Tap a thumbnail to enlarge that exact picture; close the viewer to return to the selected row. Multiple thumbnails scroll horizontally.\nThe selected row stays active through rotation and returning from details. Filters select the first visible task when the current selection is absent. Rows without pictures show No photos.\n\nThe session camera and reusable photo stack remain available. Demo PIN: 1234. Sample data only; photos are in-memory previews and there are no uploads or real purchases.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.7/upkeep-0.1.0-beta.7.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "fNh6Ed/zU6HdnYY3FICKKVatSCSWa3yGYk7QkXfeEDCrD/bQRVPln18RIKYPdn4hpHwIawv0XD5haHTeDNddnzonuhVZ/uaufcICnMETgJhBoPxp7oKyX2o8WfXgsk9sxU4Aljnb+s5dAA9Gsr8OrS4it2gRVs9h6Io8w9oQQWzYkLGITFC/kSUvJQGH8oSmQkvyAOKFFhB9/ps0Xjw/tbaaCc+uGdcXN1Ug0Ghbl6oDpjjAlqpbtY5bR2mwlwNRGVt7c/eEVkAaHR6V6gYmCp/KOf5j6VUcraCaDkQJBA2qmQCOSydLyR45e8Xp78bIz9aK54i4wQExXWr/ppSbuwxFHPsUtcN/s2FH4V5+TlAx40MBvMGf+I1mPm52+YcNwsCWTynqegp16fSSC600HDwFsogkgybEi6fIDNawAjMADzvOwnJ14FHUJFWSfufpi/fUyW60uPtjXcazzc9j1J4A/LilyxOu5o0hrGlmn0sj3dESAgYeUNGZBTVIUgZY"
+        "signature": "o10FaphBuSRpHcpltUiK9ybLIerkpF7zs8vwO3H2773eZlTiF4xsxlaFqV9S/qoMV6hQ1mKPXzZGLsvcOVCMNvKQuQGnFzspDcP85YHYvDLCLfRUKLyR0hjCbXZ8pmqB4C2qn9/26xTal5dEoBp0VlrgKY3opI+DGrPNBAhuPuRxsWtI+aMF1jZYGYee8wiwM+4f9LzW+spkm+7PCWxicu/RBUNA5eQDpJVFFarNaQJl1FDkFYFeCztexMrq0FEwvTfrEmEilRYuz/O3BKvfiTCeA+AebphNzzKz9QHi6I7huva/kj5c+/aD1vAUuVN13vBANj3nePJGimBkRYpmS/8GIy3QeOBcBe3hRTi3KGyUfmSqlH3EJxMRYr8teMOPOlPgZtfmgKu9A1K30Gb+8EnJKHRyDUMDHiJQvZLVgMrQxnQlsaQYNdX+bnIuLhjLJZtEK/esawDTIf7IKNUWmCRBUekGNcQcoPaIF7PbX9xkn2AOQ+g5d+Fv/Aux8Lri"
       }
     }
   ]
