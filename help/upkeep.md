@@ -8,6 +8,8 @@ Tap the top-right menu for the full-screen operations menu. Choose a workspace, 
 
 The bottom-right camera builds a temporary photo stack. Each capture has a PHOTO reference. In reports, tap **Choose photos**; on an owned repair, tap **Add photos**. Swipe through the cards, select pictures and attach them. Removing a report attachment keeps the picture in the stack. **Menu → Exit app** clears this session; rotation and camera round trips preserve it.
 
+The search icon sits immediately after Available (or the current list heading). Tap it to open search/status controls; tap the close icon to collapse them. The task-count filter stays on the right.
+
 Small warning icons mark high or urgent priority. Due dates are shown separately. Arrow-shaped breadcrumbs return to the parent list. Reports ask one question at a time; failed inspection checks require notes and create a linked repair task.
 
 This beta runs entirely on your device with in-memory sample data. It has no MES server connection, production login, real purchases or uploads. Closing the app process resets the business data; rotating the screen preserves the current session. Purchase links are displayed only.
