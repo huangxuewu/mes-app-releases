@@ -105,19 +105,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.upkeep",
-      "versionCode": 4,
-      "versionName": "0.1.0-beta.4",
+      "versionCode": 5,
+      "versionName": "0.1.0-beta.5",
       "minSdk": 28,
       "certificateSha256": "9c9af0c3deab42ffeadde187a2845c593c58b26f02cb702ed74b77bd9e7aec06",
-      "sha256": "85b1a21deda03689c44f988406ffaeedc51dc812ebe6899c7afe258000864ca2",
-      "size": 9748148,
+      "sha256": "b6b733cfd2d8717e7de1ec75c0d67882ed58ca86f39b51440dbd94245097c5d6",
+      "size": 9748144,
       "name": "Upkeep Beta",
       "description": "Test reporting, repairs, parts approvals, preventive maintenance and inspections with mock data only.",
-      "releaseNotes": "Upkeep 0.1.0-beta.4 \u2014 daily inspections, recurring PM and photo viewer\n\nInspection is now a separate workspace with daily equipment checks and inspection history. Failed checks create linked repair tickets for technicians in Fix.\nPM is part of Tasks, with a distinct blue style, PM tag and visible repeat interval. Completing PM preserves its history and schedules the next occurrence. Available shows due work; the PM filter also shows upcoming tasks.\nFix bottom navigation is Tasks, Parts, History. All bottom bars use tighter icon-to-label spacing.\nIssue photos support swiping, tap-to-enlarge, a grid of all task photos, and circular portrait/landscape controls. Photo selection survives rotation.\nOn-hold card metadata now aligns with location and date.\n\nDemo PIN: 1234. Mock data only; session changes reset when the app process restarts. Forklift checklists are sample UI content. Camera capture uses in-memory preview images; there are no uploads or production authentication.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.4/upkeep-0.1.0-beta.4.apk",
+      "releaseNotes": "Upkeep 0.1.0-beta.5 \u2014 yellow-and-black maintenance board\n\nThe entry prompt now reads \"Enter your employee PIN\".\nNew flat yellow-and-black layout across Fix, Issue, Inspection and Review, with bold condensed headings, compact rows and thin dividers.\nWorkspace navigation is now at the top. Tap the top-right menu for a full-screen operations menu, workspace switching, purchases, task presentation options, locking and demo reset.\nThe bottom-left footer shows the active staff member. Breadcrumbs use a bold rectangle with a right-pointing tip. High and urgent priorities use small accessible icons.\nOpen a task to start work; the main list stays compact. PM remains in Tasks with its repeat interval and due date. Reports use one question at a time, inspections use simple checklists, and approvals use flat purchase details.\nClosing the operations menu preserves unfinished forms. All repair, purchasing, inspection, recurring PM and photo-viewer workflows remain available.\n\nDemo PIN: 1234. Mock data only; session changes reset when the app process restarts. Forklift checklists are sample UI content. Camera capture uses in-memory preview images; there are no uploads or production authentication.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.5/upkeep-0.1.0-beta.5.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "KVnGuxiTYRJGOLD6Qiw1rKBaiRnPQsjfh9OquTViEehqR8kg8IWhWZMkMRIPOpIzqrpQLBnKx+/lDRlX2JJuX1En3VjfmF8MEneu+GGbVIvaKHEyhv7Rle9QslJkormJ1ZMh5hM3KVjDaKLwEp/PIBphRlrdWXZHOoMc5AmQZGX66HOZPG6jif00JQ9XO58LPeQD8V9cWlVMwrxsip1Zl2w8B22TsS0erI73jl1zB2mHaC0PSQ2QEJK7SCV+YXpRb/YUhZXJZlblAyTwbHE9hd+lzV538Vj1tmvvbQgfcBP1gtj1YHmRGHD3IgEjgXShsCQ0zeyVFgVwXVB1QUaPO9DlahoYxCWSFhhBFoVhqWWc2NT8JGvUc5QFQwgDGW38GIlHbkhYmqpTBTJRx86sIBlY18JLdXcm8MhC02UHWkLOVc3j6JHrX/k/KMw1BufEpPSxZ0soiDIgWic/Z5EqZzvTUBAkZ7KnraYUi0RWLlVM+5vsVVLjf0YF9bQW7NHa"
+        "signature": "PCtWkSQ5xCEyVtZ49qQ2xyIq/v0yfSMqBbqNozUbYOfTt2kql6N70AG2pKnbmA8wnxuz6OXdA/Xd0taAYlfuwrnovGCXQeqcuEkzOrOKMWtDDMWErNOZhWF4dCrDI4cmUE8AymRi9gInAv5OpWT7e2PqX9zuy5P7a9Rq4vhXfntHJkJCuppgzCDSpHuxAFL16pe2IMBmMGkdJZ7ekNTNBp9KIIIbYDThKeXlK2nQQZkOIFIJnzAH22810/VCais+ilvpKatuENzDJqG59mhhzWedlh6uOulrTNiAwO15bBZaQoc6HsBdIkA/11lgycdFkXnNnNptDL5n/gP2sJlmNzTQWcOUDD4PysMvd/VRRBJsKTdMmJGgsmH7jOGgRKZYS3Cu3/ODVPqZmrmqUTKaFykA5yu6SDTXGbTUcr+XPlmDoiKVlkinbY0w2uR1FFcJgN91HXl+cWAiev037NX6r6a1lQ9Tjyw2SCXE3CV/t6L1+PkigQtFOWXVUeAGwGzO"
       }
     }
   ]
