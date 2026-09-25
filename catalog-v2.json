@@ -105,19 +105,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.upkeep",
-      "versionCode": 9,
-      "versionName": "0.1.0-beta.9",
+      "versionCode": 10,
+      "versionName": "0.1.0-beta.10",
       "minSdk": 28,
       "certificateSha256": "9c9af0c3deab42ffeadde187a2845c593c58b26f02cb702ed74b77bd9e7aec06",
-      "sha256": "ad7eace5b54b9f7cd777317af87b12c2b46400a7831775bb9d01bd662082be64",
-      "size": 9764528,
+      "sha256": "3378ef2b6f518987125d05ac7748f96873b458d5cd43b029210d973b56944cf1",
+      "size": 9780908,
       "name": "Upkeep Beta",
       "description": "Test reporting, repairs, parts approvals, preventive maintenance and inspections with mock data only.",
-      "releaseNotes": "Upkeep 0.1.0-beta.9 - page-specific footer actions\n\nThe bottom-right button now follows the current page. The camera appears on Tasks, My issues, Report, Daily checks, active task details, service plans and inspection checklists.\nParts offers New request. Purchase forms offer Submit with the same validation as the form. Purchase details offer Approve, Order, Receive, Edit or Back according to role, ownership and status.\nReview opens Approvals; the approvals list offers Review next and disables it when no requests are pending. History offers Search. Completed/history records offer Back.\nThe workspace chooser offers Lock app, and the operations menu offers Close menu. The staff name remains at bottom left. Captured session photos remain available when switching pages.\n\nDemo PIN: 1234. Sample data only. Camera photos remain in memory, and purchase operations do not place real orders.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.9/upkeep-0.1.0-beta.9.apk",
+      "releaseNotes": "Upkeep 0.1.0-beta.10 - bold, minimal UI refinement\n\nReviewed with Impeccable using independent design and implementation assessments.\nPurchase pages now use one primary footer action. Repeated PIN, report-progress, menu and photo-stack instructions have been reduced while required labels and consequences remain visible.\nHistory opens with records; Search and Filters reveal controls on demand, with active filters visible and easy to clear.\nUnfinished purchase inputs now survive rotation and returning to the form within the session. Invalid fields show local errors and focus the first correction. Purchase metadata is quieter; page headings expose native accessibility semantics.\n\nDemo PIN: 1234. Sample data only. Photos and unfinished inputs remain session-only; closing the process or resetting the demo clears them.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/upkeep-v0.1.0-beta.10/upkeep-0.1.0-beta.10.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "POo/vvse7dbLLD+bncsrvSNUwf18bfg0ZBL6qarbBPCoS37zKs8V2zoFV59rdWiSTJobTw2NIcr7R+f23y92mFqF8NPxtujZvwNO9EvBKYOmTY/Fs/AVZzMkzdj+sYDyJNI+ZaKlmCN5EbratB2+gCxZl+JmpUjP0CbV4flw02vhGcjknKBntF8UYWPvaNvu9H/dAWQJ6C+PktiH8dGLTO4WlqLSOWDdKWaVaS1hRzXGBf6jXadDQemRFDAOKBcZ7IhXSX5PlgHXiW+3EPUUwU2hhOXvrfUd8q8wl9tQBcSxk4z+s5uovz6YfHvbFklBnlfVikLb6ymOoh+jvtj/pRLlKdj+4hy5g8Oud1Wmp49I2jP8YdkHZtxM7FUslrW5vx7vxk9Ahxv+0T5UOJbR82klMRNdCeLENv8kqvItzjb3R0p/sgOM8dXM5+CW345dWCBFlCae90Hz5PK+PLedKKLHz3ENEJu4sTkdFW8fYt7EC6XVKJeq2jiQxxKPD7dG"
+        "signature": "KcsiVE7mENXnuU4Ly9nFclb/aEbNjkWVQbZNgHKcq4GBTbKowu7TwJPFRCCL/NvyC2pirOVZpCGV/+M9n7/o/iTW5CPLGKV7lfspPWDp9zhLsKFzTyqQnHF68emrdQkr/ABNACQeZ12E8yBOaOKI69tZPftR7e8n//J1oLUha9AwNikGq/xqpPW7AE/u+hbr09Ku/zr6E4UCQrtX/W1VmxtItSGysMl6gvYsRxSGjLQ0Sj8Gr/ZOe/yFo7dTkoV7jD44Ycn3wVBKtsUSx4XkL+MsGz33ftrZ2qbCss9LRbGJqd3N6QMHNLDfpz80ZA/Yi8Ap/BoPfWCC0wed7KRdSfAD+k9uDJa9o+TIVWidRNlir+eQQbXfFj23F+xumJHk/3CkXdBx3kn18EaRLCnCoN9geaOdYamKPvpW+mLRB63+X70isbt27z0F7Gl3Ce11HMr+Nm8rSQBgMMVQhq8FR00rgXjvT8VaT0g3fxdAg5RvBxRSHqSeizHKRAEyB0Ld"
       }
     }
   ]
