@@ -54,19 +54,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.appstore",
-      "versionCode": 31,
-      "versionName": "1.2.25",
+      "versionCode": 32,
+      "versionName": "1.2.26",
       "minSdk": 28,
       "certificateSha256": "157a282e203d93067767866c2fd253c4e93fe116ff35768b07ac4928801863da",
-      "sha256": "311e8ab6deacc6f186cd238613f5d82b2b727af16148b756bf117ea0d3553e41",
-      "size": 6985096,
+      "sha256": "91bd0503abf7aac0cf720de7d96f535407f68c84aa3bda401dd57216577a8b8a",
+      "size": 6986584,
       "name": "MES Store",
       "description": "Browse and install approved MES apps, read guides, and keep your apps up to date.",
-      "releaseNotes": "mes-app-store 1.2.25\n\nRebuilt from the latest pulled MES source on September 23, 2026. Retains the existing package and Android signing identity for an in-place update.\nRefreshes the bundled app catalog for this coordinated release. Uses the existing v2 release approval authority. Stores older than 1.2.24 require a direct APK update over the installed app; do not uninstall.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.25/mes-store-1.2.25.apk",
+      "releaseNotes": "MES Store 1.2.26\n\n- Shows Upkeep's current yellow wrench icon on Featured, Apps, and app details, including when Upkeep is not installed.\n- Refines Upkeep's Featured card with a warm charcoal background, yellow accents, and clearer maintenance-focused copy.\n- Removes Time Punch from Featured while keeping it available in Apps, search, and updates.\n\nRetains the current package, signing identity, and app data for an in-place update.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/mes-store-v1.2.26/mes-store-1.2.26.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "Y9t6Pu72VUfTgi5dbetqsaNfhKajBOR8S3BOTbfXzmcrKGnx1IH6MausqhX1DIfgJTiHPT5w1CI208CtQT2PlXKOyGXKYvVn4NKIa5ss3n1YWmRJvU+4ukd+Jzi1fdxIKMOiNHiM0ssGDmYZHMKaO5MWuCJS6MmSSguuTj1vIc+My+GpZwGynWNy+CM+FgwqGvj43rQ2sTfENj2ebIK/6tALd973dtpeCrmGdBabIPk6X/UrU4prnhF+7hJvk9wAClzGQGlLKRY91BDhYYP/77SA50TwcG2WGCtUgBk0U0aXY4eb4yakvW/joRyso90aL5W7D2peaa6PPz+vmFr3B2JWFCH76SQ3RVq9rcqCLozDANGfGcUOapbSWKBng1zXvfcf9n3I3KGDna9EYY3WoBEFcqor64RVhOBjO9YgNgZaY2uoZi8oTG+TRIDwDfiwGqIdJSi6be1UBY4AgOWKItmEOh/1/rnVGzSPCWHUbPEbtbHC5sOLSzaXiPuz7txL"
+        "signature": "ILo1/DOOqKMrRZK1F2hCqa/Dg4g+BGtNb0rQmTUQaSI+D4oj3Q+Tb9TXqDu9srslXZUpMfxPlLva0N5j0WjXx5gimJtYBCRm342eJipOqPOujGYap4BozDsLHG2+Ao+t0eeerHfuADBlh8pTsH23FH4Ig11rtDWC5RCIccqImtp18pwl6wC2cllT5BjkaSswiEw35eHkju4iz+6u7WweT3QklpG+Ke8G6t7Hf1wSHi94BbbPY8Jfbm2SpogzGKaP/yYJE/NjN/mXZHcwZGGKP6cfEhNQGeQ/NBqE1TQekEdL9Veias09NPqkTeDmv8d8Gd+5sIqldDwTezCDVdV/lrcpQZiz0zFBPRjC2MHgUKDC53WnHdSWEFZB0geLEcetTwYQwfbk40SaGL8BIFRkKHiHrpaC/EKLHDdduvdJtNun6tuNuDGU0f/WfnBq/uciHvE6PchRc0t5n535EjmVin1Y2eIULoDFsa4nljhN6CWNWMSuK8netr7vjNW+zqqv"
       }
     },
     {
