@@ -3,19 +3,19 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.loadboard",
-      "versionCode": 8,
-      "versionName": "1.1.4",
+      "versionCode": 9,
+      "versionName": "1.1.5",
       "minSdk": 28,
       "certificateSha256": "3aff69f4f754ff2850ace3b3e4577c8554f09642a7f8b9b0e58e08eb6f58c70e",
-      "sha256": "24906d87b92e3015c65a308f50c705bfcf79667602d9d31edf6588a93b61530f",
-      "size": 56601703,
+      "sha256": "375916f5722a801b5e16ea56cd07066271df2f66f1f9af77469079f116f166e1",
+      "size": 56605799,
       "name": "Dispatcher",
       "description": "Schedule outbound pickups and inbound arrivals, track load progress, and view daily timelines.",
-      "releaseNotes": "mes-loadboard 1.1.4\n\nRebuilt from the latest pulled MES source on September 23, 2026. Retains the existing package and Android signing identity for an in-place update.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.4/dispatcher-1.1.4.apk",
+      "releaseNotes": "Dispatcher 1.1.5\n\n- Fixed the keyboard not opening for trailer and seal number inputs after selecting a loading gate.\n- Completed outbound loads now show Completed on Today and its expanded timeline.\n- Added View BOL at the bottom right of completed load cards to open the corresponding saved BOL PDF in the phone's PDF viewer or browser.\n- Shows a clear message when a completed load's BOL PDF is not available yet.\n\nRetains the existing package and signing identity for an in-place update.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.5/dispatcher-1.1.5.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "Y++g8HcRDeUcIkXqy/xJ/fU34qCG/c3+idQE4pv42FxuH/cNoLEjKknp8xtzP8d/+qx0uv3VZgN9vu1dl9s1sTedjcBkQUHWrgKJPqFxES4WMG9GbpphVX1UrcxaSi6KXycD51PZEFNi8JcA5Ss2vixpuRH0jebRAnw3e6sQfKnUEG73Wtn9aWT8TXmFpH60lVbY1S0t3SWwPZ2bDtSRye1jam2E8Vp/QSnkJZYsRW8HfDLKH3pIYBbn1UhlaKYCb7yGy+98RA9WWm9xl6kMbUwWXA094+fg6p3SaS4iM58IhrdJaDulvR14q6uwi8rWApMP6LAXgv+OYU1zW99Ux97wBi0mG3HkOK0BXlwO6YUTcryUHp2SyZmxWLP+0fMr+2baUk0g2EZLCRxPO0X2R7spDWtVBCnNWimk7fdAklFvNoyqtMUzoqF1CVYTrrJbUZjBJro+bPIiRVXtwCwEtGZRtMipDvzA2B2YydvX0gaT9Gx9ebQMMHgphtWfk7FN"
+        "signature": "eKD1ueszg/7mnVQp8ZeCkPZhLBlbfRtq50vm91dq2vdVk2GTraqZFia1A4tOybnoWvNdL7rksUwDBWMZZ0nqmUz/o9YTliwjebPhkkGnfp/UNZ7wuGgIr98AULsHMxkUcMNSEFEUoB69TrLwTnmKBmpXgoIHWS3KXoygr3Qa4A1AmHeMzLDDzvUe+X1i+K4QZj0QJH5kxp/23954CNy1gnmdFFQCEfVeysi89NT8MigM2+DySWiu7mrE9cBg30ZdlfRTlzwFyDuDH12MghfcTkPQpDXYX3Fs7mm8N95aEa8fnlLKzRx2tuzCixgx6BTkxZUO6xRoyE2dXcc14C768Bhpu7KusVKUQ5Yq8AYH54MhIXGBkoraVlwnoCQ7xWY4+7KXZC8/PaUsaLaGr1k0gcEljpHldfJdmjtKhj/2+y1StkKWr1kPwQJG8DNz64duuEsefvUeuPE2J2LLX/uLa2jb5mwjL2+gw0DL/w5wlX/JevePunht+tfOTJvg0CHu"
       }
     },
     {
