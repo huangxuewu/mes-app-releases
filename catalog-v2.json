@@ -3,19 +3,19 @@
   "apps": [
     {
       "packageName": "com.advancebusinesscare.mes.loadboard",
-      "versionCode": 9,
-      "versionName": "1.1.5",
+      "versionCode": 10,
+      "versionName": "1.1.6",
       "minSdk": 28,
       "certificateSha256": "3aff69f4f754ff2850ace3b3e4577c8554f09642a7f8b9b0e58e08eb6f58c70e",
-      "sha256": "375916f5722a801b5e16ea56cd07066271df2f66f1f9af77469079f116f166e1",
-      "size": 56605799,
+      "sha256": "7e1b88f268d1dc0ed5bb5913d87076ef4997c97e0a2be342c78c46da8cf70f5d",
+      "size": 56609895,
       "name": "Dispatcher",
       "description": "Schedule outbound pickups and inbound arrivals, track load progress, and view daily timelines.",
-      "releaseNotes": "Dispatcher 1.1.5\n\n- Fixed the keyboard not opening for trailer and seal number inputs after selecting a loading gate.\n- Completed outbound loads now show Completed on Today and its expanded timeline.\n- Added View BOL at the bottom right of completed load cards to open the corresponding saved BOL PDF in the phone's PDF viewer or browser.\n- Shows a clear message when a completed load's BOL PDF is not available yet.\n\nRetains the existing package and signing identity for an in-place update.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.5/dispatcher-1.1.5.apk",
+      "releaseNotes": "Dispatcher 1.1.6\n\n- Shows the phone-security setup offer only once per account and server, including when Not now is selected or the dialog is dismissed.\n- Keeps an existing phone-sign-in setup after password sign-in. It can still be enabled manually in Config.\n- Tap an Outbounds SCAC badge to set a custom carrier using up to five uppercase letters. Clear restores the executing or assigned carrier.\n- Saves the custom carrier for the load through the same MES update action used by the desktop app, without changing stop information.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/dispatcher-v1.1.6/dispatcher-1.1.6.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "eKD1ueszg/7mnVQp8ZeCkPZhLBlbfRtq50vm91dq2vdVk2GTraqZFia1A4tOybnoWvNdL7rksUwDBWMZZ0nqmUz/o9YTliwjebPhkkGnfp/UNZ7wuGgIr98AULsHMxkUcMNSEFEUoB69TrLwTnmKBmpXgoIHWS3KXoygr3Qa4A1AmHeMzLDDzvUe+X1i+K4QZj0QJH5kxp/23954CNy1gnmdFFQCEfVeysi89NT8MigM2+DySWiu7mrE9cBg30ZdlfRTlzwFyDuDH12MghfcTkPQpDXYX3Fs7mm8N95aEa8fnlLKzRx2tuzCixgx6BTkxZUO6xRoyE2dXcc14C768Bhpu7KusVKUQ5Yq8AYH54MhIXGBkoraVlwnoCQ7xWY4+7KXZC8/PaUsaLaGr1k0gcEljpHldfJdmjtKhj/2+y1StkKWr1kPwQJG8DNz64duuEsefvUeuPE2J2LLX/uLa2jb5mwjL2+gw0DL/w5wlX/JevePunht+tfOTJvg0CHu"
+        "signature": "IBbgW/TJmD3rMhXGdeNQ/xauJnxYsCj24TIdSywgaBd4YDZEu+DAVj88susc2LKoh4wLqjTwaHwlI3jwUM5+bhCyTHctGYm5b3DRwhulXHDim9PTPR6CwhZ2nZIg0p0zu+3027+H+JpGYMb8buz72ibrbXF6+J+m+ubRZd1q0LF8TXjke8DiuhABiq62jav0Sh+noAjn31C/kJroab0bwturs8xbK/jwDdFww6rRzw0BkCzWH90uHSVl7Bnb1DRKoapPS4rDOqMDdLrMD88G/LsBkUXpJJd7tZ62o+/LUPoYvE/m5YPUrgVbRyhj06MGzQ/RfsWH+14WrB1QeT3KlxIhuPTGJS2VAFGvbehj7qvi5K8qh5Rj9dc8c1utgRDnAHyw662U6flX8/DVSL4vCwihdzxE4fB8CG4cIC0D2Nlj4q4QO+UzgHDXYq7zCx9pJjq5i/31tGxVYNFSmZGoQYGEyaAHupiiRJY0Bo0iNkc1wqvc47kzBOnKfbshRIsc"
       }
     },
     {
