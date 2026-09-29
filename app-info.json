@@ -96,9 +96,9 @@
       "name": "Upkeep Beta",
       "intro": "Try maintenance tasks, inspections, and purchase approvals with sample data.",
       "featured": {
-        "eyebrow": "MAINTENANCE PRACTICE",
-        "headline": "Practice the work.\nFollow every step.",
-        "description": "Explore repair tasks, preventive maintenance, inspections and purchase approvals in a device-only sandbox.",
+        "eyebrow": "CARE FOR WHAT WORKS",
+        "headline": "Small fixes.\nBetter workdays.",
+        "description": "Report a repair, plan maintenance, and follow each task through to review. Explore the beta with sample tasks.",
         "actionLabel": "Explore"
       },
       "link": {
