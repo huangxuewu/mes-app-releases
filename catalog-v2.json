@@ -71,19 +71,19 @@
     },
     {
       "packageName": "com.advancebusinesscare.mes.signaturepad",
-      "versionCode": 14,
-      "versionName": "1.6.4",
+      "versionCode": 15,
+      "versionName": "1.6.5",
       "minSdk": 28,
       "certificateSha256": "b36d13641a6ac3f404a3ccc5f7b65753415e3b8263a8e509df843a418082e47c",
-      "sha256": "28e3c09cfcb2fb9aaf13d2ffa8481c4f44375117e4764efd75c6ecfa484c4d0b",
-      "size": 2226900,
+      "sha256": "9ac0a3383539472d45ea5749cadf5da33284f24ce4a6228f5d28d04572680c71",
+      "size": 2255376,
       "name": "SignPad",
       "description": "Sign bills of lading, scan shipments, and keep warehouse work moving.",
-      "releaseNotes": "mes-signature-pad 1.6.4\n\nRebuilt from the latest pulled MES source on September 23, 2026. Retains the existing package and Android signing identity for an in-place update.",
-      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/signpad-v1.6.4/signpad-1.6.4.apk",
+      "releaseNotes": "SignPad 1.6.5\n\nDC-slip and outbound-summary scans now offer Begin Loading only after every eligible DC is inspected and the inspector signs the load release.\n\nSelect a gate to begin loading. Trailer and seal numbers can be skipped at this point, and SignPad returns to scanning. Before signing from an outbound-summary scan, the trailer number is required; seal remains optional.\n\nIncludes the approved forklift-loading illustration with corrected tractor and trailer wheels, native trailer/seal entry, and clear inspection and gate checkpoints. Stale reviews, withdrawn releases and duplicate submissions are checked by the MES backend.\n\nInstall over the existing SignPad app to retain pairing and barcode authorization. The package ID and signing certificate are unchanged. Requires the matching MES backend loading update.",
+      "apkUrl": "https://github.com/huangxuewu/mes-app-releases/releases/download/signpad-v1.6.5/signpad-1.6.5.apk",
       "releaseApproval": {
         "keyId": "mes-release-approval-v2",
-        "signature": "SSK/4/Or0OG5TqKihEnlyNQhe5fr/fMxXgCq+On5S131VGznhVD6EECoAXbI2JSThYGSHLBm4QegAhy/8Jr7x+qH/2Kkfa5pwHkZe/il6E1OAIagL+QtJ1owG9N4jY5LUtKBM5Vjyeza7nbW4EliNY13s3esDc6OcCBDUYTgWv7NaMEHGQKiI8qbEdwRAjNBGxAJRMQ480268wbBSfnamqc3/T/crrI/jF7KwxfWgn2CqW/aCGMp6GiTQ3MqFZ97TqbQcYvFAbvDO4ZfOAS9oKvOPBBHQI3eBvpLPukAYtg22G8MkasNE80cWdKuqLiNToTfl5eqYEI36pGBr/61nFGeoOKwsPGVREZ3X1N3h49bFC5hncXd3eFeD3s8B1+irrTDBpsk8Aif30GS2JiHXQ+11kONovH4IWyVfUBaba8bYBiv4KkKHKzIz6wUQ3HY4usxpL8QC4A5WJVBeHyBkV/vo/UZBI8RJPPjAinpUWGqfoobV/zQorSrtVxhIOqH"
+        "signature": "ncmnmpT6WPrN4e75xC5tInaBDwRTVbnfSzA4JFHbMS4pzQaRf05PuH7yr3QobKdA2UaFiNCbr+1BNxZz9CrGfoaA563whnAeg+y/XE33enf4PSeqf+XQbXr+V6fm0SW+DjvAu2H9FxEdfyciCU19JTZAqfSuF8RNl0263xzvhx9gOlBKAkscgvMulQXOi3W3H/GsW+1y5kNLXHdsT7FvAP5Eyadc08DjLiqPnHfrkOdcoTCuKT1pacBEFptY885WRq/I360oArRFMziZPqlk2Kf0ZA7N/xXXSrahgkj8cLO8YwnOEbk82XnEQDtSnbO0X0pisQT0+c0qDMjt8LrPgdHVQ//rHQEpmlL1On/SLGVQjmzwXZCbJXSvB4J9b9y9Lgm/rlwP1hkMTU5LpiJOfsJRr4wI5mgZcCu86h7mvGNjlSh9XSBBHiC7v3xkELAsfZX454Eszu1RukalWI41ma7e2xtp2uePPxVOCcaAWgM8lt1YSuttVLdWB9zzU8SG"
       }
     },
     {
